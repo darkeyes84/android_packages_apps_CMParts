@@ -27,6 +27,12 @@
         android:entryValues="@array/status_bar_quick_qs_pulldown_values"
         android:defaultValue="0" />
 
+	<cyanogenmod.preference.CMSystemSettingSwitchPreference
+        android:key="show_bluetooth_icon"
+        android:title="@string/status_bar_bluetooth_icon"
+        android:summary="@string/status_bar_bluetooth_icon_summary"
+        android:defaultValue="true" />
+
     <PreferenceCategory
         android:title="@string/status_bar_icons_title">
 

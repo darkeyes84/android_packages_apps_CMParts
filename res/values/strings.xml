@@ -629,4 +629,8 @@
     <string name="touchscreen_gesture_action_play_pause_music">Play/pause music playback</string>
     <string name="touchscreen_gesture_action_previous_track">Navigate to the previous music track</string>
     <string name="touchscreen_gesture_action_next_track">Skip to the next music track</string>
+
+    <!-- Show bluetooth icon when disconnected -->
+    <string name="status_bar_bluetooth_icon">Bluetooth icon</string>
+    <string name="status_bar_bluetooth_icon_summary">Shows icon when it is enabled but not connected</string>
 </resources>
