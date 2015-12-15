@@ -48,6 +48,12 @@
                 android:defaultValue="false" />
 
         <PreferenceScreen
+            android:key="navbar_dimensions"
+            android:fragment="org.cyanogenmod.cmparts.input.NavBarDimensions"
+            android:summary="@string/navigation_bar_dimensions_title_summary"
+            android:title="@string/navigation_bar_dimensions_title" />
+
+        <PreferenceScreen
             android:key="navigation_bar"
             android:title="@string/navigation_bar_title">
             <intent android:action="com.android.settings.action.NAV_BAR_TUNER" />
