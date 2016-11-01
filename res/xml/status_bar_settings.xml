@@ -33,6 +33,12 @@
         android:summary="@string/status_bar_bluetooth_icon_summary"
         android:defaultValue="true" />
 
+    <cyanogenmod.preference.CMSystemSettingSwitchPreference
+        android:key="show_next_alarm_icon"
+        android:title="@string/show_next_alarm_icon_title"
+        android:summary="@string/show_next_alarm_icon_summary"
+        android:defaultValue="true" />
+
     <PreferenceCategory
         android:title="@string/status_bar_icons_title">
 

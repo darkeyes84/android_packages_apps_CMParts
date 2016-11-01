@@ -633,4 +633,9 @@
     <!-- Show bluetooth icon when disconnected -->
     <string name="status_bar_bluetooth_icon">Bluetooth icon</string>
     <string name="status_bar_bluetooth_icon_summary">Shows icon when it is enabled but not connected</string>
+
+    <!-- Hide the alarm icon in the expanded status bar -->
+    <string name="show_next_alarm_icon_title">Alarm icon</string>
+    <string name="show_next_alarm_icon_summary">Show icon in the expanded status bar when an alarm is set</string>
+
 </resources>
