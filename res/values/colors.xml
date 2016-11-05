@@ -29,10 +29,6 @@
     <color name="fab_ripple">#1fffffff</color><!-- 12% white -->
     <color name="fab_shape">?android:attr/colorAccent</color>
 
-    <!-- Contributors -->
-    <color name="contributors_cloud_fg_color">@color/theme_accent</color>
-    <color name="contributors_cloud_selected_color">#ff5252</color>
-
     <color name="weather_settings_icon_tint">#B4B9BA</color>
 
     <color name="perf_hot">#ffd10015</color>
