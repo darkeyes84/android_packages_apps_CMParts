@@ -654,4 +654,20 @@
     <string name="navigation_bar_size_30_dp">30 dp</string>
     <string name="navigation_bar_size_24_dp">24 dp</string>
 
+    <!-- Date in status bar -->
+    <string name="status_bar_date">Date</string>
+    <string name="status_bar_date_summary">Display the date in the status bar</string>
+    <string name="status_bar_date_style">Date style</string>
+    <string name="status_bar_date_format">Date format</string>
+    <string name="status_bar_date_format_summary">Change the way the date is displayed</string>
+    <string name="status_bar_date_none">Don\'t show</string>
+    <string name="status_bar_date_small">Small font size</string>
+    <string name="status_bar_date_normal">Normal font size</string>
+    <string name="status_bar_date_style_normal">Normal</string>
+    <string name="status_bar_date_style_lowercase">Lowercase</string>
+    <string name="status_bar_date_style_uppercase">Uppercase</string>
+    <string name="status_bar_date_position">Date position</string>
+    <string name="status_bar_date_right">Right of time</string>
+    <string name="status_bar_date_left">Left of time</string>
+
 </resources>
