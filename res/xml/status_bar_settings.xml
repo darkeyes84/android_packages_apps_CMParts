@@ -118,7 +118,6 @@
          <ListPreference
             android:key="status_bar_date_format"
             android:title="@string/status_bar_date_format"
-            android:summary="@string/status_bar_date_format_summary"
             android:entries="@array/status_bar_date_format_entries_values"
             android:entryValues="@array/status_bar_date_format_entries_values" />
 

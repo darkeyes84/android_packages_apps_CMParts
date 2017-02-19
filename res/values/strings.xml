@@ -660,7 +660,6 @@
     <string name="status_bar_date_summary">Display the date in the status bar</string>
     <string name="status_bar_date_style">Date style</string>
     <string name="status_bar_date_format">Date format</string>
-    <string name="status_bar_date_format_summary">Change the way the date is displayed</string>
     <string name="status_bar_date_none">Don\'t show</string>
     <string name="status_bar_date_small">Small font size</string>
     <string name="status_bar_date_normal">Normal font size</string>

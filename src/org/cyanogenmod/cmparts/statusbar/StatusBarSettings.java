@@ -108,9 +108,13 @@ public class StatusBarSettings extends SettingsPreferenceFragment
 
         mStatusBarDateFormat = (ListPreference) findPreference(STATUS_BAR_DATE_FORMAT);
         mStatusBarDateFormat.setOnPreferenceChangeListener(this);
-        if (mStatusBarDateFormat.getValue() == null) {
-            mStatusBarDateFormat.setValue("EEE");
+        String dateFormat = Settings.System.getString(getActivity().getContentResolver(), 
+                Settings.System.STATUS_BAR_DATE_FORMAT);
+        if (dateFormat == null) {
+            dateFormat = "EEE";
         }
+        mStatusBarDateFormat.setValue(dateFormat);
+        mStatusBarDateFormat.setSummary(DateFormat.format(dateFormat, new Date()));
 
         parseClockDateFormats();
 
@@ -144,14 +148,17 @@ public class StatusBarSettings extends SettingsPreferenceFragment
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        int value = Integer.parseInt((String) newValue);
         if (preference == mQuickPulldown) {
+			int value = Integer.parseInt((String) newValue);
             updateQuickPulldownSummary(value, mSmartPulldown.getIntValue(0));
         } else if (preference == mSmartPulldown) {
+			int value = Integer.parseInt((String) newValue);
 			updateQuickPulldownSummary(mQuickPulldown.getIntValue(0), value);
         } else if (preference == mStatusBarBattery) {
+			int value = Integer.parseInt((String) newValue);
             enableStatusBarBatteryDependents(value);
         } else if (preference == mStatusBarDate) {
+			int value = Integer.parseInt((String) newValue);
             int index = mStatusBarDate.findIndexOfValue((String) newValue);
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.STATUS_BAR_DATE, value);
@@ -166,12 +173,14 @@ public class StatusBarSettings extends SettingsPreferenceFragment
                 mStatusBarDateFormat.setEnabled(true);
             }
         } else if (preference == mStatusBarDatePosition) {
+			int value = Integer.parseInt((String) newValue);
             int index = mStatusBarDatePosition.findIndexOfValue((String) newValue);
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.STATUS_BAR_DATE_POSITION, value);
             mStatusBarDatePosition.setSummary(mStatusBarDatePosition.getEntries()[index]);
             parseClockDateFormats();
         } else if (preference == mStatusBarDateStyle) {
+			int value = Integer.parseInt((String) newValue);
             int index = mStatusBarDateStyle.findIndexOfValue((String) newValue);
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.STATUS_BAR_DATE_STYLE, value);
@@ -181,6 +190,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment
             if ((String) newValue != null) {
                 Settings.System.putString(getActivity().getContentResolver(),
                     Settings.System.STATUS_BAR_DATE_FORMAT, (String) newValue);
+                mStatusBarDateFormat.setSummary(
+                    DateFormat.format((String) newValue, new Date()));
             }
         }
         return true;
@@ -212,14 +223,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         mQuickPulldown.setSummary(summary);
 
         if (smartvalue == 0) {
-            mSmartPulldown.setSummary(res.getString(R.string.smart_pulldown_off));
-        } else if (smartvalue == 3) {
-            mSmartPulldown.setSummary(res.getString(R.string.smart_pulldown_none_summary));
+            mSmartPulldown.setSummary(R.string.smart_pulldown_off);
         } else {
-            String type = res.getString(smartvalue == 1
-                    ? R.string.smart_pulldown_dismissable
-                    : R.string.smart_pulldown_ongoing);
-            mSmartPulldown.setSummary(res.getString(R.string.smart_pulldown_summary, type));
+            mSmartPulldown.setSummary(smartvalue == 3
+                    ? R.string.smart_pulldown_none_summary
+                    : R.string.smart_pulldown_summary);
         }
     }
 
