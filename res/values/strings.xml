@@ -598,7 +598,7 @@
 
     <!-- Show bluetooth icon when disconnected -->
     <string name="status_bar_bluetooth_icon">Bluetooth icon</string>
-    <string name="status_bar_bluetooth_icon_summary">Shows icon when it is enabled but not connected</string>
+    <string name="status_bar_bluetooth_icon_summary">Show icon when it is enabled but not connected</string>
 
     <!-- Hide the alarm icon in the expanded status bar -->
     <string name="show_next_alarm_icon_title">Alarm icon</string>
@@ -632,8 +632,8 @@
 
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Smart pulldown</string>
-    <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
-    <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
+    <string name="smart_pulldown_summary">Open Quick Settings when there are %1$s notifications</string>
+    <string name="smart_pulldown_none_summary">Open Quick Settings when there are no notifications</string>
     <string name="smart_pulldown_off">Off</string>
     <string name="smart_pulldown_none">no notifications</string>
     <string name="smart_pulldown_dismissable">no dismissable</string>
@@ -669,5 +669,9 @@
     <string name="status_bar_date_position">Date position</string>
     <string name="status_bar_date_right">Right of time</string>
     <string name="status_bar_date_left">Left of time</string>
+
+    <!-- Pixel navbar animation -->
+    <string name="pixel_navbar_anim_title">Home button animation</string>
+    <string name="pixel_navbar_anim_summary">Enable the home button animation</string>
 
 </resources>
