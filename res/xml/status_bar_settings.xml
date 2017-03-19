@@ -34,6 +34,18 @@
         android:entryValues="@array/smart_pulldown_values"
         android:defaultValue="0" />
 
+    <PreferenceScreen
+        android:key="network_traffic_state"
+        android:fragment="org.cyanogenmod.cmparts.networktraffic.NetworkTraffic"
+	    android:summary="@string/network_traffic_summary"
+	    android:title="@string/network_traffic_title" />
+
+	<cyanogenmod.preference.CMSystemSettingSwitchPreference
+        android:key="wifi_status_bar_ssid"
+        android:title="@string/wifi_status_bar_ssid_title"
+        android:summary="@string/wifi_status_bar_ssid_summary"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:title="@string/status_bar_icons_title">
 
@@ -66,12 +78,6 @@
                 <extra android:name="tuner" android:value="status_bar" />
             </intent>
         </PreferenceScreen>
-
-        <PreferenceScreen
-            android:key="network_traffic_state"
-            android:fragment="org.cyanogenmod.cmparts.networktraffic.NetworkTraffic"
-	        android:summary="@string/network_traffic_summary"
-	        android:title="@string/network_traffic_title" />
 
     </PreferenceCategory>
 
