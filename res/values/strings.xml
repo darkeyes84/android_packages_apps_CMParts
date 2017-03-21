@@ -678,4 +678,8 @@
     <string name="wifi_status_bar_ssid_title">Show WiFi SSID</string>
     <string name="wifi_status_bar_ssid_summary">Show the WiFi SSID of a connected network in the status bar</string>
 
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Show carrier label</string>
+    <string name="carrier_label_settings_summary">Show the carrier label in the status bar</string>
+
 </resources>
