@@ -55,4 +55,11 @@
             android:defaultValue="true" />
 
     </PreferenceCategory>
+
+    <cyanogenmod.preference.CMSystemSettingSwitchPreference
+        android:key="battery_low_notification"
+        android:title="@string/battery_low_notification_title"
+        android:summary="@string/battery_low_notification_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>

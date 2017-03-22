@@ -682,4 +682,8 @@
     <string name="carrier_label_settings_title">Show carrier label</string>
     <string name="carrier_label_settings_summary">Show the carrier label in the status bar</string>
 
+    <!-- Low battery notification -->
+    <string name="battery_low_notification_title">Low battery notification</string>
+    <string name="battery_low_notification_summary">Show a notification when the battery is low</string>
+
 </resources>
