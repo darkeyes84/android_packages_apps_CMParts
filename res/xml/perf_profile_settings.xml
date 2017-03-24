@@ -19,6 +19,12 @@
     android:key="perf_profile_settings"
     android:title="@string/perf_profile_settings_title" >
 
+    <cyanogenmod.preference.CMSystemSettingSwitchPreference
+        android:key="battery_low_notification"
+        android:title="@string/battery_low_notification_title"
+        android:summary="@string/battery_low_notification_summary"
+        android:defaultValue="true" />
+
     <PreferenceCategory
         android:key="power_save_category"
         android:title="@string/power_save_category_title">
@@ -57,9 +63,9 @@
     </PreferenceCategory>
 
     <cyanogenmod.preference.CMSystemSettingSwitchPreference
-        android:key="battery_low_notification"
-        android:title="@string/battery_low_notification_title"
-        android:summary="@string/battery_low_notification_summary"
+        android:key="battery_saver_mode_color"
+        android:title="@string/battery_saver_mode_color_title"
+        android:summary="@string/battery_saver_mode_color_summary"
         android:defaultValue="true" />
 
 </PreferenceScreen>

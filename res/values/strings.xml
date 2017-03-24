@@ -686,4 +686,8 @@
     <string name="battery_low_notification_title">Low battery notification</string>
     <string name="battery_low_notification_summary">Show a notification when the battery is low</string>
 
+    <!-- Battery saver color -->
+    <string name="battery_saver_mode_color_title">Battery saver warning color</string>
+    <string name="battery_saver_mode_color_summary">Show orange status bar and navigation bar when battery saver is activated</string>
+
 </resources>
