@@ -690,4 +690,18 @@
     <string name="battery_saver_mode_color_title">Battery saver warning color</string>
     <string name="battery_saver_mode_color_summary">Show orange status bar and navigation bar when battery saver is activated</string>
 
+    <!-- Battery bar settings -->
+    <string name="battery_bar_title">Battery bar</string>
+    <string name="battery_bar_location">Battery bar</string>
+    <string name="battery_bar_style_title">Battery bar style</string>
+    <string name="battery_bar_thickness_title">Battery bar thickness</string>
+    <string name="battery_bar_animate_title">Charging animation</string>
+    <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
+    <string name="battery_bar_hide">Hidden</string>
+    <string name="battery_bar_statusbar">Status bar</string>
+    <string name="battery_bar_topnav">Top of navigation bar</string>
+    <string name="battery_bar_bottomnav">Bottom of navigation bar</string>
+    <string name="battery_bar_reg">Regular</string>
+    <string name="battery_bar_center">Center-mirrored</string>
+
 </resources>
