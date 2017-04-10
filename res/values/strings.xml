@@ -718,4 +718,7 @@
     <string name="custom_header_browse_title">Browse installed headers</string>
     <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
 
+    <string name="hide_carrier_label_with_wifi_title">Hide carrier label with WiFi</string>
+    <string name="hide_carrier_label_with_wifi_summary">Only show the carrier label when the WiFi label is not showing</string>
+
 </resources>
