@@ -608,7 +608,7 @@
     <string name="default_string">Default</string>
     <string name="network_traffic_title">Network traffic</string>
     <string name="show_network_traffic_state">Status bar traffic monitor</string>
-    <string name="network_traffic_summary">Enable various network traffic options in statusbar</string>
+    <string name="network_traffic_summary">Enable various network traffic options in the status bar</string>
     <string name="show_network_traffic_unit">Display unit</string>
     <string name="show_network_traffic_frequency">Update interval</string>
     <string name="show_network_traffic_disable">Disabled</string>
@@ -706,9 +706,10 @@
 
     <!-- QS headers -->
     <string name="status_bar_custom_header_title">Custom headers</string>
-    <string name="status_bar_custom_header_summary">Enable custom header images in the notification panel</string>
+    <string name="status_bar_custom_header_summary">Enable custom images in the notification panel</string>
+    <string name="custom_header_title">Enable custom headers</string>
     <string name="daylight_header_pack_title">Header image pack</string>
-    <string name="status_bar_custom_header_shadow_title">Shadow header image</string>
+    <string name="status_bar_custom_header_shadow_title">Darken header image</string>
     <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
     <string name="static_header_provider" translatable="false">static</string>
     <string name="daylight_header_provider" translatable="false">daylight</string>
@@ -718,7 +719,7 @@
     <string name="custom_header_browse_title">Browse installed headers</string>
     <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
 
-    <string name="hide_carrier_label_with_wifi_title">Hide carrier label with WiFi</string>
-    <string name="hide_carrier_label_with_wifi_summary">Only show the carrier label when the WiFi label is not showing</string>
+    <string name="hide_carrier_label_with_wifi_title">Hide carrier label with WiFi SSID</string>
+    <string name="hide_carrier_label_with_wifi_summary">Only show the carrier label when the WiFi SSID is not showing</string>
 
 </resources>
