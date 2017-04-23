@@ -42,16 +42,22 @@
             android:defaultValue="false" />
 
         <cyanogenmod.preference.CMSystemSettingSwitchPreference
-                android:key="navigation_bar_menu_arrow_keys"
-                android:title="@string/navigation_bar_arrow_keys_title"
-                android:summary="@string/navigation_bar_arrow_keys_summary"
-                android:defaultValue="false" />
+            android:key="navigation_bar_menu_arrow_keys"
+            android:title="@string/navigation_bar_arrow_keys_title"
+            android:summary="@string/navigation_bar_arrow_keys_summary"
+            android:defaultValue="false" />
 
         <PreferenceScreen
             android:key="navbar_dimensions"
             android:fragment="org.cyanogenmod.cmparts.input.NavBarDimensions"
             android:summary="@string/navigation_bar_dimensions_title_summary"
             android:title="@string/navigation_bar_dimensions_title" />
+
+        <SwitchPreference
+            android:key="nav_bar_dynamic"
+            android:title="@string/nav_bar_dynamic_title"
+            android:summary="@string/nav_bar_dynamic_summary"
+            android:defaultValue="false" />
 
         <PreferenceScreen
             android:key="navigation_bar"
