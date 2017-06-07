@@ -108,7 +108,6 @@
   <string name="live_display_summary">Okunabilirliği artırmak ve göz yorgunluğu azaltmak için gün ve ortam koşulları zamanına bağlı olarak ekranı iyileştirir</string>
   <string name="live_display_mode">Görüntü modu</string>
   <string name="live_display_color_temperature_title">Renk sıcaklığı</string>
-  <string name="live_display_color_temperature_summary">Gündüz: <xliff:g id="day_temperature">%1$d</xliff:g>K Gece: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
   <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
   <string name="live_display_day">Gündüz</string>
   <string name="live_display_night">Gece</string>

@@ -108,7 +108,6 @@
   <string name="live_display_summary">Optimalkan layar berdasarkan waktu dan kondisi ruangan untuk meningkatkan keterbacaan dan mengurangi kelelahan mata</string>
   <string name="live_display_mode">Mode tampilan</string>
   <string name="live_display_color_temperature_title">Suhu pada warna</string>
-  <string name="live_display_color_temperature_summary">Pagi: <xliff:g id="day_temperature">%1$d</xliff:g>K;  Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
   <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
   <string name="live_display_day">Siang</string>
   <string name="live_display_night">Malam</string>

@@ -63,7 +63,6 @@ public class LiveDisplay extends SettingsPreferenceFragment implements Searchabl
     private static final String KEY_CATEGORY_LIVE_DISPLAY = "live_display_options";
     private static final String KEY_CATEGORY_ADVANCED = "advanced";
 
-    private static final String KEY_LIVE_DISPLAY = "live_display";
     private static final String KEY_LIVE_DISPLAY_AUTO_OUTDOOR_MODE =
             "display_auto_outdoor_mode";
     private static final String KEY_LIVE_DISPLAY_LOW_POWER = "display_low_power";
@@ -83,12 +82,8 @@ public class LiveDisplay extends SettingsPreferenceFragment implements Searchabl
 
     private final Uri DISPLAY_TEMPERATURE_DAY_URI =
             CMSettings.System.getUriFor(CMSettings.System.DISPLAY_TEMPERATURE_DAY);
-    private final Uri DISPLAY_TEMPERATURE_NIGHT_URI =
-            CMSettings.System.getUriFor(CMSettings.System.DISPLAY_TEMPERATURE_NIGHT);
     private final Uri DISPLAY_TEMPERATURE_MODE_URI =
             CMSettings.System.getUriFor(CMSettings.System.DISPLAY_TEMPERATURE_MODE);
-
-    private ListPreference mLiveDisplay;
 
     private SwitchPreference mColorEnhancement;
     private SwitchPreference mLowPower;
@@ -123,16 +118,6 @@ public class LiveDisplay extends SettingsPreferenceFragment implements Searchabl
 
         addPreferencesFromResource(R.xml.livedisplay);
 
-        PreferenceCategory liveDisplayPrefs = (PreferenceCategory)
-                findPreference(KEY_CATEGORY_LIVE_DISPLAY);
-        PreferenceCategory advancedPrefs = (PreferenceCategory)
-                findPreference(KEY_CATEGORY_ADVANCED);
-
-        int adaptiveMode = mLiveDisplayManager.getMode();
-
-        mLiveDisplay = (ListPreference) findPreference(KEY_LIVE_DISPLAY);
-        mLiveDisplay.setValue(String.valueOf(adaptiveMode));
-
         mModeEntries = res.getStringArray(
                 org.cyanogenmod.platform.internal.R.array.live_display_entries);
         mModeValues = res.getStringArray(
@@ -161,53 +146,44 @@ public class LiveDisplay extends SettingsPreferenceFragment implements Searchabl
             mModeSummaries = summariesTemp;
         }
 
-        mLiveDisplay.setEntries(mModeEntries);
-        mLiveDisplay.setEntryValues(mModeValues);
-        mLiveDisplay.setOnPreferenceChangeListener(this);
-
         mDisplayTemperature = (DisplayTemperature) findPreference(KEY_LIVE_DISPLAY_TEMPERATURE);
 
         mColorProfile = (ListPreference) findPreference(KEY_LIVE_DISPLAY_COLOR_PROFILE);
-        if (liveDisplayPrefs != null && mColorProfile != null
-                && (!mConfig.hasFeature(FEATURE_DISPLAY_MODES) || !updateDisplayModes())) {
-            liveDisplayPrefs.removePreference(mColorProfile);
+        if (mColorProfile != null && (!mConfig.hasFeature(FEATURE_DISPLAY_MODES) 
+            || !updateDisplayModes())) {
+            getPreferenceScreen().removePreference(mColorProfile);
         } else {
             mHasDisplayModes = true;
             mColorProfile.setOnPreferenceChangeListener(this);
         }
 
         mOutdoorMode = (SwitchPreference) findPreference(KEY_LIVE_DISPLAY_AUTO_OUTDOOR_MODE);
-        if (liveDisplayPrefs != null && mOutdoorMode != null
-                && !mConfig.hasFeature(MODE_OUTDOOR)) {
-            liveDisplayPrefs.removePreference(mOutdoorMode);
+        if (mOutdoorMode != null && !mConfig.hasFeature(MODE_OUTDOOR)) {
+            getPreferenceScreen().removePreference(mOutdoorMode);
             mOutdoorMode = null;
         }
 
         mLowPower = (SwitchPreference) findPreference(KEY_LIVE_DISPLAY_LOW_POWER);
-        if (advancedPrefs != null && mLowPower != null
-                && !mConfig.hasFeature(FEATURE_CABC)) {
-            advancedPrefs.removePreference(mLowPower);
+        if (mLowPower != null && !mConfig.hasFeature(FEATURE_CABC)) {
+            getPreferenceScreen().removePreference(mLowPower);
             mLowPower = null;
         }
 
         mColorEnhancement = (SwitchPreference) findPreference(KEY_LIVE_DISPLAY_COLOR_ENHANCE);
-        if (advancedPrefs != null && mColorEnhancement != null
-                && !mConfig.hasFeature(FEATURE_COLOR_ENHANCEMENT)) {
-            advancedPrefs.removePreference(mColorEnhancement);
+        if (mColorEnhancement != null && !mConfig.hasFeature(FEATURE_COLOR_ENHANCEMENT)) {
+            getPreferenceScreen().removePreference(mColorEnhancement);
             mColorEnhancement = null;
         }
 
         mPictureAdjustment = (PictureAdjustment) findPreference(KEY_PICTURE_ADJUSTMENT);
-        if (advancedPrefs != null && mPictureAdjustment != null &&
-                    !mConfig.hasFeature(LiveDisplayManager.FEATURE_PICTURE_ADJUSTMENT)) {
-            advancedPrefs.removePreference(mPictureAdjustment);
+        if (mPictureAdjustment != null && !mConfig.hasFeature(LiveDisplayManager.FEATURE_PICTURE_ADJUSTMENT)) {
+            getPreferenceScreen().removePreference(mPictureAdjustment);
             mPictureAdjustment = null;
         }
 
         mDisplayColor = (DisplayColor) findPreference(KEY_DISPLAY_COLOR);
-        if (advancedPrefs != null && mDisplayColor != null &&
-                !mConfig.hasFeature(LiveDisplayManager.FEATURE_COLOR_ADJUSTMENT)) {
-            advancedPrefs.removePreference(mDisplayColor);
+        if (mDisplayColor != null && !mConfig.hasFeature(LiveDisplayManager.FEATURE_COLOR_ADJUSTMENT)) {
+            getPreferenceScreen().removePreference(mDisplayColor);
             mDisplayColor = null;
         }
     }
@@ -219,7 +195,7 @@ public class LiveDisplay extends SettingsPreferenceFragment implements Searchabl
         updateTemperatureSummary();
         updateColorProfileSummary(null);
         SettingsHelper.get(getActivity()).startWatching(this, DISPLAY_TEMPERATURE_DAY_URI,
-                DISPLAY_TEMPERATURE_MODE_URI, DISPLAY_TEMPERATURE_NIGHT_URI);
+                DISPLAY_TEMPERATURE_MODE_URI);
     }
 
     @Override
@@ -293,14 +269,6 @@ public class LiveDisplay extends SettingsPreferenceFragment implements Searchabl
     private void updateModeSummary() {
         int mode = mLiveDisplayManager.getMode();
 
-        int index = ArrayUtils.indexOf(mModeValues, String.valueOf(mode));
-        if (index < 0) {
-            index = ArrayUtils.indexOf(mModeValues, String.valueOf(MODE_OFF));
-        }
-
-        mLiveDisplay.setSummary(mModeSummaries[index]);
-        mLiveDisplay.setValue(String.valueOf(mode));
-
         if (mDisplayTemperature != null) {
             mDisplayTemperature.setEnabled(mode != MODE_OFF);
         }
@@ -311,19 +279,15 @@ public class LiveDisplay extends SettingsPreferenceFragment implements Searchabl
 
     private void updateTemperatureSummary() {
         int day = mLiveDisplayManager.getDayColorTemperature();
-        int night = mLiveDisplayManager.getNightColorTemperature();
 
         mDisplayTemperature.setSummary(getResources().getString(
                 R.string.live_display_color_temperature_summary,
-                mDisplayTemperature.roundUp(day),
-                mDisplayTemperature.roundUp(night)));
+                mDisplayTemperature.roundUp(day)));
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
-        if (preference == mLiveDisplay) {
-            mLiveDisplayManager.setMode(Integer.valueOf((String)objValue));
-        } else if (preference == mColorProfile) {
+        if (preference == mColorProfile) {
             int id = Integer.valueOf((String)objValue);
             Log.i("LiveDisplay", "Setting mode: " + id);
             for (DisplayMode mode : mHardware.getDisplayModes()) {

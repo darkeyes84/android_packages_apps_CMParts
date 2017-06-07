@@ -108,7 +108,6 @@
   <string name="live_display_summary">Optimiziraj zaslon glede na čas dneva in pogoje okolice, da se izboljša berljivost in zmanjša obremenitev oči</string>
   <string name="live_display_mode">Način prikaza</string>
   <string name="live_display_color_temperature_title">Temperatura barve</string>
-  <string name="live_display_color_temperature_summary">Dan: <xliff:g id="day_temperature">%1$d</xliff:g> K Noč: <xliff:g id="night_temperature">%2$d</xliff:g> K</string>
   <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g> K</string>
   <string name="live_display_day">Dan</string>
   <string name="live_display_night">Noč</string>

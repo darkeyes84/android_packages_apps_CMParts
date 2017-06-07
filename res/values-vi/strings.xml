@@ -108,7 +108,6 @@
   <string name="live_display_summary">Tối ưu hóa màn hình dựa trên điều kiện môi trường và thời gian trong ngày để cải thiện khả năng đọc và giảm mỏi mắt</string>
   <string name="live_display_mode">Chế độ hiển thị</string>
   <string name="live_display_color_temperature_title">Nhiệt độ màu</string>
-  <string name="live_display_color_temperature_summary">Ngày: <xliff:g id="day_temperature">%1$d</xliff:g>K  Đêm: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
   <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
   <string name="live_display_day">Ngày</string>
   <string name="live_display_night">Đêm</string>

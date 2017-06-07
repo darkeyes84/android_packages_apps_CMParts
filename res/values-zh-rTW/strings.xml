@@ -108,7 +108,6 @@
   <string name="live_display_summary">根據日夜和環境條件調整您的螢幕色溫，即可改善可讀性和減少眼睛疲勞</string>
   <string name="live_display_mode">顯示模式</string>
   <string name="live_display_color_temperature_title">色溫</string>
-  <string name="live_display_color_temperature_summary">日間：<xliff:g id="day_temperature">%1$d</xliff:g>K 夜間：<xliff:g id="night_temperature">%2$d</xliff:g>K</string>
   <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
   <string name="live_display_day">日間</string>
   <string name="live_display_night">夜間</string>

@@ -108,7 +108,6 @@
   <string name="live_display_summary">基于当前时间和环境条件来优化您的屏幕以改善可读性和减少视疲劳</string>
   <string name="live_display_mode">显示模式</string>
   <string name="live_display_color_temperature_title">色温</string>
-  <string name="live_display_color_temperature_summary">白天：<xliff:g id="day_temperature">%1$d</xliff:g>K 夜晚：<xliff:g id="night_temperature">%2$d</xliff:g>K</string>
   <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
   <string name="live_display_day">白天</string>
   <string name="live_display_night">夜晚</string>

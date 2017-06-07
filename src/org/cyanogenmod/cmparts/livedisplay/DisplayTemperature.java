@@ -43,10 +43,8 @@ public class DisplayTemperature extends CustomDialogPreference<AlertDialog> {
     private final Context mContext;
 
     private ColorTemperatureSeekBar mDayTemperature;
-    private ColorTemperatureSeekBar mNightTemperature;
 
     private int mOriginalDayTemperature;
-    private int mOriginalNightTemperature;
 
     private final LiveDisplayManager mLiveDisplay;
     private final LiveDisplayConfig mConfig;
@@ -79,18 +77,12 @@ public class DisplayTemperature extends CustomDialogPreference<AlertDialog> {
         super.onBindDialogView(view);
 
         mOriginalDayTemperature = mLiveDisplay.getDayColorTemperature();
-        mOriginalNightTemperature = mLiveDisplay.getNightColorTemperature();
 
         SeekBar day = (SeekBar) view.findViewById(R.id.day_temperature_seekbar);
         TextView dayText = (TextView) view.findViewById(R.id.day_temperature_value);
         mDayTemperature = new ColorTemperatureSeekBar(day, dayText);
 
-        SeekBar night = (SeekBar) view.findViewById(R.id.night_temperature_seekbar);
-        TextView nightText = (TextView) view.findViewById(R.id.night_temperature_value);
-        mNightTemperature = new ColorTemperatureSeekBar(night, nightText);
-
         mDayTemperature.setTemperature(mOriginalDayTemperature);
-        mNightTemperature.setTemperature(mOriginalNightTemperature);
     }
 
 
@@ -100,7 +92,6 @@ public class DisplayTemperature extends CustomDialogPreference<AlertDialog> {
         // to be kept open on click
         if (which == DialogInterface.BUTTON_NEUTRAL) {
             mDayTemperature.setTemperature(mConfig.getDefaultDayTemperature());
-            mNightTemperature.setTemperature(mConfig.getDefaultNightTemperature());
             updateTemperature(true);
             return false;
         }
@@ -123,9 +114,7 @@ public class DisplayTemperature extends CustomDialogPreference<AlertDialog> {
         // Save the dialog state
         final SavedState myState = new SavedState(superState);
         myState.originalDayTemperature = mOriginalDayTemperature;
-        myState.originalNightTemperature = mOriginalNightTemperature;
         myState.currentDayTemperature = mDayTemperature.getTemperature();
-        myState.currentNightTemperature = mNightTemperature.getTemperature();
 
         // Restore the old state when the activity or dialog is being paused
         updateTemperature(false);
@@ -145,18 +134,14 @@ public class DisplayTemperature extends CustomDialogPreference<AlertDialog> {
         super.onRestoreInstanceState(myState.getSuperState());
 
         mOriginalDayTemperature = myState.originalDayTemperature;
-        mOriginalNightTemperature = myState.originalNightTemperature;
         mDayTemperature.setTemperature(myState.currentDayTemperature);
-        mNightTemperature.setTemperature(myState.currentNightTemperature);;
 
         updateTemperature(true);
     }
 
     private static class SavedState extends BaseSavedState {
         int originalDayTemperature;
-        int originalNightTemperature;
         int currentDayTemperature;
-        int currentNightTemperature;
 
         public SavedState(Parcelable superState) {
             super(superState);
@@ -165,18 +150,14 @@ public class DisplayTemperature extends CustomDialogPreference<AlertDialog> {
         public SavedState(Parcel source) {
             super(source);
             originalDayTemperature = source.readInt();
-            originalNightTemperature = source.readInt();
             currentDayTemperature = source.readInt();
-            currentNightTemperature = source.readInt();
         }
 
         @Override
         public void writeToParcel(Parcel dest, int flags) {
             super.writeToParcel(dest, flags);
             dest.writeInt(originalDayTemperature);
-            dest.writeInt(originalNightTemperature);
             dest.writeInt(currentDayTemperature);
-            dest.writeInt(currentNightTemperature);
         }
 
         public static final Parcelable.Creator<SavedState> CREATOR =
@@ -194,11 +175,9 @@ public class DisplayTemperature extends CustomDialogPreference<AlertDialog> {
 
     private void updateTemperature(boolean accept) {
         int day = accept ? mDayTemperature.getTemperature() : mOriginalDayTemperature;
-        int night = accept ? mNightTemperature.getTemperature() : mOriginalNightTemperature;
-        callChangeListener(new Integer[] { day, night });
+        callChangeListener(day);
 
         mLiveDisplay.setDayColorTemperature(day);
-        mLiveDisplay.setNightColorTemperature(night);
     }
 
     int roundUp(int value) {

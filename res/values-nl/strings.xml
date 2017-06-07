@@ -108,7 +108,6 @@
   <string name="live_display_summary">Uw scherm optimaliseren aan de hand van tijdstip op de dag en lichtomstandigheden om de leesbaarheid te verbeteren en oogvermoeidheid te verminderen</string>
   <string name="live_display_mode">Weergavemodus</string>
   <string name="live_display_color_temperature_title">Kleurtemperatuur</string>
-  <string name="live_display_color_temperature_summary">Overdag: <xliff:g id="day_temperature">%1$d</xliff:g> K, \'s nachts: <xliff:g id="night_temperature">%2$d</xliff:g> K</string>
   <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g> K</string>
   <string name="live_display_day">Overdag</string>
   <string name="live_display_night">\'s Nachts</string>

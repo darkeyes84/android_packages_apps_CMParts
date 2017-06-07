@@ -108,7 +108,6 @@
   <string name="live_display_summary">Ottimizza lo schermo in base all\'ora del giorno e alle condizioni ambientali per migliorare la leggibilità e ridurre l\'affaticamento degli occhi</string>
   <string name="live_display_mode">Modalità display</string>
   <string name="live_display_color_temperature_title">Temperatura colore</string>
-  <string name="live_display_color_temperature_summary">Giorno: <xliff:g id="day_temperature">%1$d</xliff:g>K  Notte: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
   <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
   <string name="live_display_day">Giorno</string>
   <string name="live_display_night">Notte</string>

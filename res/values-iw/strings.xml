@@ -108,7 +108,6 @@
   <string name="live_display_summary">התאם את מסך מכשירך בהתאם לשעה ולתנאי הסביבה על מנת לשפר את נוחות הקריאה ולהפחית את עייפות העין</string>
   <string name="live_display_mode">מצב תצוגה</string>
   <string name="live_display_color_temperature_title">טמפרטורת צבע</string>
-  <string name="live_display_color_temperature_summary">יום: <xliff:g id="day_temperature">%1$d</xliff:g>K לילה: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
   <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
   <string name="live_display_day">יום</string>
   <string name="live_display_night">לילה</string>
