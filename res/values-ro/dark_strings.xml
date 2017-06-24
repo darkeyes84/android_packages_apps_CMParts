@@ -24,9 +24,9 @@
   <string name="show_next_alarm_icon_title">Iconiță alarmă</string>
   <string name="show_next_alarm_icon_summary">Afişează iconița în bara de stare extinsă atunci când o alarmă este setată</string>
   <!-- Network traffic -->
-  <string name="default_string">Default</string>
-  <string name="network_traffic_title">Network traffic</string>
-  <string name="show_network_traffic_state">Status bar traffic monitor</string>
+  <string name="default_string">Implicit</string>
+  <string name="network_traffic_title">Trafic de rețea</string>
+  <string name="show_network_traffic_state">Monitor trafic de rețea în bara de stare</string>
   <string name="network_traffic_summary">Enable various network traffic options in the status bar</string>
   <string name="show_network_traffic_unit">Display unit</string>
   <string name="show_network_traffic_frequency">Update interval</string>
