@@ -18,11 +18,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Show bluetooth icon when disconnected -->
-  <string name="status_bar_bluetooth_icon">Bluetooth icon</string>
-  <string name="status_bar_bluetooth_icon_summary">Show icon when it is enabled but not connected</string>
+  <string name="status_bar_bluetooth_icon">Iconiță Bluetooth</string>
+  <string name="status_bar_bluetooth_icon_summary">Arată iconița atunci când este activat dar nu conectat</string>
   <!-- Hide the alarm icon in the expanded status bar -->
-  <string name="show_next_alarm_icon_title">Alarm icon</string>
-  <string name="show_next_alarm_icon_summary">Show icon in the expanded status bar when an alarm is set</string>
+  <string name="show_next_alarm_icon_title">Iconiță alarmă</string>
+  <string name="show_next_alarm_icon_summary">Afişează iconița în bara de stare extinsă atunci când o alarmă este setată</string>
   <!-- Network traffic -->
   <string name="default_string">Default</string>
   <string name="network_traffic_title">Network traffic</string>
