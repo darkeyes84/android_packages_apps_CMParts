@@ -82,32 +82,32 @@
   <string name="status_bar_date_style_lowercase">Litere mici</string>
   <string name="status_bar_date_style_uppercase">Majuscule</string>
   <string name="status_bar_date_position">Poziţie dată</string>
-  <string name="status_bar_date_right">Right of time</string>
-  <string name="status_bar_date_left">Left of time</string>
+  <string name="status_bar_date_right">În dreptul timpului</string>
+  <string name="status_bar_date_left">În stânga timpului</string>
   <!-- Pixel navbar animation -->
-  <string name="pixel_navbar_anim_title">Home button animation</string>
-  <string name="pixel_navbar_anim_summary">Enable the home button animation</string>
+  <string name="pixel_navbar_anim_title">Animație buton acasă</string>
+  <string name="pixel_navbar_anim_summary">Activează animaţia butonului acasă</string>
   <!-- SSID in status bar -->
-  <string name="wifi_status_bar_ssid_title">Show WiFi SSID</string>
-  <string name="wifi_status_bar_ssid_summary">Show the WiFi SSID of a connected network in the status bar</string>
+  <string name="wifi_status_bar_ssid_title">Arată SSID WiFi</string>
+  <string name="wifi_status_bar_ssid_summary">Arată SSID-ul de la o reţea WiFi conectată în bara de stare</string>
   <!-- Custom carrier label and position -->
-  <string name="carrier_label_settings_title">Show carrier label</string>
-  <string name="carrier_label_settings_summary">Show the carrier label in the status bar</string>
+  <string name="carrier_label_settings_title">Afişează eticheta operatorului</string>
+  <string name="carrier_label_settings_summary">Afişează eticheta operatorului în bara de stare</string>
   <!-- Low battery notification -->
-  <string name="battery_low_notification_title">Low battery notification</string>
-  <string name="battery_low_notification_summary">Show a notification when the battery is low</string>
+  <string name="battery_low_notification_title">Notificarea de baterie slabă</string>
+  <string name="battery_low_notification_summary">Arată o notificare atunci când bateria este scăzută</string>
   <!-- Battery saver color -->
-  <string name="battery_saver_mode_color_title">Battery saver warning color</string>
-  <string name="battery_saver_mode_color_summary">Show orange status bar and navigation bar when battery saver is activated</string>
+  <string name="battery_saver_mode_color_title">Culoarea de avertizare în modul salvare baterie</string>
+  <string name="battery_saver_mode_color_summary">Activează culoarea portocalie pentru bara de navigare atunci când este activat modul salvare baterie</string>
   <!-- Battery bar settings -->
-  <string name="battery_bar_title">Battery bar</string>
-  <string name="battery_bar_location">Battery bar</string>
-  <string name="battery_bar_style_title">Battery bar style</string>
-  <string name="battery_bar_thickness_title">Battery bar thickness</string>
-  <string name="battery_bar_animate_title">Charging animation</string>
-  <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
-  <string name="battery_bar_hide">Hidden</string>
-  <string name="battery_bar_statusbar">Status bar</string>
+  <string name="battery_bar_title">Bară baterie</string>
+  <string name="battery_bar_location">Bară baterie</string>
+  <string name="battery_bar_style_title">Stil bară baterie</string>
+  <string name="battery_bar_thickness_title">Grosimea barei bateriei</string>
+  <string name="battery_bar_animate_title">Animaţie la încărcare</string>
+  <string name="battery_bar_animate_summary">Animaţia de încărcare poate duce la o experienţă de utilizator slabă. Activați la propria discreție.</string>
+  <string name="battery_bar_hide">Ascuns</string>
+  <string name="battery_bar_statusbar">Bara de stare</string>
   <string name="battery_bar_topnav">Top of navigation bar</string>
   <string name="battery_bar_bottomnav">Bottom of navigation bar</string>
   <string name="battery_bar_reg">Regular</string>
