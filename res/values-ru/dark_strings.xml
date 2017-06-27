@@ -46,7 +46,7 @@
   <string name="network_traffic_hidearrow">Скрыть стрелки</string>
   <string name="network_traffic_hidearrow_summary">Скрыть стрелки в индикаторе трафика</string>
   <string name="volume_keys_control_ring_stream_title">Кнопки громкости регулируют громкость рингтона</string>
-  <string name="volume_keys_control_ring_stream_summary">If on, volume keys control ringtone volume. If off, volume keys control media volume.</string>
+  <string name="volume_keys_control_ring_stream_summary">Если включено, кнопки громкости регулируют громкость звонка. Если выключено, кнопки громкости регулируют громкость.</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Умная панель уведомлений</string>
   <string name="smart_pulldown_summary">Открыть быстрые настройки %1$s уведомлений</string>
