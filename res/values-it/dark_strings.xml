@@ -60,42 +60,42 @@
   <string name="navigation_bar_dimensions_title_summary">Ridimensiona barra di navigazione</string>
   <string name="navigation_bar_height_title">Altezza della barra di navigazione</string>
   <string name="navigation_bar_height_summary">Altezza barra navigazione quando in modalità portrait</string>
-  <string name="navigation_bar_width_title">Navigation bar width</string>
-  <string name="navigation_bar_width_summary">Navigation bar width if the bar is along a side (landscape)</string>
-  <string name="navigation_bar_size_48_dp_default">48 dp (default)</string>
+  <string name="navigation_bar_width_title">Larghezza barra di navigazione</string>
+  <string name="navigation_bar_width_summary">Altezza della barra di navigazione se la barra è posta ad un lato (orizzontale)</string>
+  <string name="navigation_bar_size_48_dp_default">48 dp (predefinito)</string>
   <string name="navigation_bar_size_44_dp">44 dp</string>
-  <string name="navigation_bar_size_42_dp_default">42 dp (default)</string>
+  <string name="navigation_bar_size_42_dp_default">42 dp (predefinito)</string>
   <string name="navigation_bar_size_42_dp">42 dp</string>
   <string name="navigation_bar_size_40_dp">40 dp</string>
   <string name="navigation_bar_size_36_dp">36 dp</string>
   <string name="navigation_bar_size_30_dp">30 dp</string>
   <string name="navigation_bar_size_24_dp">24 dp</string>
   <!-- Date in status bar -->
-  <string name="status_bar_date">Date</string>
-  <string name="status_bar_date_summary">Display the date in the status bar</string>
-  <string name="status_bar_date_style">Date style</string>
-  <string name="status_bar_date_format">Date format</string>
-  <string name="status_bar_date_none">Don\'t show</string>
-  <string name="status_bar_date_small">Small font size</string>
-  <string name="status_bar_date_normal">Normal font size</string>
-  <string name="status_bar_date_style_normal">Normal</string>
-  <string name="status_bar_date_style_lowercase">Lowercase</string>
-  <string name="status_bar_date_style_uppercase">Uppercase</string>
-  <string name="status_bar_date_position">Date position</string>
-  <string name="status_bar_date_right">Right of time</string>
-  <string name="status_bar_date_left">Left of time</string>
+  <string name="status_bar_date">Data</string>
+  <string name="status_bar_date_summary">Mostra la data nella barra di stato</string>
+  <string name="status_bar_date_style">Stile della data</string>
+  <string name="status_bar_date_format">Formato data</string>
+  <string name="status_bar_date_none">Non mostrare</string>
+  <string name="status_bar_date_small">Dimensione carattere piccolo</string>
+  <string name="status_bar_date_normal">Dimensione del carattere normale</string>
+  <string name="status_bar_date_style_normal">Normale</string>
+  <string name="status_bar_date_style_lowercase">Minuscolo</string>
+  <string name="status_bar_date_style_uppercase">Maiuscolo</string>
+  <string name="status_bar_date_position">Posizione della data</string>
+  <string name="status_bar_date_right">A destra dell\'ora</string>
+  <string name="status_bar_date_left">A sinistra dell\'ora</string>
   <!-- Pixel navbar animation -->
-  <string name="pixel_navbar_anim_title">Home button animation</string>
-  <string name="pixel_navbar_anim_summary">Enable the home button animation</string>
+  <string name="pixel_navbar_anim_title">Animazione pulsante home</string>
+  <string name="pixel_navbar_anim_summary">Attiva l\'animazione del pulsante home</string>
   <!-- SSID in status bar -->
-  <string name="wifi_status_bar_ssid_title">Show WiFi SSID</string>
-  <string name="wifi_status_bar_ssid_summary">Show the WiFi SSID of a connected network in the status bar</string>
+  <string name="wifi_status_bar_ssid_title">Mostra il WiFi SSID</string>
+  <string name="wifi_status_bar_ssid_summary">Mostra il WiFi SSID di una connessione di rete nella barra di stato</string>
   <!-- Custom carrier label and position -->
-  <string name="carrier_label_settings_title">Show carrier label</string>
-  <string name="carrier_label_settings_summary">Show the carrier label in the status bar</string>
+  <string name="carrier_label_settings_title">Visualizza il nome dell\'operatore mobile</string>
+  <string name="carrier_label_settings_summary">Mostra il nome dell\'operatore nella barra di stato</string>
   <!-- Low battery notification -->
-  <string name="battery_low_notification_title">Low battery notification</string>
-  <string name="battery_low_notification_summary">Show a notification when the battery is low</string>
+  <string name="battery_low_notification_title">Notifica di batteria scarica</string>
+  <string name="battery_low_notification_summary">Visualizza una notifica quando la batteria è ad un valore basso</string>
   <!-- Battery saver color -->
   <string name="battery_saver_mode_color_title">Battery saver warning color</string>
   <string name="battery_saver_mode_color_summary">Show orange status bar and navigation bar when battery saver is activated</string>
