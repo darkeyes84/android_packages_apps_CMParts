@@ -49,17 +49,17 @@
   <string name="volume_keys_control_ring_stream_summary">Se abilitato, i pulsanti controllano il volume della suoneria. Se disabilitato, i pulsanti controllano il volume dei media.</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Tendina intelligente</string>
-  <string name="smart_pulldown_summary">Open Quick Settings when there are %1$s notifications</string>
-  <string name="smart_pulldown_none_summary">Open Quick Settings when there are no notifications</string>
-  <string name="smart_pulldown_off">Off</string>
-  <string name="smart_pulldown_none">no notifications</string>
-  <string name="smart_pulldown_dismissable">no dismissable</string>
-  <string name="smart_pulldown_ongoing">no ongoing</string>
+  <string name="smart_pulldown_summary">Apri le impostazioni rapide quando ci sono %1$s notifiche presenti</string>
+  <string name="smart_pulldown_none_summary">Apri le impostazioni rapide quando non ci sono notifiche presenti</string>
+  <string name="smart_pulldown_off">Spento</string>
+  <string name="smart_pulldown_none">nessuna notifica</string>
+  <string name="smart_pulldown_dismissable">non rimovibili</string>
+  <string name="smart_pulldown_ongoing">non in corso</string>
   <!-- Navigation Bar -->
-  <string name="navigation_bar_dimensions_title">Navigation bar dimensions</string>
-  <string name="navigation_bar_dimensions_title_summary">Resize the navigation bar</string>
-  <string name="navigation_bar_height_title">Navigation bar height</string>
-  <string name="navigation_bar_height_summary">Navigation bar height while in portrait</string>
+  <string name="navigation_bar_dimensions_title">Dimensioni barra di navigazione</string>
+  <string name="navigation_bar_dimensions_title_summary">Ridimensiona barra di navigazione</string>
+  <string name="navigation_bar_height_title">Altezza della barra di navigazione</string>
+  <string name="navigation_bar_height_summary">Altezza barra navigazione quando in modalità portrait</string>
   <string name="navigation_bar_width_title">Navigation bar width</string>
   <string name="navigation_bar_width_summary">Navigation bar width if the bar is along a side (landscape)</string>
   <string name="navigation_bar_size_48_dp_default">48 dp (default)</string>
