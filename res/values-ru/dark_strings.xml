@@ -100,18 +100,18 @@
   <string name="battery_saver_mode_color_title">Цвет предупреждения в режиме энергосбережения</string>
   <string name="battery_saver_mode_color_summary">Окрасить строку состояния и панель навигации в оранжевый, когда активирован режим энергосбережения</string>
   <!-- Battery bar settings -->
-  <string name="battery_bar_title">Battery bar</string>
-  <string name="battery_bar_location">Battery bar</string>
+  <string name="battery_bar_title">Полоса батареи</string>
+  <string name="battery_bar_location">Полоса батареи</string>
   <string name="battery_bar_style_title">Стиль батареи</string>
-  <string name="battery_bar_thickness_title">Battery bar thickness</string>
+  <string name="battery_bar_thickness_title">Толщина полосы батареи</string>
   <string name="battery_bar_animate_title">Анимация зарядки</string>
   <string name="battery_bar_animate_summary">Анимация зарядки может привести к ухудшению производительности. Включайте на Ваше собственное усмотрение.</string>
   <string name="battery_bar_hide">Не показывать</string>
   <string name="battery_bar_statusbar">Строка состояния</string>
-  <string name="battery_bar_topnav">Top of navigation bar</string>
+  <string name="battery_bar_topnav">Верхняя часть панели навигации</string>
   <string name="battery_bar_bottomnav">Нижняя часть панели навигации</string>
   <string name="battery_bar_reg">Стандартный</string>
-  <string name="battery_bar_center">Center-mirrored</string>
+  <string name="battery_bar_center">По центру/зеркально</string>
   <!-- QS headers -->
   <string name="status_bar_custom_header_title">Пользовательское изображение в заголовке</string>
   <string name="status_bar_custom_header_summary">Включить пользовательское изображение в заголовке панели уведомлений</string>
