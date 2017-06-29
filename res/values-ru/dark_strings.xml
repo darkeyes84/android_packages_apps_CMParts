@@ -98,7 +98,7 @@
   <string name="battery_low_notification_summary">Показывать уведомления, о низком заряде батареи</string>
   <!-- Battery saver color -->
   <string name="battery_saver_mode_color_title">Цвет предупреждения в режиме энергосбережения</string>
-  <string name="battery_saver_mode_color_summary">Show orange status bar and navigation bar when battery saver is activated</string>
+  <string name="battery_saver_mode_color_summary">Окрасить строку состояния и панель навигации в оранжевый, когда активирован режим энергосбережения</string>
   <!-- Battery bar settings -->
   <string name="battery_bar_title">Battery bar</string>
   <string name="battery_bar_location">Battery bar</string>
