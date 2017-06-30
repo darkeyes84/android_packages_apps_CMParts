@@ -18,34 +18,34 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Show bluetooth icon when disconnected -->
-  <string name="status_bar_bluetooth_icon">Bluetooth icon</string>
-  <string name="status_bar_bluetooth_icon_summary">Show icon when it is enabled but not connected</string>
+  <string name="status_bar_bluetooth_icon">Ikona Bluetooth</string>
+  <string name="status_bar_bluetooth_icon_summary">Zobrazit ikonu Bluetooth pokud je zapnuto, ale není připojeno</string>
   <!-- Hide the alarm icon in the expanded status bar -->
-  <string name="show_next_alarm_icon_title">Alarm icon</string>
-  <string name="show_next_alarm_icon_summary">Show icon in the expanded status bar when an alarm is set</string>
+  <string name="show_next_alarm_icon_title">Ikona budíku</string>
+  <string name="show_next_alarm_icon_summary">Zobrazit ikonu v rozšířené stavové liště při zapnutém budíku</string>
   <!-- Network traffic -->
-  <string name="default_string">Default</string>
-  <string name="network_traffic_title">Network traffic</string>
-  <string name="show_network_traffic_state">Status bar traffic monitor</string>
-  <string name="network_traffic_summary">Enable various network traffic options in the status bar</string>
-  <string name="show_network_traffic_unit">Display unit</string>
-  <string name="show_network_traffic_frequency">Update interval</string>
-  <string name="show_network_traffic_disable">Disabled</string>
-  <string name="show_network_traffic_up">Outgoing</string>
-  <string name="show_network_traffic_down">Incoming</string>
-  <string name="show_network_traffic_all">Outgoing and incoming</string>
-  <string name="show_network_traffic_bit">Bits per second</string>
-  <string name="show_network_traffic_byte">Bytes per second</string>
+  <string name="default_string">Výchozí</string>
+  <string name="network_traffic_title">Síťový provoz</string>
+  <string name="show_network_traffic_state">Stav síťového provozu na stavové liště</string>
+  <string name="network_traffic_summary">Povolit různé možnosti provozu sítě ve stavové liště</string>
+  <string name="show_network_traffic_unit">Zobrazovat jednotky</string>
+  <string name="show_network_traffic_frequency">Interval aktualizace</string>
+  <string name="show_network_traffic_disable">Vypnuto</string>
+  <string name="show_network_traffic_up">Odchozí data</string>
+  <string name="show_network_traffic_down">Příchozí data</string>
+  <string name="show_network_traffic_all">Odchozí a příchozí data</string>
+  <string name="show_network_traffic_bit">Bitů za sekundu</string>
+  <string name="show_network_traffic_byte">Bajtů za sekundu</string>
   <string name="show_network_traffic_500">500 ms</string>
   <string name="show_network_traffic_1000">1000 ms</string>
   <string name="show_network_traffic_1500">1500 ms</string>
   <string name="show_network_traffic_2000">2000 ms</string>
-  <string name="network_traffic_autohide">Auto hide</string>
-  <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
-  <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
-  <string name="network_traffic_hidearrow">Hide arrows</string>
-  <string name="network_traffic_hidearrow_summary">Hide the arrows in the traffic indicators</string>
-  <string name="volume_keys_control_ring_stream_title">Volume keys control ringtone volume</string>
+  <string name="network_traffic_autohide">Automaticky skrývat</string>
+  <string name="network_traffic_autohide_summary">Skrýt indikátor datového provozu, pokud není žádná aktivita</string>
+  <string name="network_traffic_autohide_threshold">Práh neaktivity</string>
+  <string name="network_traffic_hidearrow">Skrýt šipky</string>
+  <string name="network_traffic_hidearrow_summary">Skrýt šipky datového provozu</string>
+  <string name="volume_keys_control_ring_stream_title">Tlačítka hlasitosti ovládají hlasitost vyzvánění</string>
   <string name="volume_keys_control_ring_stream_summary">If on, volume keys control ringtone volume. If off, volume keys control media volume.</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Smart pulldown</string>
