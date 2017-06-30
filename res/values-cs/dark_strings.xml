@@ -123,9 +123,9 @@
   <string name="daylight_header_provider_title">Dynamický</string>
   <string name="custom_header_provider_title">Operátor v záhlaví</string>
   <string name="custom_header_browse_title">Procházet nainstalované záhlaví</string>
-  <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
-  <string name="hide_carrier_label_with_wifi_title">Hide carrier label with WiFi SSID</string>
-  <string name="hide_carrier_label_with_wifi_summary">Only show the carrier label when the WiFi SSID is not showing</string>
-  <string name="nav_bar_dynamic_title">Navigation bar dynamic color</string>
-  <string name="nav_bar_dynamic_summary">Change the navigation bar color to the app primary color</string>
+  <string name="custom_header_browse_summary">Přidržením jakéhokoliv obrázku spustit statický režim</string>
+  <string name="hide_carrier_label_with_wifi_title">Skrýt název operátora s WiFi SSID</string>
+  <string name="hide_carrier_label_with_wifi_summary">Název operátora se zobrazí pouze v případě, že WiFi SSID není zobrazeno</string>
+  <string name="nav_bar_dynamic_title">Dynamická barva navigační lišty</string>
+  <string name="nav_bar_dynamic_summary">Změnit barvu navigační lišty na primární barvu aplikace</string>
 </resources>
