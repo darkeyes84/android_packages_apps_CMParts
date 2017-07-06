@@ -22,7 +22,7 @@
   <string name="status_bar_bluetooth_icon_summary">Mostrar o ícone quando ele é activado, mas não conectado</string>
   <!-- Hide the alarm icon in the expanded status bar -->
   <string name="show_next_alarm_icon_title">Ícone de alarme</string>
-  <string name="show_next_alarm_icon_summary">Show icon in the expanded status bar when an alarm is set</string>
+  <string name="show_next_alarm_icon_summary">Mostrar um ícone na barra de estado quando um alarme é definido</string>
   <!-- Network traffic -->
   <string name="default_string">Predefinição</string>
   <string name="network_traffic_title">Tráfego de rede</string>
@@ -72,7 +72,7 @@
   <string name="navigation_bar_size_24_dp">24 dp</string>
   <!-- Date in status bar -->
   <string name="status_bar_date">Data</string>
-  <string name="status_bar_date_summary">Display the date in the status bar</string>
+  <string name="status_bar_date_summary">Mostrar a data na barra de estado</string>
   <string name="status_bar_date_style">Estilo da data</string>
   <string name="status_bar_date_format">Formato da data</string>
   <string name="status_bar_date_none">Não mostrar</string>
@@ -88,17 +88,17 @@
   <string name="pixel_navbar_anim_title">Animação do botão flutuante</string>
   <string name="pixel_navbar_anim_summary">Activara a animação do botão flutuante</string>
   <!-- SSID in status bar -->
-  <string name="wifi_status_bar_ssid_title">Show WiFi SSID</string>
-  <string name="wifi_status_bar_ssid_summary">Show the WiFi SSID of a connected network in the status bar</string>
+  <string name="wifi_status_bar_ssid_title">Mostrar WiFi SSID</string>
+  <string name="wifi_status_bar_ssid_summary">Mostrar o WiFi SSID de uma rede ligada na barra de estado</string>
   <!-- Custom carrier label and position -->
-  <string name="carrier_label_settings_title">Show carrier label</string>
+  <string name="carrier_label_settings_title">Mostrar nome da operadora</string>
   <string name="carrier_label_settings_summary">Show the carrier label in the status bar</string>
   <!-- Low battery notification -->
   <string name="battery_low_notification_title">Low battery notification</string>
   <string name="battery_low_notification_summary">Show a notification when the battery is low</string>
   <!-- Battery saver color -->
   <string name="battery_saver_mode_color_title">Battery saver warning color</string>
-  <string name="battery_saver_mode_color_summary">Show orange status bar and navigation bar when battery saver is activated</string>
+  <string name="battery_saver_mode_color_summary">Ativar barras de estado e navegação laranja quando a poupança de energia é ativado</string>
   <!-- Battery bar settings -->
   <string name="battery_bar_title">Battery bar</string>
   <string name="battery_bar_location">Battery bar</string>
@@ -107,7 +107,7 @@
   <string name="battery_bar_animate_title">Charging animation</string>
   <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
   <string name="battery_bar_hide">Hidden</string>
-  <string name="battery_bar_statusbar">Status bar</string>
+  <string name="battery_bar_statusbar">Barra de Estado</string>
   <string name="battery_bar_topnav">Top of navigation bar</string>
   <string name="battery_bar_bottomnav">Bottom of navigation bar</string>
   <string name="battery_bar_reg">Regular</string>
