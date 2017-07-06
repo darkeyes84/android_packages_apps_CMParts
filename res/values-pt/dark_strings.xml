@@ -97,8 +97,8 @@
   <string name="battery_low_notification_title">Notificação de bateria fraca</string>
   <string name="battery_low_notification_summary">Mostrar uma notificação quando a bateria está fraca</string>
   <!-- Battery saver color -->
-  <string name="battery_saver_mode_color_title">Battery saver warning color</string>
-  <string name="battery_saver_mode_color_summary">Activar barras de estado e navegação laranja quando a poupança de energia é activa</string>
+  <string name="battery_saver_mode_color_title">Cor de aviso da poupança de bateria</string>
+  <string name="battery_saver_mode_color_summary">Activar barras de estado e navegação laranja quando a poupança de bateria é activa</string>
   <!-- Battery bar settings -->
   <string name="battery_bar_title">Barra de bateria</string>
   <string name="battery_bar_location">Barra de bateria</string>
@@ -116,7 +116,7 @@
   <string name="status_bar_custom_header_title">Cabeçalho personalizado</string>
   <string name="status_bar_custom_header_summary">Permitir imagens personalizadas no painel de notificação</string>
   <string name="custom_header_title">Ativar cabeçalhos personalizados</string>
-  <string name="daylight_header_pack_title">Header image pack</string>
+  <string name="daylight_header_pack_title">Pacote de imagens de cabeçalho</string>
   <string name="status_bar_custom_header_shadow_title">Escurecer a imagem do cabeçalho</string>
   <string name="status_bar_custom_header_shadow_summary">Para melhor visibilidade em imagens brilhantes</string>
   <string name="static_header_provider_title">Estático</string>
@@ -124,8 +124,8 @@
   <string name="custom_header_provider_title">Fornecedor de cabeçalho</string>
   <string name="custom_header_browse_title">Ver os cabeçalhos instalados</string>
   <string name="custom_header_browse_summary">Pressione longamente qualquer imagem para usar no modo estático</string>
-  <string name="hide_carrier_label_with_wifi_title">Hide carrier label with WiFi SSID</string>
-  <string name="hide_carrier_label_with_wifi_summary">Only show the carrier label when the WiFi SSID is not showing</string>
-  <string name="nav_bar_dynamic_title">Navigation bar dynamic color</string>
-  <string name="nav_bar_dynamic_summary">Change the navigation bar color to the app primary color</string>
+  <string name="hide_carrier_label_with_wifi_title">Ocultar o nome da operadora com WiFi SSID</string>
+  <string name="hide_carrier_label_with_wifi_summary">Mostrar apenas o nome da operadora quando o WiFi SSID não está visível</string>
+  <string name="nav_bar_dynamic_title">Cor dinâmica na barra de navegação</string>
+  <string name="nav_bar_dynamic_summary">Alterar a cor da barra de navegação para a cor primária da aplicação</string>
 </resources>
