@@ -18,10 +18,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Show bluetooth icon when disconnected -->
-  <string name="status_bar_bluetooth_icon">Bluetooth icon</string>
-  <string name="status_bar_bluetooth_icon_summary">Show icon when it is enabled but not connected</string>
+  <string name="status_bar_bluetooth_icon">Ícone Bluetooth</string>
+  <string name="status_bar_bluetooth_icon_summary">Mostrar o ícone quando ele é activado, mas não conectado</string>
   <!-- Hide the alarm icon in the expanded status bar -->
-  <string name="show_next_alarm_icon_title">Alarm icon</string>
+  <string name="show_next_alarm_icon_title">Ícone de alarme</string>
   <string name="show_next_alarm_icon_summary">Show icon in the expanded status bar when an alarm is set</string>
   <!-- Network traffic -->
   <string name="default_string">Predefinição</string>
@@ -53,8 +53,8 @@
   <string name="smart_pulldown_none_summary">Abrir o painel de definições rápidas quando não houver notificações</string>
   <string name="smart_pulldown_off">Desligado</string>
   <string name="smart_pulldown_none">sem notificações</string>
-  <string name="smart_pulldown_dismissable">no dismissable</string>
-  <string name="smart_pulldown_ongoing">no ongoing</string>
+  <string name="smart_pulldown_dismissable">c/ notif. não descartáveis</string>
+  <string name="smart_pulldown_ongoing">s/ notif. em curso</string>
   <!-- Navigation Bar -->
   <string name="navigation_bar_dimensions_title">Dimensões de barra de navegação</string>
   <string name="navigation_bar_dimensions_title_summary">Redimensionar a barra de navegação</string>
@@ -73,20 +73,20 @@
   <!-- Date in status bar -->
   <string name="status_bar_date">Data</string>
   <string name="status_bar_date_summary">Display the date in the status bar</string>
-  <string name="status_bar_date_style">Date style</string>
-  <string name="status_bar_date_format">Date format</string>
-  <string name="status_bar_date_none">Don\'t show</string>
-  <string name="status_bar_date_small">Small font size</string>
-  <string name="status_bar_date_normal">Normal font size</string>
+  <string name="status_bar_date_style">Estilo da data</string>
+  <string name="status_bar_date_format">Formato da data</string>
+  <string name="status_bar_date_none">Não mostrar</string>
+  <string name="status_bar_date_small">Tamanho da letra pequena</string>
+  <string name="status_bar_date_normal">Tamanho da letra normal</string>
   <string name="status_bar_date_style_normal">Normal</string>
-  <string name="status_bar_date_style_lowercase">Lowercase</string>
-  <string name="status_bar_date_style_uppercase">Uppercase</string>
-  <string name="status_bar_date_position">Date position</string>
-  <string name="status_bar_date_right">Right of time</string>
-  <string name="status_bar_date_left">Left of time</string>
+  <string name="status_bar_date_style_lowercase">Minúsculas</string>
+  <string name="status_bar_date_style_uppercase">Maiúsculas</string>
+  <string name="status_bar_date_position">Posição da data</string>
+  <string name="status_bar_date_right">À direita do relógio</string>
+  <string name="status_bar_date_left">À esquerda do relógio</string>
   <!-- Pixel navbar animation -->
-  <string name="pixel_navbar_anim_title">Home button animation</string>
-  <string name="pixel_navbar_anim_summary">Enable the home button animation</string>
+  <string name="pixel_navbar_anim_title">Animação do botão flutuante</string>
+  <string name="pixel_navbar_anim_summary">Activara a animação do botão flutuante</string>
   <!-- SSID in status bar -->
   <string name="wifi_status_bar_ssid_title">Show WiFi SSID</string>
   <string name="wifi_status_bar_ssid_summary">Show the WiFi SSID of a connected network in the status bar</string>
