@@ -46,7 +46,7 @@
   <string name="network_traffic_hidearrow">Ocultar as setas</string>
   <string name="network_traffic_hidearrow_summary">Esconde as setas do indicador de tráfego</string>
   <string name="volume_keys_control_ring_stream_title">As teclas de volume controlam o volume do toque de chamada</string>
-  <string name="volume_keys_control_ring_stream_summary">If on, volume keys control ringtone volume. If off, volume keys control media volume.</string>
+  <string name="volume_keys_control_ring_stream_summary">Se ligado, as teclas de volume controlam o volume da campainha. Se desligado, as teclas de volume controlam o volume de mídia.</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Puxar para baixo inteligente</string>
   <string name="smart_pulldown_summary">Abrir o painel de definições rápidas quando estiver %1$s</string>
@@ -61,7 +61,7 @@
   <string name="navigation_bar_height_title">Altura da barra de navegação</string>
   <string name="navigation_bar_height_summary">Altura da barra de navegação no modo retrato</string>
   <string name="navigation_bar_width_title">Largura da barra de navegação</string>
-  <string name="navigation_bar_width_summary">Navigation bar width if the bar is along a side (landscape)</string>
+  <string name="navigation_bar_width_summary">Largura da barra de navegação se a barra estiver ao longo de um lado (paisagem)</string>
   <string name="navigation_bar_size_48_dp_default">48 dp (predefinido)</string>
   <string name="navigation_bar_size_44_dp">44 dp</string>
   <string name="navigation_bar_size_42_dp_default">42 dp (por defeito)</string>
@@ -92,13 +92,13 @@
   <string name="wifi_status_bar_ssid_summary">Mostrar o WiFi SSID de uma rede ligada na barra de estado</string>
   <!-- Custom carrier label and position -->
   <string name="carrier_label_settings_title">Mostrar nome da operadora</string>
-  <string name="carrier_label_settings_summary">Show the carrier label in the status bar</string>
+  <string name="carrier_label_settings_summary">Mostrar nome da operadora na barra de estado</string>
   <!-- Low battery notification -->
   <string name="battery_low_notification_title">Notificação de bateria fraca</string>
   <string name="battery_low_notification_summary">Mostrar uma notificação quando a bateria está fraca</string>
   <!-- Battery saver color -->
   <string name="battery_saver_mode_color_title">Battery saver warning color</string>
-  <string name="battery_saver_mode_color_summary">Ativar barras de estado e navegação laranja quando a poupança de energia é ativado</string>
+  <string name="battery_saver_mode_color_summary">Activar barras de estado e navegação laranja quando a poupança de energia é activa</string>
   <!-- Battery bar settings -->
   <string name="battery_bar_title">Barra de bateria</string>
   <string name="battery_bar_location">Barra de bateria</string>
@@ -119,9 +119,9 @@
   <string name="daylight_header_pack_title">Header image pack</string>
   <string name="status_bar_custom_header_shadow_title">Escurecer a imagem do cabeçalho</string>
   <string name="status_bar_custom_header_shadow_summary">Para melhor visibilidade em imagens brilhantes</string>
-  <string name="static_header_provider_title">Static</string>
-  <string name="daylight_header_provider_title">Dynamic</string>
-  <string name="custom_header_provider_title">Header provider</string>
+  <string name="static_header_provider_title">Estático</string>
+  <string name="daylight_header_provider_title">Dinâmico</string>
+  <string name="custom_header_provider_title">Fornecedor de cabeçalho</string>
   <string name="custom_header_browse_title">Ver os cabeçalhos instalados</string>
   <string name="custom_header_browse_summary">Pressione longamente qualquer imagem para usar no modo estático</string>
   <string name="hide_carrier_label_with_wifi_title">Hide carrier label with WiFi SSID</string>
