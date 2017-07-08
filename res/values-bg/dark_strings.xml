@@ -103,7 +103,7 @@
   <string name="battery_bar_title">Индикатор за батерията</string>
   <string name="battery_bar_location">Индикатор за батерията</string>
   <string name="battery_bar_style_title">Стил на индикатора за батерията</string>
-  <string name="battery_bar_thickness_title">Battery bar thickness</string>
+  <string name="battery_bar_thickness_title">Дебелина на индикатора за батерията</string>
   <string name="battery_bar_animate_title">Анимация при зареждане</string>
   <string name="battery_bar_animate_summary">Анимацията при зареждане може да доведе до лошо представяне. Включете по Ваша преценка.</string>
   <string name="battery_bar_hide">Скрит</string>
@@ -113,19 +113,19 @@
   <string name="battery_bar_reg">Обикновен</string>
   <string name="battery_bar_center">Център-огледално</string>
   <!-- QS headers -->
-  <string name="status_bar_custom_header_title">Custom headers</string>
-  <string name="status_bar_custom_header_summary">Enable custom images in the notification panel</string>
-  <string name="custom_header_title">Enable custom headers</string>
-  <string name="daylight_header_pack_title">Header image pack</string>
-  <string name="status_bar_custom_header_shadow_title">Darken header image</string>
+  <string name="status_bar_custom_header_title">Персонализирани заглавни изображения</string>
+  <string name="status_bar_custom_header_summary">Разрешаване на пресонализирани заглавни изображения в панела за известия</string>
+  <string name="custom_header_title">Разрешаване на персонализирани заглавни изображения</string>
+  <string name="daylight_header_pack_title">Пакет от заглавни изображения</string>
+  <string name="status_bar_custom_header_shadow_title">Потъмняване на заглавното изображение</string>
   <string name="status_bar_custom_header_shadow_summary">За по-добра видимост на ярки изображения</string>
   <string name="static_header_provider_title">Статичен</string>
   <string name="daylight_header_provider_title">Динамичен</string>
-  <string name="custom_header_provider_title">Header provider</string>
-  <string name="custom_header_browse_title">Browse installed headers</string>
-  <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
+  <string name="custom_header_provider_title">Източник на заглавни изображения</string>
+  <string name="custom_header_browse_title">Преглед на инсталираните заглавни изображения</string>
+  <string name="custom_header_browse_summary">Дълго натиснете върху което и да е изображение, за да го използвате в статичен режим</string>
   <string name="hide_carrier_label_with_wifi_title">Скриване на името на оператора ако името на свързаната мрежа е показано</string>
-  <string name="hide_carrier_label_with_wifi_summary">Only show the carrier label when the WiFi SSID is not showing</string>
+  <string name="hide_carrier_label_with_wifi_summary">Показване на името на оператора само когато името на свързаната мрежа е скрито</string>
   <string name="nav_bar_dynamic_title">Navigation bar dynamic color</string>
   <string name="nav_bar_dynamic_summary">Change the navigation bar color to the app primary color</string>
 </resources>
