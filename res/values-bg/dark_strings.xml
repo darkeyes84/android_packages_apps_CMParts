@@ -59,42 +59,42 @@
   <string name="navigation_bar_dimensions_title">Размери на лентата за навигация</string>
   <string name="navigation_bar_dimensions_title_summary">Промяна на размерите на лентата за навигация</string>
   <string name="navigation_bar_height_title">Височина на лентата за навигация</string>
-  <string name="navigation_bar_height_summary">Navigation bar height while in portrait</string>
-  <string name="navigation_bar_width_title">Navigation bar width</string>
-  <string name="navigation_bar_width_summary">Navigation bar width if the bar is along a side (landscape)</string>
-  <string name="navigation_bar_size_48_dp_default">48 dp (default)</string>
+  <string name="navigation_bar_height_summary">Височина на лентата за навигация вертикално</string>
+  <string name="navigation_bar_width_title">Широчина на лентата за навигация</string>
+  <string name="navigation_bar_width_summary">Височината на лентата за навигация когато се намира отстрани (хоризонтално)</string>
+  <string name="navigation_bar_size_48_dp_default">48 dp (по подразбиране)</string>
   <string name="navigation_bar_size_44_dp">44 dp</string>
-  <string name="navigation_bar_size_42_dp_default">42 dp (default)</string>
+  <string name="navigation_bar_size_42_dp_default">42 dp (по подразбиране)</string>
   <string name="navigation_bar_size_42_dp">42 dp</string>
   <string name="navigation_bar_size_40_dp">40 dp</string>
   <string name="navigation_bar_size_36_dp">36 dp</string>
   <string name="navigation_bar_size_30_dp">30 dp</string>
   <string name="navigation_bar_size_24_dp">24 dp</string>
   <!-- Date in status bar -->
-  <string name="status_bar_date">Date</string>
-  <string name="status_bar_date_summary">Display the date in the status bar</string>
-  <string name="status_bar_date_style">Date style</string>
-  <string name="status_bar_date_format">Date format</string>
-  <string name="status_bar_date_none">Don\'t show</string>
-  <string name="status_bar_date_small">Small font size</string>
-  <string name="status_bar_date_normal">Normal font size</string>
-  <string name="status_bar_date_style_normal">Normal</string>
-  <string name="status_bar_date_style_lowercase">Lowercase</string>
-  <string name="status_bar_date_style_uppercase">Uppercase</string>
-  <string name="status_bar_date_position">Date position</string>
-  <string name="status_bar_date_right">Right of time</string>
-  <string name="status_bar_date_left">Left of time</string>
+  <string name="status_bar_date">Дата</string>
+  <string name="status_bar_date_summary">Показвай датата в лентата на състоянието</string>
+  <string name="status_bar_date_style">Стил на датата</string>
+  <string name="status_bar_date_format">Формат на датата</string>
+  <string name="status_bar_date_none">Не показвай</string>
+  <string name="status_bar_date_small">Малък размер на шрифта</string>
+  <string name="status_bar_date_normal">Нормален размер на шрифта</string>
+  <string name="status_bar_date_style_normal">Нормален</string>
+  <string name="status_bar_date_style_lowercase">Малки букви</string>
+  <string name="status_bar_date_style_uppercase">Главни букви</string>
+  <string name="status_bar_date_position">Позиция на датата</string>
+  <string name="status_bar_date_right">Вдясно от часовника</string>
+  <string name="status_bar_date_left">Вляво от часовника</string>
   <!-- Pixel navbar animation -->
-  <string name="pixel_navbar_anim_title">Home button animation</string>
-  <string name="pixel_navbar_anim_summary">Enable the home button animation</string>
+  <string name="pixel_navbar_anim_title">Анимация на хоум бутона</string>
+  <string name="pixel_navbar_anim_summary">Включи анимацията на хоум бутона</string>
   <!-- SSID in status bar -->
-  <string name="wifi_status_bar_ssid_title">Show WiFi SSID</string>
-  <string name="wifi_status_bar_ssid_summary">Show the WiFi SSID of a connected network in the status bar</string>
+  <string name="wifi_status_bar_ssid_title">Показване на WiFi SSID</string>
+  <string name="wifi_status_bar_ssid_summary">Показване на името на свързаната мрежа в лентата на състоянието</string>
   <!-- Custom carrier label and position -->
-  <string name="carrier_label_settings_title">Show carrier label</string>
-  <string name="carrier_label_settings_summary">Show the carrier label in the status bar</string>
+  <string name="carrier_label_settings_title">Показване на името на мобилния оператор</string>
+  <string name="carrier_label_settings_summary">Показване на името на мобилния оператор в лентата на състоянието</string>
   <!-- Low battery notification -->
-  <string name="battery_low_notification_title">Low battery notification</string>
+  <string name="battery_low_notification_title">Известие при ниско ниво на батерията</string>
   <string name="battery_low_notification_summary">Show a notification when the battery is low</string>
   <!-- Battery saver color -->
   <string name="battery_saver_mode_color_title">Battery saver warning color</string>
