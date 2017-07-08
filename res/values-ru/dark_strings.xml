@@ -46,7 +46,7 @@
   <string name="network_traffic_hidearrow">Скрыть стрелки</string>
   <string name="network_traffic_hidearrow_summary">Скрыть стрелки в индикаторе трафика</string>
   <string name="volume_keys_control_ring_stream_title">Кнопки громкости регулируют громкость рингтона</string>
-  <string name="volume_keys_control_ring_stream_summary">If on, volume keys control ringtone volume. If off, volume keys control media volume.</string>
+  <string name="volume_keys_control_ring_stream_summary">Если включено, кнопки громкости регулируют громкость звонка. Если выключено, кнопки громкости регулируют громкость.</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Умная панель уведомлений</string>
   <string name="smart_pulldown_summary">Открыть быстрые настройки %1$s уведомлений</string>
@@ -98,20 +98,20 @@
   <string name="battery_low_notification_summary">Показывать уведомления, о низком заряде батареи</string>
   <!-- Battery saver color -->
   <string name="battery_saver_mode_color_title">Цвет предупреждения в режиме энергосбережения</string>
-  <string name="battery_saver_mode_color_summary">Show orange status bar and navigation bar when battery saver is activated</string>
+  <string name="battery_saver_mode_color_summary">Окрасить строку состояния и панель навигации в оранжевый цвет, когда активирован режим энергосбережения</string>
   <!-- Battery bar settings -->
-  <string name="battery_bar_title">Battery bar</string>
-  <string name="battery_bar_location">Battery bar</string>
-  <string name="battery_bar_style_title">Battery bar style</string>
-  <string name="battery_bar_thickness_title">Battery bar thickness</string>
-  <string name="battery_bar_animate_title">Charging animation</string>
-  <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
+  <string name="battery_bar_title">Полоса батареи</string>
+  <string name="battery_bar_location">Полоса батареи</string>
+  <string name="battery_bar_style_title">Стиль панели батареи</string>
+  <string name="battery_bar_thickness_title">Толщина полосы батареи</string>
+  <string name="battery_bar_animate_title">Анимация зарядки</string>
+  <string name="battery_bar_animate_summary">Анимация зарядки может привести к ухудшению производительности. Включайте на Ваше собственное усмотрение.</string>
   <string name="battery_bar_hide">Не показывать</string>
   <string name="battery_bar_statusbar">Строка состояния</string>
-  <string name="battery_bar_topnav">Top of navigation bar</string>
-  <string name="battery_bar_bottomnav">Bottom of navigation bar</string>
-  <string name="battery_bar_reg">Regular</string>
-  <string name="battery_bar_center">Center-mirrored</string>
+  <string name="battery_bar_topnav">Верхняя часть панели навигации</string>
+  <string name="battery_bar_bottomnav">Нижняя часть панели навигации</string>
+  <string name="battery_bar_reg">Стандартный</string>
+  <string name="battery_bar_center">По центру-зеркально</string>
   <!-- QS headers -->
   <string name="status_bar_custom_header_title">Пользовательское изображение в заголовке</string>
   <string name="status_bar_custom_header_summary">Включить пользовательское изображение в заголовке панели уведомлений</string>
@@ -124,8 +124,8 @@
   <string name="custom_header_provider_title">Провайдер заголовка</string>
   <string name="custom_header_browse_title">Обзор установленных заголовков</string>
   <string name="custom_header_browse_summary">Длительное нажатие на любое изображение, для перевода в статический режим</string>
-  <string name="hide_carrier_label_with_wifi_title">Hide carrier label with WiFi SSID</string>
-  <string name="hide_carrier_label_with_wifi_summary">Only show the carrier label when the WiFi SSID is not showing</string>
+  <string name="hide_carrier_label_with_wifi_title">Скрыть название оператора с WiFi SSID</string>
+  <string name="hide_carrier_label_with_wifi_summary">Показывать только название оператора, когда WiFi SSID скрыт</string>
   <string name="nav_bar_dynamic_title">Динамический цвет панели навигации</string>
   <string name="nav_bar_dynamic_summary">Включите/выключите этот переключатель для панели навигации, чтобы адаптировать панель к стандартному черному цвету. Перезапустите желаемое приложение, чтобы увидеть эффект</string>
 </resources>
