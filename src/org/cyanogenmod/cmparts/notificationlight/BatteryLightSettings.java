@@ -46,6 +46,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
     private static final String LIGHT_ENABLED_PREF = "battery_light_enabled";
     private static final String PULSE_ENABLED_PREF = "battery_light_pulse";
     private static final String LIGHT_SCREEN_ON_PREF = "battery_light_screen_on";
+    private static final String LIGHT_ZEN_MODE_PREF = "allow_battery_lights";
 
     private PreferenceGroup mColorPrefs;
     private ApplicationLightPreference mLowColorPref;
@@ -55,6 +56,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
     private CMSystemSettingSwitchPreference mLightEnabledPref;
     private CMSystemSettingSwitchPreference mPulseEnabledPref;
     private CMSystemSettingSwitchPreference mLightScreenOnPref;
+    private CMSystemSettingSwitchPreference mLightZenModePref;
 
     private static final int MENU_RESET = Menu.FIRST;
 
@@ -72,6 +74,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
         mLightEnabledPref = (CMSystemSettingSwitchPreference) prefSet.findPreference(LIGHT_ENABLED_PREF);
         mPulseEnabledPref = (CMSystemSettingSwitchPreference) prefSet.findPreference(PULSE_ENABLED_PREF);
 		mLightScreenOnPref = (CMSystemSettingSwitchPreference) prefSet.findPreference(LIGHT_SCREEN_ON_PREF);
+        mLightZenModePref = (CMSystemSettingSwitchPreference) prefSet.findPreference(LIGHT_ZEN_MODE_PREF);
 
         final NotificationManager nm = getContext().getSystemService(NotificationManager.class);
 
@@ -205,6 +208,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
         if (mLightEnabledPref != null) mLightEnabledPref.setChecked(batteryLightEnabled);
         if (mPulseEnabledPref != null) mPulseEnabledPref.setChecked(batteryLightPulseEnabled);
         if (mLightScreenOnPref != null) mLightScreenOnPref.setChecked(true);
+        if (mLightZenModePref != null) mLightZenModePref.setChecked(true);
 
         resetColors();
     }
