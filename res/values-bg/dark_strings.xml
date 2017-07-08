@@ -128,4 +128,5 @@
   <string name="hide_carrier_label_with_wifi_summary">Показване на името на оператора само когато името на свързаната мрежа е скрито</string>
   <string name="nav_bar_dynamic_title">Динамичен цвят на лентата за навигация</string>
   <string name="nav_bar_dynamic_summary">Промяна на цвета на лентата за навигация към основния цвят на приложението</string>
+  <string name="color_calibration_display_summary">Adjust various color calibration options</string>
 </resources>
