@@ -98,11 +98,11 @@
   <string name="battery_low_notification_summary">Показване на известие, когато нивото на батерията е ниско</string>
   <!-- Battery saver color -->
   <string name="battery_saver_mode_color_title">Battery saver предупредителен цвят</string>
-  <string name="battery_saver_mode_color_summary">Show orange status bar and navigation bar when battery saver is activated</string>
+  <string name="battery_saver_mode_color_summary">Лентите за навигация и на състоянието са в оранжево когато Battery saver е включен</string>
   <!-- Battery bar settings -->
-  <string name="battery_bar_title">Battery bar</string>
-  <string name="battery_bar_location">Battery bar</string>
-  <string name="battery_bar_style_title">Battery bar style</string>
+  <string name="battery_bar_title">Индикатор за батерията</string>
+  <string name="battery_bar_location">Индикатор за батерията</string>
+  <string name="battery_bar_style_title">Стил на индикатора за батерията</string>
   <string name="battery_bar_thickness_title">Battery bar thickness</string>
   <string name="battery_bar_animate_title">Анимация при зареждане</string>
   <string name="battery_bar_animate_summary">Анимацията при зареждане може да доведе до лошо представяне. Включете по Ваша преценка.</string>
