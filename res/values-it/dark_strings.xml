@@ -128,4 +128,5 @@
   <string name="hide_carrier_label_with_wifi_summary">Mostra solo il nome dell\'operatore mobile quando il WiFi SSID non è presente</string>
   <string name="nav_bar_dynamic_title">Colore della barra di navigazione</string>
   <string name="nav_bar_dynamic_summary">Cambia il colore della barra di navigazione con quello del colore primario dell\'app</string>
+  <string name="color_calibration_display_summary">Adjust various color calibration options</string>
 </resources>
