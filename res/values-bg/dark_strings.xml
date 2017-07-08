@@ -53,7 +53,7 @@
   <string name="smart_pulldown_none_summary">Отваряне на бързи настройки, когато няма известия</string>
   <string name="smart_pulldown_off">Изключено</string>
   <string name="smart_pulldown_none">няма известия</string>
-  <string name="smart_pulldown_dismissable">no dismissable</string>
+  <string name="smart_pulldown_dismissable">няма разпускаеми</string>
   <string name="smart_pulldown_ongoing">няма текущи</string>
   <!-- Navigation Bar -->
   <string name="navigation_bar_dimensions_title">Размери на лентата за навигация</string>
@@ -126,6 +126,6 @@
   <string name="custom_header_browse_summary">Дълго натиснете върху което и да е изображение, за да го използвате в статичен режим</string>
   <string name="hide_carrier_label_with_wifi_title">Скриване на името на оператора ако името на свързаната мрежа е показано</string>
   <string name="hide_carrier_label_with_wifi_summary">Показване на името на оператора само когато името на свързаната мрежа е скрито</string>
-  <string name="nav_bar_dynamic_title">Navigation bar dynamic color</string>
-  <string name="nav_bar_dynamic_summary">Change the navigation bar color to the app primary color</string>
+  <string name="nav_bar_dynamic_title">Динамичен цвят на лентата за навигация</string>
+  <string name="nav_bar_dynamic_summary">Промяна на цвета на лентата за навигация към основния цвят на приложението</string>
 </resources>
