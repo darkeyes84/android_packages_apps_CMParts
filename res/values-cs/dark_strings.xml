@@ -128,4 +128,5 @@
   <string name="hide_carrier_label_with_wifi_summary">Název operátora se zobrazí pouze v případě, že WiFi SSID není zobrazeno</string>
   <string name="nav_bar_dynamic_title">Dynamická barva navigační lišty</string>
   <string name="nav_bar_dynamic_summary">Změnit barvu navigační lišty na primární barvu aplikace</string>
+  <string name="color_calibration_display_summary">Adjust various color calibration options</string>
 </resources>
