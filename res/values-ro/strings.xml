@@ -108,6 +108,7 @@
   <string name="live_display_summary">Optimizați ecranul bazat pe timpul zilei şi condiţiile mediului ambient pentru a îmbunătăţi lizibilitatea şi a reduce oboseala ochilor</string>
   <string name="live_display_mode">Mod de afișare</string>
   <string name="live_display_color_temperature_title">Temperatura culorii</string>
+  <string name="live_display_color_temperature_summary">Zi: <xliff:g id="day_temperature">%1$d</xliff:g>K Noapte: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
   <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
   <string name="live_display_day">Zi</string>
   <string name="live_display_night">Noapte</string>
