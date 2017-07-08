@@ -95,32 +95,32 @@
   <string name="carrier_label_settings_summary">Показване на името на мобилния оператор в лентата на състоянието</string>
   <!-- Low battery notification -->
   <string name="battery_low_notification_title">Известие при ниско ниво на батерията</string>
-  <string name="battery_low_notification_summary">Show a notification when the battery is low</string>
+  <string name="battery_low_notification_summary">Показване на известие, когато нивото на батерията е ниско</string>
   <!-- Battery saver color -->
-  <string name="battery_saver_mode_color_title">Battery saver warning color</string>
+  <string name="battery_saver_mode_color_title">Battery saver предупредителен цвят</string>
   <string name="battery_saver_mode_color_summary">Show orange status bar and navigation bar when battery saver is activated</string>
   <!-- Battery bar settings -->
   <string name="battery_bar_title">Battery bar</string>
   <string name="battery_bar_location">Battery bar</string>
   <string name="battery_bar_style_title">Battery bar style</string>
   <string name="battery_bar_thickness_title">Battery bar thickness</string>
-  <string name="battery_bar_animate_title">Charging animation</string>
-  <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
-  <string name="battery_bar_hide">Hidden</string>
-  <string name="battery_bar_statusbar">Status bar</string>
-  <string name="battery_bar_topnav">Top of navigation bar</string>
-  <string name="battery_bar_bottomnav">Bottom of navigation bar</string>
-  <string name="battery_bar_reg">Regular</string>
-  <string name="battery_bar_center">Center-mirrored</string>
+  <string name="battery_bar_animate_title">Анимация при зареждане</string>
+  <string name="battery_bar_animate_summary">Анимацията при зареждане може да доведе до лошо представяне. Включете по Ваша преценка.</string>
+  <string name="battery_bar_hide">Скрит</string>
+  <string name="battery_bar_statusbar">Лента на състоянието</string>
+  <string name="battery_bar_topnav">Горната част на лентата за навигация</string>
+  <string name="battery_bar_bottomnav">Долната част на лентата за навигация</string>
+  <string name="battery_bar_reg">Обикновен</string>
+  <string name="battery_bar_center">Център-огледално</string>
   <!-- QS headers -->
   <string name="status_bar_custom_header_title">Custom headers</string>
   <string name="status_bar_custom_header_summary">Enable custom images in the notification panel</string>
   <string name="custom_header_title">Enable custom headers</string>
   <string name="daylight_header_pack_title">Header image pack</string>
   <string name="status_bar_custom_header_shadow_title">Darken header image</string>
-  <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
-  <string name="static_header_provider_title">Static</string>
-  <string name="daylight_header_provider_title">Dynamic</string>
+  <string name="status_bar_custom_header_shadow_summary">За по-добра видимост на ярки изображения</string>
+  <string name="static_header_provider_title">Статичен</string>
+  <string name="daylight_header_provider_title">Динамичен</string>
   <string name="custom_header_provider_title">Header provider</string>
   <string name="custom_header_browse_title">Browse installed headers</string>
   <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
