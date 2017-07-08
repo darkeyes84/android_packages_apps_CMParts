@@ -28,6 +28,12 @@
             android:defaultValue="@bool/def_battery_light_enabled" />
 
         <cyanogenmod.preference.CMSystemSettingSwitchPreference
+            android:key="battery_light_screen_on"
+            android:title="@string/notification_light_screen_on"
+            android:defaultValue="true"
+            android:dependency="battery_light_enabled" />
+
+        <cyanogenmod.preference.CMSystemSettingSwitchPreference
             android:key="battery_light_pulse"
             android:title="@string/battery_low_pulse_title"
             android:defaultValue="@bool/def_battery_light_pulse"
