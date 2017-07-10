@@ -128,5 +128,5 @@
   <string name="hide_carrier_label_with_wifi_summary">Netzwerkbetreiber nur zeigen, wenn WiFi SSID nicht angezeigt wird</string>
   <string name="nav_bar_dynamic_title">Dynamische Farbe der Navigationsleiste</string>
   <string name="nav_bar_dynamic_summary">Farbe der Navigation Bar Farbe in die App-Grundfarbe</string>
-  <string name="color_calibration_display_summary">Adjust various color calibration options</string>
+  <string name="color_calibration_display_summary">Verschiedene Farb-Kalibrierung-Optionen anpassen</string>
 </resources>
