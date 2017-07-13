@@ -85,17 +85,17 @@
   <string name="status_bar_date_right">Праворуч від часу</string>
   <string name="status_bar_date_left">Ліворуч від часу</string>
   <!-- Pixel navbar animation -->
-  <string name="pixel_navbar_anim_title">Home button animation</string>
-  <string name="pixel_navbar_anim_summary">Enable the home button animation</string>
+  <string name="pixel_navbar_anim_title">Анімація кнопки \"Додому\"</string>
+  <string name="pixel_navbar_anim_summary">Увімкнути анімацію кнопки \"Додому\"</string>
   <!-- SSID in status bar -->
-  <string name="wifi_status_bar_ssid_title">Show WiFi SSID</string>
-  <string name="wifi_status_bar_ssid_summary">Show the WiFi SSID of a connected network in the status bar</string>
+  <string name="wifi_status_bar_ssid_title">Відображати WiFi SSID</string>
+  <string name="wifi_status_bar_ssid_summary">Відображати в рядку стану WiFi SSID мережі</string>
   <!-- Custom carrier label and position -->
   <string name="carrier_label_settings_title">Show carrier label</string>
   <string name="carrier_label_settings_summary">Show the carrier label in the status bar</string>
   <!-- Low battery notification -->
-  <string name="battery_low_notification_title">Low battery notification</string>
-  <string name="battery_low_notification_summary">Show a notification when the battery is low</string>
+  <string name="battery_low_notification_title">Сповіщення про низький рівень заряду</string>
+  <string name="battery_low_notification_summary">Показувати сповіщення про низький заряд акумулятора</string>
   <!-- Battery saver color -->
   <string name="battery_saver_mode_color_title">Battery saver warning color</string>
   <string name="battery_saver_mode_color_summary">Show orange status bar and navigation bar when battery saver is activated</string>
@@ -110,8 +110,8 @@
   <string name="battery_bar_statusbar">Рядок стану</string>
   <string name="battery_bar_topnav">Top of navigation bar</string>
   <string name="battery_bar_bottomnav">Bottom of navigation bar</string>
-  <string name="battery_bar_reg">Regular</string>
-  <string name="battery_bar_center">Center-mirrored</string>
+  <string name="battery_bar_reg">Звичайний</string>
+  <string name="battery_bar_center">Дзеркально від центра</string>
   <!-- QS headers -->
   <string name="status_bar_custom_header_title">Custom headers</string>
   <string name="status_bar_custom_header_summary">Enable custom images in the notification panel</string>
@@ -119,14 +119,14 @@
   <string name="daylight_header_pack_title">Header image pack</string>
   <string name="status_bar_custom_header_shadow_title">Darken header image</string>
   <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
-  <string name="static_header_provider_title">Static</string>
-  <string name="daylight_header_provider_title">Dynamic</string>
+  <string name="static_header_provider_title">Статичний</string>
+  <string name="daylight_header_provider_title">Динамічний</string>
   <string name="custom_header_provider_title">Header provider</string>
   <string name="custom_header_browse_title">Browse installed headers</string>
   <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
   <string name="hide_carrier_label_with_wifi_title">Hide carrier label with WiFi SSID</string>
   <string name="hide_carrier_label_with_wifi_summary">Only show the carrier label when the WiFi SSID is not showing</string>
-  <string name="nav_bar_dynamic_title">Navigation bar dynamic color</string>
-  <string name="nav_bar_dynamic_summary">Change the navigation bar color to the app primary color</string>
+  <string name="nav_bar_dynamic_title">Динамічний колір панелі навігації</string>
+  <string name="nav_bar_dynamic_summary">Змінювати колір панелі навігації залежно від основного кольору додатку</string>
   <string name="color_calibration_display_summary">Adjust various color calibration options</string>
 </resources>
