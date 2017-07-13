@@ -125,7 +125,7 @@
   <string name="custom_header_browse_title">Огляд встановлених заголовків</string>
   <string name="custom_header_browse_summary">Тривале натискання на будь-яке зображення, для переходу в статичний режим</string>
   <string name="hide_carrier_label_with_wifi_title">Приховати назву оператора з WiFi SSID</string>
-  <string name="hide_carrier_label_with_wifi_summary">Only show the carrier label when the WiFi SSID is not showing</string>
+  <string name="hide_carrier_label_with_wifi_summary">Показувати тільки назву оператора, коли WiFi SSID прихований</string>
   <string name="nav_bar_dynamic_title">Динамічний колір панелі навігації</string>
   <string name="nav_bar_dynamic_summary">Змінювати колір панелі навігації залежно від основного кольору додатку</string>
   <string name="color_calibration_display_summary">Калібрувати колірну температуру залежно від довкілля</string>
