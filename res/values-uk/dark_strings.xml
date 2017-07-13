@@ -18,41 +18,41 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Show bluetooth icon when disconnected -->
-  <string name="status_bar_bluetooth_icon">Bluetooth icon</string>
-  <string name="status_bar_bluetooth_icon_summary">Show icon when it is enabled but not connected</string>
+  <string name="status_bar_bluetooth_icon">Значок Bluetooth</string>
+  <string name="status_bar_bluetooth_icon_summary">Показувати значок, коли він увімкнений, але не під\'єднаний</string>
   <!-- Hide the alarm icon in the expanded status bar -->
-  <string name="show_next_alarm_icon_title">Alarm icon</string>
-  <string name="show_next_alarm_icon_summary">Show icon in the expanded status bar when an alarm is set</string>
+  <string name="show_next_alarm_icon_title">Значок будильника</string>
+  <string name="show_next_alarm_icon_summary">Показувати значок, коли будильник увімкнено</string>
   <!-- Network traffic -->
-  <string name="default_string">Default</string>
-  <string name="network_traffic_title">Network traffic</string>
-  <string name="show_network_traffic_state">Status bar traffic monitor</string>
-  <string name="network_traffic_summary">Enable various network traffic options in the status bar</string>
-  <string name="show_network_traffic_unit">Display unit</string>
-  <string name="show_network_traffic_frequency">Update interval</string>
-  <string name="show_network_traffic_disable">Disabled</string>
-  <string name="show_network_traffic_up">Outgoing</string>
-  <string name="show_network_traffic_down">Incoming</string>
-  <string name="show_network_traffic_all">Outgoing and incoming</string>
-  <string name="show_network_traffic_bit">Bits per second</string>
-  <string name="show_network_traffic_byte">Bytes per second</string>
-  <string name="show_network_traffic_500">500 ms</string>
-  <string name="show_network_traffic_1000">1000 ms</string>
-  <string name="show_network_traffic_1500">1500 ms</string>
-  <string name="show_network_traffic_2000">2000 ms</string>
-  <string name="network_traffic_autohide">Auto hide</string>
-  <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
-  <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
-  <string name="network_traffic_hidearrow">Hide arrows</string>
-  <string name="network_traffic_hidearrow_summary">Hide the arrows in the traffic indicators</string>
-  <string name="volume_keys_control_ring_stream_title">Volume keys control ringtone volume</string>
-  <string name="volume_keys_control_ring_stream_summary">If on, volume keys control ringtone volume. If off, volume keys control media volume.</string>
+  <string name="default_string">За замовчуванням</string>
+  <string name="network_traffic_title">Монітор трафіку</string>
+  <string name="show_network_traffic_state">Монітор трафіку в рядку стану</string>
+  <string name="network_traffic_summary">Увімкнути різні варіанти мережного трафіку в рядку стану</string>
+  <string name="show_network_traffic_unit">Одиниці відображення</string>
+  <string name="show_network_traffic_frequency">Інтервал оновлення</string>
+  <string name="show_network_traffic_disable">Вимкнено</string>
+  <string name="show_network_traffic_up">Вихідний</string>
+  <string name="show_network_traffic_down">Вхідний</string>
+  <string name="show_network_traffic_all">Вихідний та вхідний</string>
+  <string name="show_network_traffic_bit">Біт в секунду</string>
+  <string name="show_network_traffic_byte">Байт в секунду</string>
+  <string name="show_network_traffic_500">500 мс</string>
+  <string name="show_network_traffic_1000">1 000 мс</string>
+  <string name="show_network_traffic_1500">1 500 мс</string>
+  <string name="show_network_traffic_2000">2 000 мс</string>
+  <string name="network_traffic_autohide">Автоприховування</string>
+  <string name="network_traffic_autohide_summary">Приховувати монітор трафіку, коли немає активності</string>
+  <string name="network_traffic_autohide_threshold">Поріг неактивності</string>
+  <string name="network_traffic_hidearrow">Сховати стрілки</string>
+  <string name="network_traffic_hidearrow_summary">Приховати стрілки в індикаторі трафіку</string>
+  <string name="volume_keys_control_ring_stream_title">Клавіші гучності регулюють гучність дзвінка</string>
+  <string name="volume_keys_control_ring_stream_summary">Якщо ввімкнено, качелька гучності регулює гучність дзвінка, якщо вимкнено - гучність медіа.</string>
   <!-- Smart pulldown-->
-  <string name="smart_pulldown_title">Smart pulldown</string>
-  <string name="smart_pulldown_summary">Open Quick Settings when there are %1$s notifications</string>
-  <string name="smart_pulldown_none_summary">Open Quick Settings when there are no notifications</string>
-  <string name="smart_pulldown_off">Off</string>
-  <string name="smart_pulldown_none">no notifications</string>
+  <string name="smart_pulldown_title">Смарт-доступ</string>
+  <string name="smart_pulldown_summary">Відкривати швидкі налаштування при %1$s сповіщеннях</string>
+  <string name="smart_pulldown_none_summary">Відкривати швидкі налаштування коли немає сповіщень</string>
+  <string name="smart_pulldown_off">Вимк.</string>
+  <string name="smart_pulldown_none">Сповіщення відсутні</string>
   <string name="smart_pulldown_dismissable">no dismissable</string>
   <string name="smart_pulldown_ongoing">no ongoing</string>
   <!-- Navigation Bar -->
