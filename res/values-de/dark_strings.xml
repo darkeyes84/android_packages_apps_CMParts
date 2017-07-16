@@ -124,8 +124,8 @@
   <string name="custom_header_provider_title">Header-Anbieter</string>
   <string name="custom_header_browse_title">Installierte Header durchsuchen</string>
   <string name="custom_header_browse_summary">Beliebiges Bild lange drücken, um es im statischen Modus zu verwenden</string>
-  <string name="hide_carrier_label_with_wifi_title">Netzwerkbetreiber mit WiFi SSID verstecken</string>
-  <string name="hide_carrier_label_with_wifi_summary">Netzwerkbetreiber nur zeigen, wenn WiFi SSID nicht angezeigt wird</string>
+  <string name="hide_carrier_label_with_wifi_title">Netzanbieter mit WiFi SSID verstecken</string>
+  <string name="hide_carrier_label_with_wifi_summary">Netzanbieter nur zeigen, wenn WiFi SSID nicht angezeigt wird</string>
   <string name="nav_bar_dynamic_title">Dynamische Farbe der Navigationsleiste</string>
   <string name="nav_bar_dynamic_summary">Farbe der Navigation Bar Farbe in die App-Grundfarbe</string>
   <string name="color_calibration_display_summary">Verschiedene Farb-Kalibrierung-Optionen anpassen</string>
