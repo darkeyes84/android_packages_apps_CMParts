@@ -44,22 +44,22 @@
   <string name="network_traffic_autohide_summary">Ukryj monitor ruchu sieciowego, przy braku aktywności</string>
   <string name="network_traffic_autohide_threshold">Próg bezczynności</string>
   <string name="network_traffic_hidearrow">Ukryj strzałki transferu</string>
-  <string name="network_traffic_hidearrow_summary">Hide the arrows in the traffic indicators</string>
-  <string name="volume_keys_control_ring_stream_title">Volume keys control ringtone volume</string>
-  <string name="volume_keys_control_ring_stream_summary">If on, volume keys control ringtone volume. If off, volume keys control media volume.</string>
+  <string name="network_traffic_hidearrow_summary">Ukryj strzałki we wskaźnikach ruchu sieciowego</string>
+  <string name="volume_keys_control_ring_stream_title">Przyciski głośności regulują głośność dzwonka</string>
+  <string name="volume_keys_control_ring_stream_summary">Jeśli włączone to przyciski głośności regulują głośność dzwonka. Jeśli wyłączone to przyciski głośności regulują głośność multimediów.</string>
   <!-- Smart pulldown-->
-  <string name="smart_pulldown_title">Smart pulldown</string>
-  <string name="smart_pulldown_summary">Open Quick Settings when there are %1$s notifications</string>
-  <string name="smart_pulldown_none_summary">Open Quick Settings when there are no notifications</string>
+  <string name="smart_pulldown_title">Inteligentne rozwijanie</string>
+  <string name="smart_pulldown_summary">Otwórz szybkie ustawienia, gdy jest %1$s powiadomień</string>
+  <string name="smart_pulldown_none_summary">Otwórz szybkie ustawienia gdy nie ma powiadomień</string>
   <string name="smart_pulldown_off">Wył.</string>
   <string name="smart_pulldown_none">Brak powiadomień</string>
   <string name="smart_pulldown_dismissable">Brak usuwalnych powiadomień</string>
   <string name="smart_pulldown_ongoing">Brak bieżących</string>
   <!-- Navigation Bar -->
-  <string name="navigation_bar_dimensions_title">Navigation bar dimensions</string>
-  <string name="navigation_bar_dimensions_title_summary">Resize the navigation bar</string>
-  <string name="navigation_bar_height_title">Navigation bar height</string>
-  <string name="navigation_bar_height_summary">Navigation bar height while in portrait</string>
+  <string name="navigation_bar_dimensions_title">Wymiary paska nawigacyjnego</string>
+  <string name="navigation_bar_dimensions_title_summary">Zmień rozmiar paska nawigacyjnego</string>
+  <string name="navigation_bar_height_title">Wysokość paska nawigacyjnego</string>
+  <string name="navigation_bar_height_summary">Wysokość paska nawigacyjnego w orientacji pionowej</string>
   <string name="navigation_bar_width_title">Navigation bar width</string>
   <string name="navigation_bar_width_summary">Navigation bar width if the bar is along a side (landscape)</string>
   <string name="navigation_bar_size_48_dp_default">48 dp (domyślnie)</string>
@@ -73,20 +73,20 @@
   <!-- Date in status bar -->
   <string name="status_bar_date">Data</string>
   <string name="status_bar_date_summary">Wyświetlanie daty na pasku stanu</string>
-  <string name="status_bar_date_style">Date style</string>
-  <string name="status_bar_date_format">Date format</string>
-  <string name="status_bar_date_none">Don\'t show</string>
-  <string name="status_bar_date_small">Small font size</string>
-  <string name="status_bar_date_normal">Normal font size</string>
-  <string name="status_bar_date_style_normal">Normal</string>
-  <string name="status_bar_date_style_lowercase">Lowercase</string>
-  <string name="status_bar_date_style_uppercase">Uppercase</string>
-  <string name="status_bar_date_position">Date position</string>
-  <string name="status_bar_date_right">Right of time</string>
-  <string name="status_bar_date_left">Left of time</string>
+  <string name="status_bar_date_style">Wygląd daty</string>
+  <string name="status_bar_date_format">Format daty</string>
+  <string name="status_bar_date_none">Nie pokazuj</string>
+  <string name="status_bar_date_small">Mały rozmiar czcionki</string>
+  <string name="status_bar_date_normal">Normalny rozmiar czcionki</string>
+  <string name="status_bar_date_style_normal">Normalny</string>
+  <string name="status_bar_date_style_lowercase">Małe litery</string>
+  <string name="status_bar_date_style_uppercase">Wielkie litery</string>
+  <string name="status_bar_date_position">Położenie daty</string>
+  <string name="status_bar_date_right">Po prawej stronie zegara</string>
+  <string name="status_bar_date_left">Po lewej stronie zegara</string>
   <!-- Pixel navbar animation -->
-  <string name="pixel_navbar_anim_title">Home button animation</string>
-  <string name="pixel_navbar_anim_summary">Enable the home button animation</string>
+  <string name="pixel_navbar_anim_title">Animacja przycisku ekranu głównego</string>
+  <string name="pixel_navbar_anim_summary">Włącz animację przycisku głównego ekranu</string>
   <!-- SSID in status bar -->
   <string name="wifi_status_bar_ssid_title">Show WiFi SSID</string>
   <string name="wifi_status_bar_ssid_summary">Show the WiFi SSID of a connected network in the status bar</string>
@@ -110,7 +110,7 @@
   <string name="battery_bar_statusbar">Status bar</string>
   <string name="battery_bar_topnav">Top of navigation bar</string>
   <string name="battery_bar_bottomnav">Bottom of navigation bar</string>
-  <string name="battery_bar_reg">Regular</string>
+  <string name="battery_bar_reg">Standardowa</string>
   <string name="battery_bar_center">Center-mirrored</string>
   <!-- QS headers -->
   <string name="status_bar_custom_header_title">Custom headers</string>
