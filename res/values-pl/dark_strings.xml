@@ -60,8 +60,8 @@
   <string name="navigation_bar_dimensions_title_summary">Zmień rozmiar paska nawigacyjnego</string>
   <string name="navigation_bar_height_title">Wysokość paska nawigacyjnego</string>
   <string name="navigation_bar_height_summary">Wysokość paska nawigacyjnego w orientacji pionowej</string>
-  <string name="navigation_bar_width_title">Navigation bar width</string>
-  <string name="navigation_bar_width_summary">Navigation bar width if the bar is along a side (landscape)</string>
+  <string name="navigation_bar_width_title">Szerokość paska nawigacyjnego</string>
+  <string name="navigation_bar_width_summary">Szerokość paska nawigacyjnego, jeśli jest wzdłuż bocznej krawędzi ekranu (orientacja pozioma)</string>
   <string name="navigation_bar_size_48_dp_default">48 dp (domyślnie)</string>
   <string name="navigation_bar_size_44_dp">44 dp</string>
   <string name="navigation_bar_size_42_dp_default">42 dp (domyślnie)</string>
@@ -88,36 +88,36 @@
   <string name="pixel_navbar_anim_title">Animacja przycisku ekranu głównego</string>
   <string name="pixel_navbar_anim_summary">Włącz animację przycisku głównego ekranu</string>
   <!-- SSID in status bar -->
-  <string name="wifi_status_bar_ssid_title">Show WiFi SSID</string>
-  <string name="wifi_status_bar_ssid_summary">Show the WiFi SSID of a connected network in the status bar</string>
+  <string name="wifi_status_bar_ssid_title">Pokaż WiFi SSID</string>
+  <string name="wifi_status_bar_ssid_summary">Pokaż SSID podłączonej sieci na pasku stanu</string>
   <!-- Custom carrier label and position -->
-  <string name="carrier_label_settings_title">Show carrier label</string>
-  <string name="carrier_label_settings_summary">Show the carrier label in the status bar</string>
+  <string name="carrier_label_settings_title">Pokaż etykietę sieci</string>
+  <string name="carrier_label_settings_summary">Pokaż etykietę sieci na pasku stanu</string>
   <!-- Low battery notification -->
-  <string name="battery_low_notification_title">Low battery notification</string>
-  <string name="battery_low_notification_summary">Show a notification when the battery is low</string>
+  <string name="battery_low_notification_title">Powiadomienie o niskim poziomie baterii</string>
+  <string name="battery_low_notification_summary">Pokaż powiadomienie, kiedy stan naładowania baterii jest niski</string>
   <!-- Battery saver color -->
-  <string name="battery_saver_mode_color_title">Battery saver warning color</string>
-  <string name="battery_saver_mode_color_summary">Show orange status bar and navigation bar when battery saver is activated</string>
+  <string name="battery_saver_mode_color_title">Kolor paska w trybie oszczędzania baterii</string>
+  <string name="battery_saver_mode_color_summary">Włącz pomarańczowy pasek stanu i nawigacyjny kiedy uruchomione jest oszczędzanie baterii</string>
   <!-- Battery bar settings -->
-  <string name="battery_bar_title">Battery bar</string>
-  <string name="battery_bar_location">Battery bar</string>
-  <string name="battery_bar_style_title">Battery bar style</string>
-  <string name="battery_bar_thickness_title">Battery bar thickness</string>
-  <string name="battery_bar_animate_title">Charging animation</string>
+  <string name="battery_bar_title">Pasek baterii</string>
+  <string name="battery_bar_location">Pasek baterii</string>
+  <string name="battery_bar_style_title">Styl paska baterii</string>
+  <string name="battery_bar_thickness_title">Rozmiar paska baterii</string>
+  <string name="battery_bar_animate_title">Animacja ładowania</string>
   <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
-  <string name="battery_bar_hide">Hidden</string>
-  <string name="battery_bar_statusbar">Status bar</string>
-  <string name="battery_bar_topnav">Top of navigation bar</string>
-  <string name="battery_bar_bottomnav">Bottom of navigation bar</string>
+  <string name="battery_bar_hide">Ukryty</string>
+  <string name="battery_bar_statusbar">Pasek stanu</string>
+  <string name="battery_bar_topnav">Górna część paska nawigacyjnego</string>
+  <string name="battery_bar_bottomnav">Dolna część paska nawigacyjnego</string>
   <string name="battery_bar_reg">Standardowa</string>
-  <string name="battery_bar_center">Center-mirrored</string>
+  <string name="battery_bar_center">Wyśrodkowany</string>
   <!-- QS headers -->
-  <string name="status_bar_custom_header_title">Custom headers</string>
-  <string name="status_bar_custom_header_summary">Enable custom images in the notification panel</string>
-  <string name="custom_header_title">Enable custom headers</string>
-  <string name="daylight_header_pack_title">Header image pack</string>
-  <string name="status_bar_custom_header_shadow_title">Darken header image</string>
+  <string name="status_bar_custom_header_title">Niestandardowe nagłówki</string>
+  <string name="status_bar_custom_header_summary">Włącz niestandardowe obrazki w panelu powiadomień</string>
+  <string name="custom_header_title">Włącz własne nagłówki</string>
+  <string name="daylight_header_pack_title">Pakiet obrazów nagłówka</string>
+  <string name="status_bar_custom_header_shadow_title">Przyciemniony obraz nagłówka</string>
   <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
   <string name="static_header_provider_title">Statyczny</string>
   <string name="daylight_header_provider_title">Dynamiczny</string>
