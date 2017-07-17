@@ -19,10 +19,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Show bluetooth icon when disconnected -->
   <string name="status_bar_bluetooth_icon">Ikona Bluetooth</string>
-  <string name="status_bar_bluetooth_icon_summary">Show icon when it is enabled but not connected</string>
+  <string name="status_bar_bluetooth_icon_summary">Pokaż ikonę, gdy jest włączone, ale nie podłączone</string>
   <!-- Hide the alarm icon in the expanded status bar -->
   <string name="show_next_alarm_icon_title">Ikona alarmu</string>
-  <string name="show_next_alarm_icon_summary">Show icon in the expanded status bar when an alarm is set</string>
+  <string name="show_next_alarm_icon_summary">Pokaż ikonę na rozszerzonym pasku stanu, jeżeli alarm jest ustawiony</string>
   <!-- Network traffic -->
   <string name="default_string">Domyślny(a/e)</string>
   <string name="network_traffic_title">Ruch sieciowy</string>
@@ -34,16 +34,16 @@
   <string name="show_network_traffic_up">Wychodzące</string>
   <string name="show_network_traffic_down">Przychodzące</string>
   <string name="show_network_traffic_all">Wychodzące i przychodzące</string>
-  <string name="show_network_traffic_bit">Bits per second</string>
-  <string name="show_network_traffic_byte">Bytes per second</string>
+  <string name="show_network_traffic_bit">Bity na sekundę</string>
+  <string name="show_network_traffic_byte">Bajty na sekundę</string>
   <string name="show_network_traffic_500">500 ms</string>
   <string name="show_network_traffic_1000">1000 ms</string>
   <string name="show_network_traffic_1500">1500 ms</string>
   <string name="show_network_traffic_2000">2000 ms</string>
-  <string name="network_traffic_autohide">Auto hide</string>
-  <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
-  <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
-  <string name="network_traffic_hidearrow">Hide arrows</string>
+  <string name="network_traffic_autohide">Autoukrywanie</string>
+  <string name="network_traffic_autohide_summary">Ukryj monitor ruchu sieciowego, przy braku aktywności</string>
+  <string name="network_traffic_autohide_threshold">Próg bezczynności</string>
+  <string name="network_traffic_hidearrow">Ukryj strzałki transferu</string>
   <string name="network_traffic_hidearrow_summary">Hide the arrows in the traffic indicators</string>
   <string name="volume_keys_control_ring_stream_title">Volume keys control ringtone volume</string>
   <string name="volume_keys_control_ring_stream_summary">If on, volume keys control ringtone volume. If off, volume keys control media volume.</string>
@@ -51,10 +51,10 @@
   <string name="smart_pulldown_title">Smart pulldown</string>
   <string name="smart_pulldown_summary">Open Quick Settings when there are %1$s notifications</string>
   <string name="smart_pulldown_none_summary">Open Quick Settings when there are no notifications</string>
-  <string name="smart_pulldown_off">Off</string>
-  <string name="smart_pulldown_none">no notifications</string>
-  <string name="smart_pulldown_dismissable">no dismissable</string>
-  <string name="smart_pulldown_ongoing">no ongoing</string>
+  <string name="smart_pulldown_off">Wył.</string>
+  <string name="smart_pulldown_none">Brak powiadomień</string>
+  <string name="smart_pulldown_dismissable">Brak usuwalnych powiadomień</string>
+  <string name="smart_pulldown_ongoing">Brak bieżących</string>
   <!-- Navigation Bar -->
   <string name="navigation_bar_dimensions_title">Navigation bar dimensions</string>
   <string name="navigation_bar_dimensions_title_summary">Resize the navigation bar</string>
@@ -62,17 +62,17 @@
   <string name="navigation_bar_height_summary">Navigation bar height while in portrait</string>
   <string name="navigation_bar_width_title">Navigation bar width</string>
   <string name="navigation_bar_width_summary">Navigation bar width if the bar is along a side (landscape)</string>
-  <string name="navigation_bar_size_48_dp_default">48 dp (default)</string>
+  <string name="navigation_bar_size_48_dp_default">48 dp (domyślnie)</string>
   <string name="navigation_bar_size_44_dp">44 dp</string>
-  <string name="navigation_bar_size_42_dp_default">42 dp (default)</string>
+  <string name="navigation_bar_size_42_dp_default">42 dp (domyślnie)</string>
   <string name="navigation_bar_size_42_dp">42 dp</string>
   <string name="navigation_bar_size_40_dp">40 dp</string>
   <string name="navigation_bar_size_36_dp">36 dp</string>
   <string name="navigation_bar_size_30_dp">30 dp</string>
   <string name="navigation_bar_size_24_dp">24 dp</string>
   <!-- Date in status bar -->
-  <string name="status_bar_date">Date</string>
-  <string name="status_bar_date_summary">Display the date in the status bar</string>
+  <string name="status_bar_date">Data</string>
+  <string name="status_bar_date_summary">Wyświetlanie daty na pasku stanu</string>
   <string name="status_bar_date_style">Date style</string>
   <string name="status_bar_date_format">Date format</string>
   <string name="status_bar_date_none">Don\'t show</string>
@@ -119,10 +119,10 @@
   <string name="daylight_header_pack_title">Header image pack</string>
   <string name="status_bar_custom_header_shadow_title">Darken header image</string>
   <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
-  <string name="static_header_provider_title">Static</string>
-  <string name="daylight_header_provider_title">Dynamic</string>
-  <string name="custom_header_provider_title">Header provider</string>
-  <string name="custom_header_browse_title">Browse installed headers</string>
+  <string name="static_header_provider_title">Statyczny</string>
+  <string name="daylight_header_provider_title">Dynamiczny</string>
+  <string name="custom_header_provider_title">Dostawca nagłówka</string>
+  <string name="custom_header_browse_title">Przeglądaj zainstalowane nagłówki</string>
   <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
   <string name="hide_carrier_label_with_wifi_title">Hide carrier label with WiFi SSID</string>
   <string name="hide_carrier_label_with_wifi_summary">Only show the carrier label when the WiFi SSID is not showing</string>
