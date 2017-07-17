@@ -105,7 +105,7 @@
   <string name="battery_bar_style_title">Styl paska baterii</string>
   <string name="battery_bar_thickness_title">Rozmiar paska baterii</string>
   <string name="battery_bar_animate_title">Animacja ładowania</string>
-  <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
+  <string name="battery_bar_animate_summary">Animacja ładowania może powodować problemy podczas korzystania z urządzenia. Włącz na własną odpowiedzialność.</string>
   <string name="battery_bar_hide">Ukryty</string>
   <string name="battery_bar_statusbar">Pasek stanu</string>
   <string name="battery_bar_topnav">Górna część paska nawigacyjnego</string>
@@ -118,15 +118,15 @@
   <string name="custom_header_title">Włącz własne nagłówki</string>
   <string name="daylight_header_pack_title">Pakiet obrazów nagłówka</string>
   <string name="status_bar_custom_header_shadow_title">Przyciemniony obraz nagłówka</string>
-  <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
+  <string name="status_bar_custom_header_shadow_summary">Dla lepszej widoczności na jasnych obrazkach</string>
   <string name="static_header_provider_title">Statyczny</string>
   <string name="daylight_header_provider_title">Dynamiczny</string>
   <string name="custom_header_provider_title">Dostawca nagłówka</string>
   <string name="custom_header_browse_title">Przeglądaj zainstalowane nagłówki</string>
-  <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
-  <string name="hide_carrier_label_with_wifi_title">Hide carrier label with WiFi SSID</string>
-  <string name="hide_carrier_label_with_wifi_summary">Only show the carrier label when the WiFi SSID is not showing</string>
-  <string name="nav_bar_dynamic_title">Navigation bar dynamic color</string>
-  <string name="nav_bar_dynamic_summary">Change the navigation bar color to the app primary color</string>
-  <string name="color_calibration_display_summary">Adjust various color calibration options</string>
+  <string name="custom_header_browse_summary">Naciśnij i przytrzymaj dowolny obraz by użyć trybu statycznego</string>
+  <string name="hide_carrier_label_with_wifi_title">Ukryj etykietę sieci z WiFi SSID</string>
+  <string name="hide_carrier_label_with_wifi_summary">Pokaż etykietę sieci tylko gdy nie jest pokazywane WiFi SSID</string>
+  <string name="nav_bar_dynamic_title">Dynamiczny kolor paska nawigacyjnego</string>
+  <string name="nav_bar_dynamic_summary">Zmiana koloru paska nawigacyjnego na podstawowy kolor uruchomionej aplikacji</string>
+  <string name="color_calibration_display_summary">Dostosuj różne możliwości kalibracji kolorów</string>
 </resources>
