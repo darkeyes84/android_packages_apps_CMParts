@@ -18,22 +18,22 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Show bluetooth icon when disconnected -->
-  <string name="status_bar_bluetooth_icon">Bluetooth icon</string>
+  <string name="status_bar_bluetooth_icon">Ikona Bluetooth</string>
   <string name="status_bar_bluetooth_icon_summary">Show icon when it is enabled but not connected</string>
   <!-- Hide the alarm icon in the expanded status bar -->
-  <string name="show_next_alarm_icon_title">Alarm icon</string>
+  <string name="show_next_alarm_icon_title">Ikona alarmu</string>
   <string name="show_next_alarm_icon_summary">Show icon in the expanded status bar when an alarm is set</string>
   <!-- Network traffic -->
-  <string name="default_string">Default</string>
-  <string name="network_traffic_title">Network traffic</string>
-  <string name="show_network_traffic_state">Status bar traffic monitor</string>
-  <string name="network_traffic_summary">Enable various network traffic options in the status bar</string>
-  <string name="show_network_traffic_unit">Display unit</string>
-  <string name="show_network_traffic_frequency">Update interval</string>
-  <string name="show_network_traffic_disable">Disabled</string>
-  <string name="show_network_traffic_up">Outgoing</string>
-  <string name="show_network_traffic_down">Incoming</string>
-  <string name="show_network_traffic_all">Outgoing and incoming</string>
+  <string name="default_string">Domyślny(a/e)</string>
+  <string name="network_traffic_title">Ruch sieciowy</string>
+  <string name="show_network_traffic_state">Monitor ruchu sieciowego na pasku stanu</string>
+  <string name="network_traffic_summary">Włącz różne opcje monitora ruchu sieciowego na pasku stanu</string>
+  <string name="show_network_traffic_unit">Wyświetl jednostkę</string>
+  <string name="show_network_traffic_frequency">Częstotliwość aktualizacji</string>
+  <string name="show_network_traffic_disable">Wyłączone</string>
+  <string name="show_network_traffic_up">Wychodzące</string>
+  <string name="show_network_traffic_down">Przychodzące</string>
+  <string name="show_network_traffic_all">Wychodzące i przychodzące</string>
   <string name="show_network_traffic_bit">Bits per second</string>
   <string name="show_network_traffic_byte">Bytes per second</string>
   <string name="show_network_traffic_500">500 ms</string>
