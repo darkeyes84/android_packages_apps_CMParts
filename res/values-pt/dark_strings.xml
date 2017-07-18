@@ -128,5 +128,5 @@
   <string name="hide_carrier_label_with_wifi_summary">Mostrar apenas o nome da operadora quando o WiFi SSID não está visível</string>
   <string name="nav_bar_dynamic_title">Cor dinâmica na barra de navegação</string>
   <string name="nav_bar_dynamic_summary">Alterar a cor da barra de navegação para a cor primária da aplicação</string>
-  <string name="color_calibration_display_summary">Adjust various color calibration options</string>
+  <string name="color_calibration_display_summary">Ajuste várias opções de calibração de cores</string>
 </resources>
