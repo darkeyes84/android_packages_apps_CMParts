@@ -19,7 +19,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Show bluetooth icon when disconnected -->
   <string name="status_bar_bluetooth_icon">Ícone Bluetooth</string>
-  <string name="status_bar_bluetooth_icon_summary">Mostrar o ícone quando ele é activado, mas não conectado</string>
+  <string name="status_bar_bluetooth_icon_summary">Mostrar o ícone quando está activo, mas não conectado</string>
   <!-- Hide the alarm icon in the expanded status bar -->
   <string name="show_next_alarm_icon_title">Ícone de alarme</string>
   <string name="show_next_alarm_icon_summary">Mostrar um ícone na barra de estado quando um alarme é definido</string>
@@ -32,7 +32,7 @@
   <string name="show_network_traffic_frequency">Intervalo de actualização</string>
   <string name="show_network_traffic_disable">Desactivado</string>
   <string name="show_network_traffic_up">Enviado</string>
-  <string name="show_network_traffic_down">Recebido</string>
+  <string name="show_network_traffic_down">A receber</string>
   <string name="show_network_traffic_all">Enviado e recebido</string>
   <string name="show_network_traffic_bit">Bits por segundo</string>
   <string name="show_network_traffic_byte">Bytes por segundo</string>
@@ -53,7 +53,7 @@
   <string name="smart_pulldown_none_summary">Abrir o painel de definições rápidas quando não houver notificações</string>
   <string name="smart_pulldown_off">Desligado</string>
   <string name="smart_pulldown_none">sem notificações</string>
-  <string name="smart_pulldown_dismissable">c/ notif. não descartáveis</string>
+  <string name="smart_pulldown_dismissable">s/ notif. não descartáveis</string>
   <string name="smart_pulldown_ongoing">s/ notif. em curso</string>
   <!-- Navigation Bar -->
   <string name="navigation_bar_dimensions_title">Dimensões de barra de navegação</string>
@@ -128,4 +128,5 @@
   <string name="hide_carrier_label_with_wifi_summary">Mostrar apenas o nome da operadora quando o WiFi SSID não está visível</string>
   <string name="nav_bar_dynamic_title">Cor dinâmica na barra de navegação</string>
   <string name="nav_bar_dynamic_summary">Alterar a cor da barra de navegação para a cor primária da aplicação</string>
+  <string name="color_calibration_display_summary">Ajuste várias opções de calibração de cores</string>
 </resources>

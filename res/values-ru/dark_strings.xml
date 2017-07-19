@@ -128,4 +128,5 @@
   <string name="hide_carrier_label_with_wifi_summary">Показывать только название оператора, когда WiFi SSID скрыт</string>
   <string name="nav_bar_dynamic_title">Динамический цвет панели навигации</string>
   <string name="nav_bar_dynamic_summary">Включите/выключите этот переключатель для панели навигации, чтобы адаптировать панель к стандартному черному цвету. Перезапустите желаемое приложение, чтобы увидеть эффект</string>
+  <string name="color_calibration_display_summary">Настроить различные параметры калибровки цвета</string>
 </resources>

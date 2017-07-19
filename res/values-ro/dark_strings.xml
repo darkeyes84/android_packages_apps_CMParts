@@ -128,4 +128,5 @@
   <string name="hide_carrier_label_with_wifi_summary">Afişează eticheta operatorului doar când SSID-ul WiFi nu este afişat</string>
   <string name="nav_bar_dynamic_title">Culoare bară de navigare dinamică</string>
   <string name="nav_bar_dynamic_summary">Schimbă culoarea bării de navigare după culoarea primară a aplicaţiei</string>
+  <string name="color_calibration_display_summary">Adjust various color calibration options</string>
 </resources>

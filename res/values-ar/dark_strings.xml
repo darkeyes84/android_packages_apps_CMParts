@@ -128,4 +128,5 @@
   <string name="hide_carrier_label_with_wifi_summary">إظهار تسمية مشغّل الشبكة فقط عندما لا يتم عرض تسمية الشبكة الاسلكية</string>
   <string name="nav_bar_dynamic_title">لون شريط التنقل</string>
   <string name="nav_bar_dynamic_summary">تغيير لون شريط التنقل إلى لون التطبيق الاساسي</string>
+  <string name="color_calibration_display_summary">Adjust various color calibration options</string>
 </resources>
