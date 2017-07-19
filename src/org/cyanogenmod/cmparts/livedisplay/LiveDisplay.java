@@ -281,7 +281,7 @@ public class LiveDisplay extends SettingsPreferenceFragment implements Searchabl
         int day = mLiveDisplayManager.getDayColorTemperature();
 
         mDisplayTemperature.setSummary(getResources().getString(
-                R.string.live_display_color_temperature_summary,
+                R.string.color_calibration_temperature_summary,
                 mDisplayTemperature.roundUp(day)));
     }
 

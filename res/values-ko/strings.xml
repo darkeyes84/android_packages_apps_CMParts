@@ -108,6 +108,7 @@
   <string name="live_display_summary">가독성을 향상시키고 눈의 피로를 줄이기 위해 주변 환경과 시간에 따라 화면을 최적화</string>
   <string name="live_display_mode">화면 모드</string>
   <string name="live_display_color_temperature_title">색 온도</string>
+  <string name="live_display_color_temperature_summary">주간: <xliff:g id="day_temperature">%1$d</xliff:g>K  야간: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
   <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
   <string name="live_display_day">주간</string>
   <string name="live_display_night">야간</string>

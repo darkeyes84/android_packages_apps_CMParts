@@ -108,6 +108,7 @@
   <string name="live_display_summary">Налаштовувати екран залежно від часу доби і умов освітлення для підвищення зручності читання і зменшення втоми очей</string>
   <string name="live_display_mode">Режим екрану</string>
   <string name="live_display_color_temperature_title">Колірна температура</string>
+  <string name="live_display_color_temperature_summary">День: <xliff:g id="day_temperature">%1$d </xliff:g> K, ніч: <xliff:g id="night_temperature">%2$d </xliff:g></string>
   <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
   <string name="live_display_day">День</string>
   <string name="live_display_night">Ніч</string>
@@ -237,6 +238,7 @@
   <string name="camera_double_tap_power_gesture_desc">Швидко запустити камеру, не розблоковуючи екран</string>
   <string name="torch_long_press_power_gesture_title">Тривале натискання для увімкнення ліхтарика</string>
   <string name="torch_long_press_power_gesture_desc">Вмикати ліхтарик довгим натисканням кнопки живлення, при вимкненому екрані</string>
+  <string name="torch_long_press_power_timeout_title">Автоматичне вимкнення ліхтарика</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Видалити</string>
   <string name="profile_action_none">Залишити без змін</string>

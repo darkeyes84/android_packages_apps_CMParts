@@ -108,6 +108,7 @@
   <string name="live_display_summary">Optimalizovat obrazovku podle denní doby a okolních podmínek pro lepší čitelnost a snížení namáhání očí</string>
   <string name="live_display_mode">Režim zobrazení</string>
   <string name="live_display_color_temperature_title">Teplota barev</string>
+  <string name="live_display_color_temperature_summary">Den: <xliff:g id="day_temperature">%1$d</xliff:g>K  Noc: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
   <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
   <string name="live_display_day">Den</string>
   <string name="live_display_night">Noc</string>
@@ -237,6 +238,7 @@
   <string name="camera_double_tap_power_gesture_desc">Rychle otevře fotoaparát bez odemknutí obrazovky</string>
   <string name="torch_long_press_power_gesture_title">Dlouhým stiskem zapnout svítilnu</string>
   <string name="torch_long_press_power_gesture_desc">Dlouhým stiskem tlačítka napájení při vypnuté obrazovce zapnout svítilnu</string>
+  <string name="torch_long_press_power_timeout_title">Automatické vypnutí svítilny</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Smazat</string>
   <string name="profile_action_none">Ponechat nezměněné</string>

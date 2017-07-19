@@ -108,6 +108,7 @@
   <string name="live_display_summary">Оптимизира настройките на дисплея, въз основа на времето от деня и условията на околната среда за да се подобри четливостта и да намали умората на очите</string>
   <string name="live_display_mode">Режим на екрана</string>
   <string name="live_display_color_temperature_title">Температура на цвета</string>
+  <string name="live_display_color_temperature_summary">Ден: <xliff:g id="day_temperature">%1$d </xliff:g> K нощ: <xliff:g id="night_temperature">%2$d </xliff:g> K</string>
   <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d </xliff:g> K</string>
   <string name="live_display_day">Дневен</string>
   <string name="live_display_night">Нощен</string>

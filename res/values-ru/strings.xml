@@ -108,6 +108,7 @@
   <string name="live_display_summary">Подстраивать экран на основе времени суток и освещения, чтобы повысить удобочитаемость и снизить нагрузку на глаза</string>
   <string name="live_display_mode">Режим</string>
   <string name="live_display_color_temperature_title">Цветовая температура</string>
+  <string name="live_display_color_temperature_summary">День: <xliff:g id="day_temperature">%1$d </xliff:g>K Ночь: <xliff:g id="night_temperature">%2$d </xliff:g>K</string>
   <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g> K</string>
   <string name="live_display_day">День</string>
   <string name="live_display_night">Ночь</string>
@@ -220,7 +221,7 @@
   <string name="navigation_bar_recents_title">Долгое нажатие кнопки «Обзор»</string>
   <!-- Power menu -->
   <string name="power_menu_title">Меню кнопки питания</string>
-  <string name="power_menu_reboot_title">Меню перезагрузки</string>
+  <string name="power_menu_reboot_title">Меню перезапуска</string>
   <string name="power_menu_screenshot_title">Скриншот</string>
   <string name="power_menu_airplane_title">Режим полета</string>
   <string name="power_menu_users_title">Переключение пользователей</string>

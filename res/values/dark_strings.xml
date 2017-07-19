@@ -146,4 +146,7 @@
     <string name="nav_bar_dynamic_title">Navigation bar dynamic color</string>
     <string name="nav_bar_dynamic_summary">Change the navigation bar color to the app primary color</string>
 
+    <string name="color_calibration_display_summary">Adjust various color calibration options</string>
+    <string name="color_calibration_temperature_summary" translatable="false"><xliff:g id="day_temperature">%1$d</xliff:g>K</string>
+
 </resources>

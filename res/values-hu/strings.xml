@@ -108,6 +108,7 @@
   <string name="live_display_summary">Optimalizálja a képernyőt a napszaknak és a fényviszonyoknak megfelelően, javítva az olvashatóságot és csökkentve a szemek terhelését</string>
   <string name="live_display_mode">Képernyő mód</string>
   <string name="live_display_color_temperature_title">Színhőmérséklet</string>
+  <string name="live_display_color_temperature_summary">Nappal:<xliff:g id="day_temperature">%1$d</xliff:g>K Éjszaka:<xliff:g id="night_temperature">%2$d</xliff:g>K</string>
   <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
   <string name="live_display_day">Nappal</string>
   <string name="live_display_night">Éjszaka</string>
