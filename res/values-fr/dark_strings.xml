@@ -128,4 +128,5 @@
   <string name="hide_carrier_label_with_wifi_summary">Only show the carrier label when the WiFi SSID is not showing</string>
   <string name="nav_bar_dynamic_title">Navigation bar dynamic color</string>
   <string name="nav_bar_dynamic_summary">Change the navigation bar color to the app primary color</string>
+  <string name="color_calibration_display_summary">Adjust various color calibration options</string>
 </resources>
