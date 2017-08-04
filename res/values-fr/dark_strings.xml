@@ -19,15 +19,15 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Show bluetooth icon when disconnected -->
   <string name="status_bar_bluetooth_icon">Icône Bluetooth</string>
-  <string name="status_bar_bluetooth_icon_summary">Show icon when it is enabled but not connected</string>
+  <string name="status_bar_bluetooth_icon_summary">Afficher l’icône lorsqu’il est activé mais pas connecté</string>
   <!-- Hide the alarm icon in the expanded status bar -->
   <string name="show_next_alarm_icon_title">Alarm icon</string>
   <string name="show_next_alarm_icon_summary">Show icon in the expanded status bar when an alarm is set</string>
   <!-- Network traffic -->
   <string name="default_string">Par Défaut</string>
   <string name="network_traffic_title">Trafic réseau</string>
-  <string name="show_network_traffic_state">Status bar traffic monitor</string>
-  <string name="network_traffic_summary">Enable various network traffic options in the status bar</string>
+  <string name="show_network_traffic_state">Indicateur de vitesse de réseau</string>
+  <string name="network_traffic_summary">Activer les diverses options de trafic réseau dans la barre d\'état</string>
   <string name="show_network_traffic_unit">Unité d\'affichage</string>
   <string name="show_network_traffic_frequency">Fréquence d\'actualisation</string>
   <string name="show_network_traffic_disable">Désactivé</string>
