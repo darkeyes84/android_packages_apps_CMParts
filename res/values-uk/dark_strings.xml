@@ -46,12 +46,12 @@
   <string name="network_traffic_hidearrow">Сховати стрілки</string>
   <string name="network_traffic_hidearrow_summary">Приховати стрілки в індикаторі трафіку</string>
   <string name="volume_keys_control_ring_stream_title">Клавіші гучності регулюють гучність дзвінка</string>
-  <string name="volume_keys_control_ring_stream_summary">Якщо ввімкнено, качелька гучності регулює гучність дзвінка, якщо вимкнено - гучність медіа.</string>
+  <string name="volume_keys_control_ring_stream_summary">Якщо ввімкнено, качелька гучності регулює гучність дзвінка, якщо вимкнено - гучність медіа</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Смарт-доступ</string>
-  <string name="smart_pulldown_summary">Відкривати швидкі налаштування при %1$s сповіщеннях</string>
+  <string name="smart_pulldown_summary">Відкривати швидкі налаштування %1$s сповіщень</string>
   <string name="smart_pulldown_none_summary">Відкривати швидкі налаштування коли немає сповіщень</string>
-  <string name="smart_pulldown_off">Вимк.</string>
+  <string name="smart_pulldown_off">Вимкнено</string>
   <string name="smart_pulldown_none">без сповіщень</string>
   <string name="smart_pulldown_dismissable">без тих, що видаляються</string>
   <string name="smart_pulldown_ongoing">без постійних</string>
