@@ -18,11 +18,18 @@ package org.cyanogenmod.cmparts;
 
 import android.app.Fragment;
 import android.app.FragmentTransaction;
+import android.app.IThemeCallback;
+import android.app.ThemeManager;
+import android.content.ActivityNotFoundException;
 import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
 import android.nfc.NfcAdapter;
 import android.nfc.Tag;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.provider.Settings.Secure;
 import android.support.v14.preference.PreferenceFragment;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
@@ -58,8 +65,22 @@ public class PartsActivity extends SettingsDrawerActivity implements
 
     private boolean mHomeAsUp = true;
 
+    private int mTheme;
+    private ThemeManager mThemeManager;
+
     @Override
     public void onCreate(Bundle bundle) {
+        final int themeMode = Secure.getInt(getContentResolver(),
+                Secure.THEME_PRIMARY_COLOR, 1);
+        final int accentColor = Secure.getInt(getContentResolver(),
+                Secure.THEME_ACCENT_COLOR, 0);
+        mThemeManager = (ThemeManager) getSystemService(Context.THEME_SERVICE);
+        if (mThemeManager != null) {
+            mThemeManager.addCallback(mThemeCallback);
+        }
+        if (themeMode != 0 || accentColor != 0) {
+            getTheme().applyStyle(mTheme, true);
+        }
         super.onCreate(bundle);
 
         setContentView(R.layout.cmparts);
@@ -263,5 +284,21 @@ public class PartsActivity extends SettingsDrawerActivity implements
         }
         setTitle(mInitialTitle);
     }
+
+    private final IThemeCallback mThemeCallback = new IThemeCallback.Stub() {
+
+        @Override
+        public void onThemeChanged(int themeMode, int color) {
+            onCallbackAdded(themeMode, color);
+            PartsActivity.this.runOnUiThread(() -> {
+                PartsActivity.this.recreate();
+            });
+        }
+
+        @Override
+        public void onCallbackAdded(int themeMode, int color) {
+            mTheme = color;
+        }
+    };
 }
 
