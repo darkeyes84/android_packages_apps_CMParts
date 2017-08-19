@@ -128,5 +128,5 @@
   <string name="hide_carrier_label_with_wifi_summary">Afficher le nom de l\'opérateur uniquement si le nom du réseau WIFI n\'est pas affiché</string>
   <string name="nav_bar_dynamic_title">Couleur dynamique de la barre de navigation</string>
   <string name="nav_bar_dynamic_summary">Modifier la couleur de la barre de navigation avec la couleur principale de l\'application</string>
-  <string name="color_calibration_display_summary">Adjust various color calibration options</string>
+  <string name="color_calibration_display_summary">Régler diverses options de calibrage de couleur</string>
 </resources>
