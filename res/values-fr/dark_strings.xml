@@ -46,7 +46,7 @@
   <string name="network_traffic_hidearrow">Masquer les flèches</string>
   <string name="network_traffic_hidearrow_summary">Masquer les flèches de l\'indicateur de trafic</string>
   <string name="volume_keys_control_ring_stream_title">Les touches du volume contrôlent le volume de la sonnerie</string>
-  <string name="volume_keys_control_ring_stream_summary">If on, volume keys control ringtone volume. If off, volume keys control media volume.</string>
+  <string name="volume_keys_control_ring_stream_summary">Si activé, les boutons du volume modifie le volume de la sonnerie. Si désactivé, les boutons du volume modifie le volume des médias.</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Déroulement intelligent</string>
   <string name="smart_pulldown_summary">Open Quick Settings when there are %1$s notifications</string>
@@ -85,8 +85,8 @@
   <string name="status_bar_date_right">À droite de l\'heure</string>
   <string name="status_bar_date_left">À gauche de l\'heure</string>
   <!-- Pixel navbar animation -->
-  <string name="pixel_navbar_anim_title">Home button animation</string>
-  <string name="pixel_navbar_anim_summary">Enable the home button animation</string>
+  <string name="pixel_navbar_anim_title">Animation du bouton d\'accueil</string>
+  <string name="pixel_navbar_anim_summary">Activer l’animation du bouton d\'accueil</string>
   <!-- SSID in status bar -->
   <string name="wifi_status_bar_ssid_title">Afficher le nom du réseau WiFi (SSID)</string>
   <string name="wifi_status_bar_ssid_summary">Show the WiFi SSID of a connected network in the status bar</string>
@@ -126,7 +126,7 @@
   <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
   <string name="hide_carrier_label_with_wifi_title">Masquer le nom de l\'opérateur avec le nom du WiFi SSID</string>
   <string name="hide_carrier_label_with_wifi_summary">Afficher le nom de l\'opérateur uniquement si le nom du réseau WIFI n\'est pas affiché</string>
-  <string name="nav_bar_dynamic_title">Navigation bar dynamic color</string>
+  <string name="nav_bar_dynamic_title">Couleur dynamique de la barre de navigation</string>
   <string name="nav_bar_dynamic_summary">Modifier la couleur de la barre de navigation avec la couleur principale de l\'application</string>
   <string name="color_calibration_display_summary">Adjust various color calibration options</string>
 </resources>
