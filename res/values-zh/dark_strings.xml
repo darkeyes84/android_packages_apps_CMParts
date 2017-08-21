@@ -71,31 +71,31 @@
   <string name="navigation_bar_size_30_dp">30 dp</string>
   <string name="navigation_bar_size_24_dp">24 dp</string>
   <!-- Date in status bar -->
-  <string name="status_bar_date">Date</string>
-  <string name="status_bar_date_summary">Display the date in the status bar</string>
-  <string name="status_bar_date_style">Date style</string>
-  <string name="status_bar_date_format">Date format</string>
-  <string name="status_bar_date_none">Don\'t show</string>
-  <string name="status_bar_date_small">Small font size</string>
-  <string name="status_bar_date_normal">Normal font size</string>
-  <string name="status_bar_date_style_normal">Normal</string>
-  <string name="status_bar_date_style_lowercase">Lowercase</string>
-  <string name="status_bar_date_style_uppercase">Uppercase</string>
-  <string name="status_bar_date_position">Date position</string>
-  <string name="status_bar_date_right">Right of time</string>
-  <string name="status_bar_date_left">Left of time</string>
+  <string name="status_bar_date">日期</string>
+  <string name="status_bar_date_summary">在状态栏上显示日期</string>
+  <string name="status_bar_date_style">日期样式</string>
+  <string name="status_bar_date_format">日期格式</string>
+  <string name="status_bar_date_none">不显示</string>
+  <string name="status_bar_date_small">小号字体</string>
+  <string name="status_bar_date_normal">正常字体</string>
+  <string name="status_bar_date_style_normal">普通</string>
+  <string name="status_bar_date_style_lowercase">小写字母</string>
+  <string name="status_bar_date_style_uppercase">大写字母</string>
+  <string name="status_bar_date_position">日期位置</string>
+  <string name="status_bar_date_right">位于时间右侧</string>
+  <string name="status_bar_date_left">位于时间左侧</string>
   <!-- Pixel navbar animation -->
-  <string name="pixel_navbar_anim_title">Home button animation</string>
-  <string name="pixel_navbar_anim_summary">Enable the home button animation</string>
+  <string name="pixel_navbar_anim_title">Home 键动画</string>
+  <string name="pixel_navbar_anim_summary">启用 Home 键动画</string>
   <!-- SSID in status bar -->
-  <string name="wifi_status_bar_ssid_title">Show WiFi SSID</string>
-  <string name="wifi_status_bar_ssid_summary">Show the WiFi SSID of a connected network in the status bar</string>
+  <string name="wifi_status_bar_ssid_title">显示 WIFI 网络名</string>
+  <string name="wifi_status_bar_ssid_summary">在状态栏上显示已连接网络的 WIFI 网络名</string>
   <!-- Custom carrier label and position -->
-  <string name="carrier_label_settings_title">Show carrier label</string>
-  <string name="carrier_label_settings_summary">Show the carrier label in the status bar</string>
+  <string name="carrier_label_settings_title">显示运营商名称</string>
+  <string name="carrier_label_settings_summary">在状态栏上显示运营商名称</string>
   <!-- Low battery notification -->
-  <string name="battery_low_notification_title">Low battery notification</string>
-  <string name="battery_low_notification_summary">Show a notification when the battery is low</string>
+  <string name="battery_low_notification_title">低电量通知</string>
+  <string name="battery_low_notification_summary">当低电量时显示一条通知</string>
   <!-- Battery saver color -->
   <string name="battery_saver_mode_color_title">Battery saver warning color</string>
   <string name="battery_saver_mode_color_summary">Show orange status bar and navigation bar when battery saver is activated</string>
