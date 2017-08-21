@@ -113,16 +113,16 @@
   <string name="battery_bar_reg">常规</string>
   <string name="battery_bar_center">居中</string>
   <!-- QS headers -->
-  <string name="status_bar_custom_header_title">Custom headers</string>
-  <string name="status_bar_custom_header_summary">Enable custom images in the notification panel</string>
-  <string name="custom_header_title">Enable custom headers</string>
-  <string name="daylight_header_pack_title">Header image pack</string>
-  <string name="status_bar_custom_header_shadow_title">Darken header image</string>
-  <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
-  <string name="static_header_provider_title">Static</string>
-  <string name="daylight_header_provider_title">Dynamic</string>
-  <string name="custom_header_provider_title">Header provider</string>
-  <string name="custom_header_browse_title">Browse installed headers</string>
+  <string name="status_bar_custom_header_title">自定义标头图</string>
+  <string name="status_bar_custom_header_summary">在通知面板上启用自定义图片</string>
+  <string name="custom_header_title">启用自定义标头图</string>
+  <string name="daylight_header_pack_title">标头图像包</string>
+  <string name="status_bar_custom_header_shadow_title">暗化标头图像</string>
+  <string name="status_bar_custom_header_shadow_summary">使亮色图像有更好的可见度</string>
+  <string name="static_header_provider_title">静态</string>
+  <string name="daylight_header_provider_title">动态</string>
+  <string name="custom_header_provider_title">标头图模式</string>
+  <string name="custom_header_browse_title">浏览已安装的标头图</string>
   <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
   <string name="hide_carrier_label_with_wifi_title">Hide carrier label with WiFi SSID</string>
   <string name="hide_carrier_label_with_wifi_summary">Only show the carrier label when the WiFi SSID is not showing</string>
