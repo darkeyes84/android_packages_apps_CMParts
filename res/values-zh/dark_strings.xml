@@ -97,21 +97,21 @@
   <string name="battery_low_notification_title">低电量通知</string>
   <string name="battery_low_notification_summary">当低电量时显示一条通知</string>
   <!-- Battery saver color -->
-  <string name="battery_saver_mode_color_title">Battery saver warning color</string>
-  <string name="battery_saver_mode_color_summary">Show orange status bar and navigation bar when battery saver is activated</string>
+  <string name="battery_saver_mode_color_title">省电模式警告色</string>
+  <string name="battery_saver_mode_color_summary">当省电模式开启时显示橙色的状态栏和导航栏</string>
   <!-- Battery bar settings -->
-  <string name="battery_bar_title">Battery bar</string>
-  <string name="battery_bar_location">Battery bar</string>
-  <string name="battery_bar_style_title">Battery bar style</string>
-  <string name="battery_bar_thickness_title">Battery bar thickness</string>
-  <string name="battery_bar_animate_title">Charging animation</string>
-  <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
-  <string name="battery_bar_hide">Hidden</string>
-  <string name="battery_bar_statusbar">Status bar</string>
-  <string name="battery_bar_topnav">Top of navigation bar</string>
-  <string name="battery_bar_bottomnav">Bottom of navigation bar</string>
-  <string name="battery_bar_reg">Regular</string>
-  <string name="battery_bar_center">Center-mirrored</string>
+  <string name="battery_bar_title">电量条</string>
+  <string name="battery_bar_location">电量条</string>
+  <string name="battery_bar_style_title">电量条样式</string>
+  <string name="battery_bar_thickness_title">电量条高度</string>
+  <string name="battery_bar_animate_title">充电动画</string>
+  <string name="battery_bar_animate_summary">充电动画可能会带来较差的用户体验，请酌情考虑是否开启。</string>
+  <string name="battery_bar_hide">隐藏</string>
+  <string name="battery_bar_statusbar">在状态栏上显示</string>
+  <string name="battery_bar_topnav">在导航栏顶部显示</string>
+  <string name="battery_bar_bottomnav">在导航栏底部显示</string>
+  <string name="battery_bar_reg">常规</string>
+  <string name="battery_bar_center">居中</string>
   <!-- QS headers -->
   <string name="status_bar_custom_header_title">Custom headers</string>
   <string name="status_bar_custom_header_summary">Enable custom images in the notification panel</string>
