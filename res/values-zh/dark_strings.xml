@@ -116,17 +116,17 @@
   <string name="status_bar_custom_header_title">自定义标头图</string>
   <string name="status_bar_custom_header_summary">在通知面板上启用自定义图片</string>
   <string name="custom_header_title">启用自定义标头图</string>
-  <string name="daylight_header_pack_title">标头图像包</string>
-  <string name="status_bar_custom_header_shadow_title">暗化标头图像</string>
-  <string name="status_bar_custom_header_shadow_summary">使亮色图像有更好的可见度</string>
+  <string name="daylight_header_pack_title">标头图片包</string>
+  <string name="status_bar_custom_header_shadow_title">暗化标头图片</string>
+  <string name="status_bar_custom_header_shadow_summary">使亮色图片有更好的可见度</string>
   <string name="static_header_provider_title">静态</string>
   <string name="daylight_header_provider_title">动态</string>
   <string name="custom_header_provider_title">标头图模式</string>
   <string name="custom_header_browse_title">浏览已安装的标头图</string>
-  <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
-  <string name="hide_carrier_label_with_wifi_title">Hide carrier label with WiFi SSID</string>
-  <string name="hide_carrier_label_with_wifi_summary">Only show the carrier label when the WiFi SSID is not showing</string>
-  <string name="nav_bar_dynamic_title">Navigation bar dynamic color</string>
+  <string name="custom_header_browse_summary">长按任意图片以用于静态模式</string>
+  <string name="hide_carrier_label_with_wifi_title">有 WIFI 网络名时隐藏运营商名称</string>
+  <string name="hide_carrier_label_with_wifi_summary">仅当 WIFI 网络名未显示时显示运营商名称</string>
+  <string name="nav_bar_dynamic_title">导航栏动态变色</string>
   <string name="nav_bar_dynamic_summary">Change the navigation bar color to the app primary color</string>
   <string name="color_calibration_display_summary">Adjust various color calibration options</string>
 </resources>
