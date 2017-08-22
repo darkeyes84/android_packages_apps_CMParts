@@ -29,13 +29,13 @@
   <string name="show_network_traffic_state">Moniteur de trafic dans la barre d\'état</string>
   <string name="network_traffic_summary">Activer les diverses options de trafic réseau dans la barre d\'état</string>
   <string name="show_network_traffic_unit">Unité d\'affichage</string>
-  <string name="show_network_traffic_frequency">Fréquence d\'actualisation</string>
+  <string name="show_network_traffic_frequency">Intervalle de mise à jour</string>
   <string name="show_network_traffic_disable">Désactivé</string>
   <string name="show_network_traffic_up">Sortant</string>
   <string name="show_network_traffic_down">Entrant</string>
   <string name="show_network_traffic_all">Entrant et sortant</string>
   <string name="show_network_traffic_bit">Bits par seconde</string>
-  <string name="show_network_traffic_byte">Bytes par seconde</string>
+  <string name="show_network_traffic_byte">Octets par seconde</string>
   <string name="show_network_traffic_500">500 ms</string>
   <string name="show_network_traffic_1000">1000 ms</string>
   <string name="show_network_traffic_1500">1500 ms</string>
@@ -44,7 +44,7 @@
   <string name="network_traffic_autohide_summary">Masquer le moniteur de trafic lorsqu\'il n\'y a aucune activité</string>
   <string name="network_traffic_autohide_threshold">Seuil d\'inactivité</string>
   <string name="network_traffic_hidearrow">Masquer les flèches</string>
-  <string name="network_traffic_hidearrow_summary">Masquer les flèches de l\'indicateur de trafic</string>
+  <string name="network_traffic_hidearrow_summary">Masquer les flèches du moniteur de trafic</string>
   <string name="volume_keys_control_ring_stream_title">Les touches du volume contrôlent le volume de la sonnerie</string>
   <string name="volume_keys_control_ring_stream_summary">Si activé, les boutons du volume modifie le volume de la sonnerie. Si désactivé, les boutons du volume modifie le volume des médias.</string>
   <!-- Smart pulldown-->
@@ -72,7 +72,7 @@
   <string name="navigation_bar_size_24_dp">24 dp</string>
   <!-- Date in status bar -->
   <string name="status_bar_date">Date</string>
-  <string name="status_bar_date_summary">Afficher la date dans la barre d’État</string>
+  <string name="status_bar_date_summary">Afficher la date dans la barre d’état</string>
   <string name="status_bar_date_style">Style de la date</string>
   <string name="status_bar_date_format">Format de la date</string>
   <string name="status_bar_date_none">Ne pas afficher</string>
@@ -113,19 +113,19 @@
   <string name="battery_bar_reg">Standard</string>
   <string name="battery_bar_center">Centrée, mode miroir</string>
   <!-- QS headers -->
-  <string name="status_bar_custom_header_title">En-tête personnalisés</string>
+  <string name="status_bar_custom_header_title">En-têtes personnalisés</string>
   <string name="status_bar_custom_header_summary">Activez les images personnalisées dans le panneau de notification</string>
-  <string name="custom_header_title">Enable custom headers</string>
-  <string name="daylight_header_pack_title">Header image pack</string>
-  <string name="status_bar_custom_header_shadow_title">Darken header image</string>
-  <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
-  <string name="static_header_provider_title">Static</string>
+  <string name="custom_header_title">Activer les en-têtes personnalisés</string>
+  <string name="daylight_header_pack_title">Pack d\'image d\'en-tête</string>
+  <string name="status_bar_custom_header_shadow_title">Assombrir l’image d’en-tête</string>
+  <string name="status_bar_custom_header_shadow_summary">Pour une meilleure visibilité sur des images brillantes</string>
+  <string name="static_header_provider_title">Persistant</string>
   <string name="daylight_header_provider_title">Dynamique</string>
   <string name="custom_header_provider_title">Fournisseur de l’en-tête</string>
   <string name="custom_header_browse_title">Parcourir les en-têtes installés</string>
-  <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
+  <string name="custom_header_browse_summary">Appui prolongé sur une image pour l\'utiliser en mode persistant</string>
   <string name="hide_carrier_label_with_wifi_title">Masquer le nom de l\'opérateur avec le nom du WiFi SSID</string>
-  <string name="hide_carrier_label_with_wifi_summary">Afficher le nom de l\'opérateur uniquement si le nom du réseau WIFI n\'est pas affiché</string>
+  <string name="hide_carrier_label_with_wifi_summary">Afficher le nom de l\'opérateur uniquement si le WiFi SSID n\'est pas affiché</string>
   <string name="nav_bar_dynamic_title">Couleur dynamique de la barre de navigation</string>
   <string name="nav_bar_dynamic_summary">Modifier la couleur de la barre de navigation avec la couleur principale de l\'application</string>
   <string name="color_calibration_display_summary">Régler diverses options de calibrage de couleur</string>
