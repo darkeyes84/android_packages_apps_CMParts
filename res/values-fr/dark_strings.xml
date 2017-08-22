@@ -61,7 +61,7 @@
   <string name="navigation_bar_height_title">Hauteur de la barre de navigation</string>
   <string name="navigation_bar_height_summary">Hauteur de la barre de navigation en mode portrait</string>
   <string name="navigation_bar_width_title">Largeur de la barre de navigation</string>
-  <string name="navigation_bar_width_summary">Largeur de la barre de navigation lors qu\'elle est placée sur un coté (mode paysage)</string>
+  <string name="navigation_bar_width_summary">Largeur de la barre de navigation lorsqu\'elle est placée sur un coté (mode paysage)</string>
   <string name="navigation_bar_size_48_dp_default">48 dp (par défaut)</string>
   <string name="navigation_bar_size_44_dp">44 dp</string>
   <string name="navigation_bar_size_42_dp_default">42 dp (par défaut)</string>
