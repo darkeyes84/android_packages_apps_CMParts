@@ -89,10 +89,10 @@
   <string name="pixel_navbar_anim_summary">Activer l’animation du bouton d\'accueil</string>
   <!-- SSID in status bar -->
   <string name="wifi_status_bar_ssid_title">Afficher le WiFi SSID</string>
-  <string name="wifi_status_bar_ssid_summary">Afficher le nom du réseau WiFi (SSID) quand vous y êtes connecté dans la barre d\'état</string>
+  <string name="wifi_status_bar_ssid_summary">Afficher le WiFi SSID du réseau auquel vous êtes connecté dans la barre d\'état</string>
   <!-- Custom carrier label and position -->
   <string name="carrier_label_settings_title">Afficher le nom de l\'opérateur</string>
-  <string name="carrier_label_settings_summary">Show the carrier label in the status bar</string>
+  <string name="carrier_label_settings_summary">Afficher le nom de l\'opérateur dans la barre d\'état</string>
   <!-- Low battery notification -->
   <string name="battery_low_notification_title">Notification de batterie faible</string>
   <string name="battery_low_notification_summary">Afficher une notification lorsque la batterie atteint un niveau faible</string>
@@ -100,21 +100,21 @@
   <string name="battery_saver_mode_color_title">Couleur de l\'économiseur de batterie</string>
   <string name="battery_saver_mode_color_summary">Afficher la barre d\'état et de navigation en orange quand l\'économiseur de batterie est activé</string>
   <!-- Battery bar settings -->
-  <string name="battery_bar_title">Battery bar</string>
-  <string name="battery_bar_location">Battery bar</string>
-  <string name="battery_bar_style_title">Battery bar style</string>
-  <string name="battery_bar_thickness_title">Battery bar thickness</string>
+  <string name="battery_bar_title">Barre de batterie</string>
+  <string name="battery_bar_location">Barre de batterie</string>
+  <string name="battery_bar_style_title">Style de la barre de batterie</string>
+  <string name="battery_bar_thickness_title">Épaisseur de la barre de la batterie</string>
   <string name="battery_bar_animate_title">Animation lors de la charge</string>
   <string name="battery_bar_animate_summary">L\'animation de chargement peut entraîner une expérience utilisateur médiocre. Activer à votre convenance.</string>
   <string name="battery_bar_hide">Masquée</string>
   <string name="battery_bar_statusbar">Barre d\'état</string>
-  <string name="battery_bar_topnav">Top of navigation bar</string>
-  <string name="battery_bar_bottomnav">Bottom of navigation bar</string>
-  <string name="battery_bar_reg">Regular</string>
-  <string name="battery_bar_center">Center-mirrored</string>
+  <string name="battery_bar_topnav">En haut de la barre de navigation</string>
+  <string name="battery_bar_bottomnav">En bas de la barre de navigation</string>
+  <string name="battery_bar_reg">Standard</string>
+  <string name="battery_bar_center">Centrée, mode miroir</string>
   <!-- QS headers -->
-  <string name="status_bar_custom_header_title">Custom headers</string>
-  <string name="status_bar_custom_header_summary">Enable custom images in the notification panel</string>
+  <string name="status_bar_custom_header_title">En-tête personnalisés</string>
+  <string name="status_bar_custom_header_summary">Activez les images personnalisées dans le panneau de notification</string>
   <string name="custom_header_title">Enable custom headers</string>
   <string name="daylight_header_pack_title">Header image pack</string>
   <string name="status_bar_custom_header_shadow_title">Darken header image</string>
