@@ -22,11 +22,11 @@
   <string name="status_bar_bluetooth_icon_summary">Afficher l’icône lorsqu’il est activé mais pas connecté</string>
   <!-- Hide the alarm icon in the expanded status bar -->
   <string name="show_next_alarm_icon_title">Icône Alarme</string>
-  <string name="show_next_alarm_icon_summary">Affiche une icône dans la barre de statut étendue quand une alarme est programmée</string>
+  <string name="show_next_alarm_icon_summary">Affiche une icône dans la barre d\'état étendue quand une alarme est programmée</string>
   <!-- Network traffic -->
   <string name="default_string">Par Défaut</string>
   <string name="network_traffic_title">Trafic réseau</string>
-  <string name="show_network_traffic_state">Indicateur de vitesse de réseau</string>
+  <string name="show_network_traffic_state">Moniteur de trafic dans la barre d\'état</string>
   <string name="network_traffic_summary">Activer les diverses options de trafic réseau dans la barre d\'état</string>
   <string name="show_network_traffic_unit">Unité d\'affichage</string>
   <string name="show_network_traffic_frequency">Fréquence d\'actualisation</string>
@@ -49,19 +49,19 @@
   <string name="volume_keys_control_ring_stream_summary">Si activé, les boutons du volume modifie le volume de la sonnerie. Si désactivé, les boutons du volume modifie le volume des médias.</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Déroulement intelligent</string>
-  <string name="smart_pulldown_summary">Open Quick Settings when there are %1$s notifications</string>
+  <string name="smart_pulldown_summary">Ouvrir les réglages rapides quand il y a %1$s notifications</string>
   <string name="smart_pulldown_none_summary">Ouvrir les réglages rapides quand aucune notification n\'est présente</string>
   <string name="smart_pulldown_off">Désactivé</string>
   <string name="smart_pulldown_none">aucune notification</string>
-  <string name="smart_pulldown_dismissable">no dismissable</string>
-  <string name="smart_pulldown_ongoing">no ongoing</string>
+  <string name="smart_pulldown_dismissable">non effaçable</string>
+  <string name="smart_pulldown_ongoing">aucune en cours</string>
   <!-- Navigation Bar -->
   <string name="navigation_bar_dimensions_title">Dimensions de la barre de navigation</string>
   <string name="navigation_bar_dimensions_title_summary">Redimensionner la barre de navigation</string>
   <string name="navigation_bar_height_title">Hauteur de la barre de navigation</string>
   <string name="navigation_bar_height_summary">Hauteur de la barre de navigation en mode portrait</string>
-  <string name="navigation_bar_width_title">Navigation bar width</string>
-  <string name="navigation_bar_width_summary">Navigation bar width if the bar is along a side (landscape)</string>
+  <string name="navigation_bar_width_title">Largeur de la barre de navigation</string>
+  <string name="navigation_bar_width_summary">Largeur de la barre de navigation lors qu\'elle est placée sur un coté (mode paysage)</string>
   <string name="navigation_bar_size_48_dp_default">48 dp (par défaut)</string>
   <string name="navigation_bar_size_44_dp">44 dp</string>
   <string name="navigation_bar_size_42_dp_default">42 dp (par défaut)</string>
@@ -78,7 +78,7 @@
   <string name="status_bar_date_none">Ne pas afficher</string>
   <string name="status_bar_date_small">Police de petite taille</string>
   <string name="status_bar_date_normal">Police de taille normale</string>
-  <string name="status_bar_date_style_normal">Normal</string>
+  <string name="status_bar_date_style_normal">Normale</string>
   <string name="status_bar_date_style_lowercase">Minuscule</string>
   <string name="status_bar_date_style_uppercase">Majuscule</string>
   <string name="status_bar_date_position">Position de la date</string>
@@ -88,8 +88,8 @@
   <string name="pixel_navbar_anim_title">Animation du bouton d\'accueil</string>
   <string name="pixel_navbar_anim_summary">Activer l’animation du bouton d\'accueil</string>
   <!-- SSID in status bar -->
-  <string name="wifi_status_bar_ssid_title">Afficher le nom du réseau WiFi (SSID)</string>
-  <string name="wifi_status_bar_ssid_summary">Show the WiFi SSID of a connected network in the status bar</string>
+  <string name="wifi_status_bar_ssid_title">Afficher le WiFi SSID</string>
+  <string name="wifi_status_bar_ssid_summary">Afficher le nom du réseau WiFi (SSID) quand vous y êtes connecté dans la barre d\'état</string>
   <!-- Custom carrier label and position -->
   <string name="carrier_label_settings_title">Afficher le nom de l\'opérateur</string>
   <string name="carrier_label_settings_summary">Show the carrier label in the status bar</string>
