@@ -21,8 +21,8 @@
   <string name="status_bar_bluetooth_icon">Icône Bluetooth</string>
   <string name="status_bar_bluetooth_icon_summary">Afficher l’icône lorsqu’il est activé mais pas connecté</string>
   <!-- Hide the alarm icon in the expanded status bar -->
-  <string name="show_next_alarm_icon_title">Alarm icon</string>
-  <string name="show_next_alarm_icon_summary">Show icon in the expanded status bar when an alarm is set</string>
+  <string name="show_next_alarm_icon_title">Icône Alarme</string>
+  <string name="show_next_alarm_icon_summary">Affiche une icône dans la barre de statut étendue quand une alarme est programmée</string>
   <!-- Network traffic -->
   <string name="default_string">Par Défaut</string>
   <string name="network_traffic_title">Trafic réseau</string>
@@ -50,7 +50,7 @@
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Déroulement intelligent</string>
   <string name="smart_pulldown_summary">Open Quick Settings when there are %1$s notifications</string>
-  <string name="smart_pulldown_none_summary">Open Quick Settings when there are no notifications</string>
+  <string name="smart_pulldown_none_summary">Ouvrir les réglages rapides quand aucune notification n\'est présente</string>
   <string name="smart_pulldown_off">Désactivé</string>
   <string name="smart_pulldown_none">aucune notification</string>
   <string name="smart_pulldown_dismissable">no dismissable</string>
