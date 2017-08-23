@@ -113,20 +113,20 @@
   <string name="battery_bar_reg">Normal</string>
   <string name="battery_bar_center">Centro-espelhado</string>
   <!-- QS headers -->
-  <string name="status_bar_custom_header_title">Custom headers</string>
-  <string name="status_bar_custom_header_summary">Enable custom images in the notification panel</string>
-  <string name="custom_header_title">Enable custom headers</string>
-  <string name="daylight_header_pack_title">Header image pack</string>
-  <string name="status_bar_custom_header_shadow_title">Darken header image</string>
-  <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
-  <string name="static_header_provider_title">Static</string>
-  <string name="daylight_header_provider_title">Dynamic</string>
-  <string name="custom_header_provider_title">Header provider</string>
-  <string name="custom_header_browse_title">Browse installed headers</string>
-  <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
-  <string name="hide_carrier_label_with_wifi_title">Hide carrier label with WiFi SSID</string>
-  <string name="hide_carrier_label_with_wifi_summary">Only show the carrier label when the WiFi SSID is not showing</string>
-  <string name="nav_bar_dynamic_title">Navigation bar dynamic color</string>
-  <string name="nav_bar_dynamic_summary">Change the navigation bar color to the app primary color</string>
-  <string name="color_calibration_display_summary">Adjust various color calibration options</string>
+  <string name="status_bar_custom_header_title">Cabeçalhos Personalizados</string>
+  <string name="status_bar_custom_header_summary">Permitir imagens personalizadas no painel de notificação</string>
+  <string name="custom_header_title">Ativar cabeçalhos personalizados</string>
+  <string name="daylight_header_pack_title">Pacotes de imagens do cabeçalho</string>
+  <string name="status_bar_custom_header_shadow_title">Escurecer a imagem do cabeçalho</string>
+  <string name="status_bar_custom_header_shadow_summary">Para melhor visibilidade em imagens brilhantes</string>
+  <string name="static_header_provider_title">Estático</string>
+  <string name="daylight_header_provider_title">Dinâmico</string>
+  <string name="custom_header_provider_title">Fornecedor de cabeçalho</string>
+  <string name="custom_header_browse_title">Ver os cabeçalhos instalados</string>
+  <string name="custom_header_browse_summary">Toque longo em qualquer imagem para usar no modo estático</string>
+  <string name="hide_carrier_label_with_wifi_title">Ocultar o nome da operadora de rede com WiFi SSID</string>
+  <string name="hide_carrier_label_with_wifi_summary">Mostrar apenas o nome da operadora de rede quando o WiFi SSID não estiver visível</string>
+  <string name="nav_bar_dynamic_title">Cor dinâmica na barra de navegação</string>
+  <string name="nav_bar_dynamic_summary">Alterar a cor da barra de navegação para a cor primária do aplicativo</string>
+  <string name="color_calibration_display_summary">Ajuste várias opções de calibração de cor</string>
 </resources>
