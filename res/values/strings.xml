@@ -90,8 +90,7 @@
     <string name="battery_light_list_title">Colors</string>
     <string name="battery_light_low_color_title">Battery low</string>
     <string name="battery_light_medium_color_title">Charging</string>
-    <string name="battery_light_full_color_title">Charged (90%)</string>
-    <string name="battery_light_really_full_color_title">Charged (100%)</string>
+    <string name="battery_light_full_color_title">Fully charged</string>
 
     <!-- Lights settings screen, notification light settings -->
     <string name="notification_light_title">Notification light</string>
@@ -209,8 +208,6 @@
     <string name="button_wake_title">Wake device</string>
     <string name="volume_answer_call_title">Answer call</string>
     <string name="volume_answer_call_summary">Answer incoming calls by pressing the volume buttons</string>
-    <string name="volume_wake_screen_summary_off">Pressing either volume button will wake your device</string>   
-    <string name="volume_wake_screen_summary_on">This option is disabled when playback control is enabled and music is playing</string>
     <string name="home_answer_call_title">Answer call</string>
     <string name="home_answer_call_summary">Answer incoming calls by pressing the home button</string>
 
