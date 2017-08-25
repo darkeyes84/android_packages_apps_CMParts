@@ -129,4 +129,8 @@
   <string name="nav_bar_dynamic_title">导航栏动态变色</string>
   <string name="nav_bar_dynamic_summary">将导航栏颜色调整至所使用应用的主色调</string>
   <string name="color_calibration_display_summary">调整各类颜色校准选项</string>
+  <string name="volume_wake_screen_summary_off">Pressing either volume button will wake your device</string>
+  <string name="volume_wake_screen_summary_on">This option is disabled when playback control is enabled and music is playing</string>
+  <string name="battery_light_almost_full_color_title">Charged (90%)</string>
+  <string name="battery_light_really_full_color_title">Fully charged (100%)</string>
 </resources>
