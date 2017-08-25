@@ -129,4 +129,8 @@
   <string name="nav_bar_dynamic_title">Динамічний колір панелі навігації</string>
   <string name="nav_bar_dynamic_summary">Змінювати колір панелі навігації залежно від основного кольору додатку</string>
   <string name="color_calibration_display_summary">Калібрувати колірну температуру залежно від довкілля</string>
+  <string name="volume_wake_screen_summary_off">Pressing either volume button will wake your device</string>
+  <string name="volume_wake_screen_summary_on">This option is disabled when playback control is enabled and music is playing</string>
+  <string name="battery_light_almost_full_color_title">Charged (90%)</string>
+  <string name="battery_light_really_full_color_title">Fully charged (100%)</string>
 </resources>
