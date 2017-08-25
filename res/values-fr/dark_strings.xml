@@ -22,7 +22,7 @@
   <string name="status_bar_bluetooth_icon_summary">Afficher l’icône lorsqu’il est activé mais pas connecté</string>
   <!-- Hide the alarm icon in the expanded status bar -->
   <string name="show_next_alarm_icon_title">Icône Alarme</string>
-  <string name="show_next_alarm_icon_summary">Affiche une icône dans la barre d\'état étendue quand une alarme est programmée</string>
+  <string name="show_next_alarm_icon_summary">Afficher l\'icône quand une alarme est programmée</string>
   <!-- Network traffic -->
   <string name="default_string">Par Défaut</string>
   <string name="network_traffic_title">Trafic réseau</string>
