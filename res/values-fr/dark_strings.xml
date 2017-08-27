@@ -129,8 +129,8 @@
   <string name="nav_bar_dynamic_title">Couleur dynamique de la barre de navigation</string>
   <string name="nav_bar_dynamic_summary">Modifier la couleur de la barre de navigation avec la couleur principale de l\'application</string>
   <string name="color_calibration_display_summary">Régler diverses options de calibrage de couleur</string>
-  <string name="volume_wake_screen_summary_off">Pressing either volume button will wake your device</string>
-  <string name="volume_wake_screen_summary_on">This option is disabled when playback control is enabled and music is playing</string>
-  <string name="battery_light_almost_full_color_title">Charged (90%)</string>
-  <string name="battery_light_really_full_color_title">Fully charged (100%)</string>
+  <string name="volume_wake_screen_summary_off">Un appui sur un des boutons de volume sortira votre appareil de veille</string>
+  <string name="volume_wake_screen_summary_on">Cette option est désactivée lorsque le contrôle de lecture est activé et qu\'une musique est jouée</string>
+  <string name="battery_light_almost_full_color_title">Chargée (90 %)</string>
+  <string name="battery_light_really_full_color_title">Complètement chargée (100 %)</string>
 </resources>
