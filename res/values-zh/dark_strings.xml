@@ -110,7 +110,7 @@
   <string name="battery_bar_statusbar">在状态栏上显示</string>
   <string name="battery_bar_topnav">在导航栏顶部显示</string>
   <string name="battery_bar_bottomnav">在导航栏底部显示</string>
-  <string name="battery_bar_reg">常规</string>
+  <string name="battery_bar_reg">普通</string>
   <string name="battery_bar_center">居中</string>
   <!-- QS headers -->
   <string name="status_bar_custom_header_title">自定义顶栏图</string>
