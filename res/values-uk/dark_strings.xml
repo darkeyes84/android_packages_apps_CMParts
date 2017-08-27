@@ -129,4 +129,8 @@
   <string name="nav_bar_dynamic_title">Динамічний колір панелі навігації</string>
   <string name="nav_bar_dynamic_summary">Змінювати колір панелі навігації залежно від основного кольору додатку</string>
   <string name="color_calibration_display_summary">Калібрувати колірну температуру залежно від довкілля</string>
+  <string name="volume_wake_screen_summary_off">Натискання будь-якої кнопки гучності розблокує ваш пристрій</string>
+  <string name="volume_wake_screen_summary_on">Цей параметр вимкнено, якщо увімкнено керування відтворенням та відтворюється музика</string>
+  <string name="battery_light_almost_full_color_title">Заряджено (90%)</string>
+  <string name="battery_light_really_full_color_title">Повністю заряджений (100%)</string>
 </resources>

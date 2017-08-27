@@ -129,4 +129,8 @@
   <string name="nav_bar_dynamic_title">Dynamická barva navigační lišty</string>
   <string name="nav_bar_dynamic_summary">Změnit barvu navigační lišty na primární barvu aplikace</string>
   <string name="color_calibration_display_summary">Nastavit různé možnosti kalibrace barev</string>
+  <string name="volume_wake_screen_summary_off">Stiskem tlačítka hlasitosti bude zařízení probuzeno</string>
+  <string name="volume_wake_screen_summary_on">Tato možnost je zakázána, pokud je povoleno ovládání přehrávání a přehrává se hudba</string>
+  <string name="battery_light_almost_full_color_title">Nabito (90%)</string>
+  <string name="battery_light_really_full_color_title">Plně nabito (100 %)</string>
 </resources>

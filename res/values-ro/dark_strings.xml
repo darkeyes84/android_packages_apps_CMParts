@@ -129,4 +129,8 @@
   <string name="nav_bar_dynamic_title">Culoare bară de navigare dinamică</string>
   <string name="nav_bar_dynamic_summary">Schimbă culoarea bării de navigare după culoarea primară a aplicaţiei</string>
   <string name="color_calibration_display_summary">Ajustează diverse opţiuni de calibrare a culorii</string>
+  <string name="volume_wake_screen_summary_off">Prin apăsarea oricărui buton de volum dispozitivul se va porni</string>
+  <string name="volume_wake_screen_summary_on">Această opţiune este dezactivată atunci când este activat controlul redării şi se redă muzica</string>
+  <string name="battery_light_almost_full_color_title">Încărcată (90%)</string>
+  <string name="battery_light_really_full_color_title">Complet încãrcată (100 %)</string>
 </resources>

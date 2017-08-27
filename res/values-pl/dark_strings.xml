@@ -129,4 +129,8 @@
   <string name="nav_bar_dynamic_title">Dynamiczny kolor paska nawigacyjnego</string>
   <string name="nav_bar_dynamic_summary">Zmiana koloru paska nawigacyjnego na podstawowy kolor uruchomionej aplikacji</string>
   <string name="color_calibration_display_summary">Dostosuj różne możliwości kalibracji kolorów</string>
+  <string name="volume_wake_screen_summary_off">Wybudź urządzenie za pomocą przycisków głośności</string>
+  <string name="volume_wake_screen_summary_on">Ta opcja jest wyłączona, gdy włączone jest sterowanie odtwarzaniem i muzyka jest odtwarzana</string>
+  <string name="battery_light_almost_full_color_title">Naładowana (90%)</string>
+  <string name="battery_light_really_full_color_title">W pełni naładowany (100%)</string>
 </resources>

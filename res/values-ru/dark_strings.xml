@@ -129,4 +129,8 @@
   <string name="nav_bar_dynamic_title">Динамический цвет панели навигации</string>
   <string name="nav_bar_dynamic_summary">Включите/выключите этот переключатель для панели навигации, чтобы адаптировать панель к стандартному черному цвету. Перезапустите желаемое приложение, чтобы увидеть эффект</string>
   <string name="color_calibration_display_summary">Настроить различные параметры калибровки цвета</string>
+  <string name="volume_wake_screen_summary_off">Включать экран при нажатии кнопок регулировки громкости</string>
+  <string name="volume_wake_screen_summary_on">Этот параметр недоступен, когда включено управление воспроизведением и играет музыка</string>
+  <string name="battery_light_almost_full_color_title">Заряжена до 90%</string>
+  <string name="battery_light_really_full_color_title">Полностью заряжена (100%)</string>
 </resources>

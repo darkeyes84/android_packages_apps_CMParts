@@ -129,4 +129,8 @@
   <string name="nav_bar_dynamic_title">Динамичен цвят на лентата за навигация</string>
   <string name="nav_bar_dynamic_summary">Промяна на цвета на лентата за навигация към основния цвят на приложението</string>
   <string name="color_calibration_display_summary">Настройване на различни опции за калибриране на цветовете</string>
+  <string name="volume_wake_screen_summary_off">Натискане на бутон за звука ще събуди вашето устройство</string>
+  <string name="volume_wake_screen_summary_on">Тази опция е забранена, когато се възпроизвежда музика</string>
+  <string name="battery_light_almost_full_color_title">Батерията е заредена (90%)</string>
+  <string name="battery_light_really_full_color_title">Батерията е напълно заредена (100%)</string>
 </resources>

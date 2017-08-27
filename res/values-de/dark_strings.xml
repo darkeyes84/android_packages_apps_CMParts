@@ -129,4 +129,8 @@
   <string name="nav_bar_dynamic_title">Dynamische Farbe der Navigationsleiste</string>
   <string name="nav_bar_dynamic_summary">Farbe der Navigation Bar Farbe in die App-Grundfarbe</string>
   <string name="color_calibration_display_summary">Verschiedene Farb-Kalibrierung-Optionen anpassen</string>
+  <string name="volume_wake_screen_summary_off">Drücken einer Lautstärketaste aktiviert den Bildschirm</string>
+  <string name="volume_wake_screen_summary_on">Diese Option ist deaktiviert, wenn die Wiedergabesteuerung aktiviert ist und Musik läuft</string>
+  <string name="battery_light_almost_full_color_title">Akkustand (90 %)</string>
+  <string name="battery_light_really_full_color_title">Voll aufgeladen (100 %)</string>
 </resources>

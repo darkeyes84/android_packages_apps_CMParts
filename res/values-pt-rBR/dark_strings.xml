@@ -52,9 +52,9 @@
   <string name="smart_pulldown_summary">Abrir Configurações Rápidas quando houver %1$s notificações presentes</string>
   <string name="smart_pulldown_none_summary">Abrir o painel de definições rápidas quando não houver notificações</string>
   <string name="smart_pulldown_off">Desligado</string>
-  <string name="smart_pulldown_none">sem notificações</string>
+  <string name="smart_pulldown_none">Sem notificações</string>
   <string name="smart_pulldown_dismissable">não dispensável</string>
-  <string name="smart_pulldown_ongoing">não contínua</string>
+  <string name="smart_pulldown_ongoing">Não contínua</string>
   <!-- Navigation Bar -->
   <string name="navigation_bar_dimensions_title">Dimensões da barra de navegação</string>
   <string name="navigation_bar_dimensions_title_summary">Redimensionar a barra de navegação</string>
@@ -129,4 +129,8 @@
   <string name="nav_bar_dynamic_title">Cor dinâmica na barra de navegação</string>
   <string name="nav_bar_dynamic_summary">Alterar a cor da barra de navegação para a cor primária do aplicativo</string>
   <string name="color_calibration_display_summary">Ajuste várias opções de calibração de cor</string>
+  <string name="volume_wake_screen_summary_off">Pressionar um botão de volume ligará o dispositivo</string>
+  <string name="volume_wake_screen_summary_on">Esta opção é desativada quando o controle de mídia é ativando e uma música estiver tocando</string>
+  <string name="battery_light_almost_full_color_title">Carregado (90%)</string>
+  <string name="battery_light_really_full_color_title">Completamente carregado (100%)</string>
 </resources>

@@ -129,4 +129,8 @@
   <string name="nav_bar_dynamic_title">Color dinámico de la barra de navegación</string>
   <string name="nav_bar_dynamic_summary">Cambia el color de la barra de navegación al color primario de la aplicación</string>
   <string name="color_calibration_display_summary">Ajustar diversas opciones de calibración de color</string>
+  <string name="volume_wake_screen_summary_off">Presionar cualquier botón de volumen despertará su dispositivo</string>
+  <string name="volume_wake_screen_summary_on">Esta opción se desactiva cuando el control de la reproducción está activado y está sonando música</string>
+  <string name="battery_light_almost_full_color_title">Cargado (90%)</string>
+  <string name="battery_light_really_full_color_title">Totalmente cargado (100%)</string>
 </resources>
