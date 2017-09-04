@@ -46,8 +46,6 @@
         <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
         <item name="android:actionBarSize">@dimen/actionbar_size</item>
 
-        <item name="switchBarTheme">@style/ThemeOverlay.SwitchBar.Settings</item>
-
         <item name="preferenceBackgroundColor">@drawable/preference_background</item>
 
         <!-- For all Alert Dialogs -->
@@ -57,8 +55,6 @@
     <style name="Theme.SubSettings" parent="Theme.Settings">
         <!-- Redefine the ActionBar style for contentInsetStart -->
         <item name="actionBarStyle">@style/Theme.ActionBar.SubSettings</item>
-
-        <item name="switchBarTheme">@style/ThemeOverlay.SwitchBar.SubSettings</item>
     </style>
 
     <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
@@ -67,18 +63,6 @@
 
     <style name="Theme.ActionBar.SubSettings" parent="Theme.ActionBar">
         <item name="contentInsetStart">@dimen/actionbar_subsettings_contentInsetStart</item>
-    </style>
-
-    <style name="ThemeOverlay.SwitchBar.Settings" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
-        <item name="switchBarMarginStart">@dimen/switchbar_subsettings_margin_start</item>
-        <item name="switchBarMarginEnd">@dimen/switchbar_subsettings_margin_end</item>
-        <item name="switchBarBackgroundColor">@color/switchbar_background_color</item>
-    </style>
-
-    <style name="ThemeOverlay.SwitchBar.SubSettings" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
-        <item name="switchBarMarginStart">@dimen/switchbar_subsettings_margin_start</item>
-        <item name="switchBarMarginEnd">@dimen/switchbar_subsettings_margin_end</item>
-        <item name="switchBarBackgroundColor">@color/switchbar_background_color</item>
     </style>
 
     <style name="Theme.DialogWhenLarge" parent="@*android:style/Theme.Material.Settings.DialogWhenLarge">
@@ -105,13 +89,6 @@
 
         <!-- Redefine the ActionBar style for contentInsetStart -->
         <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
-    </style>
-
-    <!-- Used to color the switch bar controls -->
-    <style name="ThemeOverlay.SwitchBar" parent="@android:style/ThemeOverlay">
-        <!-- Used by controls, e.g. CheckBox, ProgressBar, etc. -->
-        <item name="android:colorAccent">@color/switch_accent_color</item>
-        <item name="switchBarBackgroundColor">@color/switchbar_background_color</item>
     </style>
 
 </resources>

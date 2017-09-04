@@ -24,13 +24,15 @@
               android:layout_width="0dp"
               android:layout_weight="1"
               android:layout_gravity="center_vertical"
+              android:paddingStart="48dp"
               android:maxLines="2"
               android:ellipsize="end"
               android:textAppearance="@style/TextAppearance.Switch"
+              android:textColor="@android:color/white"
               android:textAlignment="viewStart" />
 
     <org.cyanogenmod.cmparts.widget.ToggleSwitch
-        android:id="@+id/switch_widget"
+            android:id="@+id/switch_widget"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
