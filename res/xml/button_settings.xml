@@ -35,6 +35,18 @@
         android:key="navigation_bar_category"
         android:title="@string/navigation_bar_category" >
 
+        <PreferenceScreen
+            android:key="navigation_bar"
+            android:title="@string/navigation_bar_title">
+            <intent android:action="com.android.settings.action.NAV_BAR_TUNER" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="navbar_dimensions"
+            android:fragment="org.cyanogenmod.cmparts.input.NavBarDimensions"
+            android:summary="@string/navigation_bar_dimensions_title_summary"
+            android:title="@string/navigation_bar_dimensions_title" />
+
         <cyanogenmod.preference.CMSystemSettingSwitchPreference
             android:key="navigation_bar_left"
             android:title="@string/navigation_bar_left_title"
@@ -47,23 +59,11 @@
             android:summary="@string/navigation_bar_arrow_keys_summary"
             android:defaultValue="false" />
 
-        <PreferenceScreen
-            android:key="navbar_dimensions"
-            android:fragment="org.cyanogenmod.cmparts.input.NavBarDimensions"
-            android:summary="@string/navigation_bar_dimensions_title_summary"
-            android:title="@string/navigation_bar_dimensions_title" />
-
         <SwitchPreference
             android:key="nav_bar_dynamic"
             android:title="@string/nav_bar_dynamic_title"
             android:summary="@string/nav_bar_dynamic_summary"
             android:defaultValue="false" />
-
-        <PreferenceScreen
-            android:key="navigation_bar"
-            android:title="@string/navigation_bar_title">
-            <intent android:action="com.android.settings.action.NAV_BAR_TUNER" />
-        </PreferenceScreen>
 
      	<cyanogenmod.preference.CMSystemSettingSwitchPreference
             android:key="pixel_nav_animation"
@@ -280,6 +280,14 @@
         android:key="volume_keys"
         android:title="@string/hardware_keys_volume_keys_title" >
 
+        <ListPreference
+            android:key="volume_key_cursor_control"
+            android:dialogTitle="@string/volbtn_cursor_control_title"
+            android:title="@string/volbtn_cursor_control_title"
+            android:entries="@array/volbtn_cursor_control_entries"
+            android:entryValues="@array/volbtn_cursor_control_values"
+            android:persistent="false" />
+
         <cyanogenmod.preference.CMSystemSettingSwitchPreference
             android:key="volume_wake_screen"
             android:title="@string/button_wake_title"
@@ -305,18 +313,11 @@
             android:summary="@string/volume_keys_control_ring_stream_summary"
             android:defaultValue="true" />
 
-        <ListPreference
-            android:key="volume_key_cursor_control"
-            android:dialogTitle="@string/volbtn_cursor_control_title"
-            android:title="@string/volbtn_cursor_control_title"
-            android:entries="@array/volbtn_cursor_control_entries"
-            android:entryValues="@array/volbtn_cursor_control_values"
-            android:persistent="false" />
-
         <SwitchPreference
             android:key="swap_volume_buttons"
             android:title="@string/swap_volume_buttons_title"
             android:summary="@string/swap_volume_buttons_summary" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
