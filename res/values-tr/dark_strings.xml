@@ -127,10 +127,10 @@
   <string name="hide_carrier_label_with_wifi_title">Operatör etiketi ile WiFi SSID gizle</string>
   <string name="hide_carrier_label_with_wifi_summary">Operatör etiketini yalnızca WiFi SSID etkin değilken göster</string>
   <string name="nav_bar_dynamic_title">Gezinme çubuğu dinamik rengi</string>
-  <string name="nav_bar_dynamic_summary">Change the navigation bar color to the app primary color</string>
-  <string name="color_calibration_display_summary">Adjust various color calibration options</string>
-  <string name="volume_wake_screen_summary_off">Pressing either volume button will wake your device</string>
-  <string name="volume_wake_screen_summary_on">This option is disabled when playback control is enabled and music is playing</string>
-  <string name="battery_light_almost_full_color_title">Charged (90%)</string>
-  <string name="battery_light_really_full_color_title">Fully charged (100%)</string>
+  <string name="nav_bar_dynamic_summary">Gezinti çubuğunun rengini uygulama ana rengiyle değiştir</string>
+  <string name="color_calibration_display_summary">Çeşitli renk kalibrasyon ayarlarını değiştirin</string>
+  <string name="volume_wake_screen_summary_off">Ses tuşlarına basmak cihazınızı uyandırır</string>
+  <string name="volume_wake_screen_summary_on">Bu seçenek müzik oynatma kontrolü etkin ve müzik çalıyorsa devre dışıdır</string>
+  <string name="battery_light_almost_full_color_title">Şarj (%90)</string>
+  <string name="battery_light_really_full_color_title">Tam olarak şarj edilmiş (%100)</string>
 </resources>
