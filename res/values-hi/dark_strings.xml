@@ -18,7 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Show bluetooth icon when disconnected -->
-  <string name="status_bar_bluetooth_icon">Bluetooth icon</string>
+  <string name="status_bar_bluetooth_icon">ब्लूटूथ आइकन</string>
   <string name="status_bar_bluetooth_icon_summary">Show icon when it is enabled but not connected</string>
   <!-- Hide the alarm icon in the expanded status bar -->
   <string name="show_next_alarm_icon_title">Alarm icon</string>
