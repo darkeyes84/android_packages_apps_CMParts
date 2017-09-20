@@ -98,7 +98,7 @@
   <string name="battery_low_notification_summary">Show a notification when the battery is low</string>
   <!-- Battery saver color -->
   <string name="battery_saver_mode_color_title">Battery saver warning color</string>
-  <string name="battery_saver_mode_color_summary">Show orange status bar and navigation bar when battery saver is activated</string>
+  <string name="battery_saver_mode_color_summary">베터리 세이버가 활성화되면 상태 표시줄과 내비게이션 바를 주황색으로 표시합니다</string>
   <!-- Battery bar settings -->
   <string name="battery_bar_title">배터리 바</string>
   <string name="battery_bar_location">배터리 바</string>
@@ -107,30 +107,30 @@
   <string name="battery_bar_animate_title">충전 애니메이션</string>
   <string name="battery_bar_animate_summary">충전 애니메이션은 사용자 경험에 악영향일 미칠 수 있습니다. 개인의 선호에 따라 활성화 하세요.</string>
   <string name="battery_bar_hide">숨기기</string>
-  <string name="battery_bar_statusbar">Status bar</string>
-  <string name="battery_bar_topnav">Top of navigation bar</string>
-  <string name="battery_bar_bottomnav">Bottom of navigation bar</string>
-  <string name="battery_bar_reg">Regular</string>
-  <string name="battery_bar_center">Center-mirrored</string>
+  <string name="battery_bar_statusbar">상태 표시줄</string>
+  <string name="battery_bar_topnav">네비게이션 바 위쪽</string>
+  <string name="battery_bar_bottomnav">네비게이션 바 아래쪽</string>
+  <string name="battery_bar_reg">보통</string>
+  <string name="battery_bar_center">중앙 정렬</string>
   <!-- QS headers -->
-  <string name="status_bar_custom_header_title">Custom headers</string>
+  <string name="status_bar_custom_header_title">사용자 지정 헤더</string>
   <string name="status_bar_custom_header_summary">Enable custom images in the notification panel</string>
   <string name="custom_header_title">Enable custom headers</string>
-  <string name="daylight_header_pack_title">Header image pack</string>
+  <string name="daylight_header_pack_title">헤더 이미지 팩</string>
   <string name="status_bar_custom_header_shadow_title">Darken header image</string>
   <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
-  <string name="static_header_provider_title">Static</string>
-  <string name="daylight_header_provider_title">Dynamic</string>
+  <string name="static_header_provider_title">정적 이미지</string>
+  <string name="daylight_header_provider_title">동적펼침</string>
   <string name="custom_header_provider_title">Header provider</string>
-  <string name="custom_header_browse_title">Browse installed headers</string>
-  <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
+  <string name="custom_header_browse_title">설치된 헤더를 확인</string>
+  <string name="custom_header_browse_summary">이미지를 길게 눌러 정적 모드에 사용합니다</string>
   <string name="hide_carrier_label_with_wifi_title">Hide carrier label with WiFi SSID</string>
   <string name="hide_carrier_label_with_wifi_summary">Only show the carrier label when the WiFi SSID is not showing</string>
   <string name="nav_bar_dynamic_title">Navigation bar dynamic color</string>
   <string name="nav_bar_dynamic_summary">Change the navigation bar color to the app primary color</string>
   <string name="color_calibration_display_summary">Adjust various color calibration options</string>
-  <string name="volume_wake_screen_summary_off">Pressing either volume button will wake your device</string>
+  <string name="volume_wake_screen_summary_off">볼륨 버튼을 눌러서 기기를 켭니다</string>
   <string name="volume_wake_screen_summary_on">This option is disabled when playback control is enabled and music is playing</string>
-  <string name="battery_light_almost_full_color_title">Charged (90%)</string>
-  <string name="battery_light_really_full_color_title">Fully charged (100%)</string>
+  <string name="battery_light_almost_full_color_title">충전됨 (90%)</string>
+  <string name="battery_light_really_full_color_title">충전 완료(100%)</string>
 </resources>
