@@ -60,7 +60,7 @@
   <string name="navigation_bar_dimensions_title_summary">네비게이션 바 크기 조절</string>
   <string name="navigation_bar_height_title">내비게이션 바 높이</string>
   <string name="navigation_bar_height_summary">Navigation bar height while in portrait</string>
-  <string name="navigation_bar_width_title">Navigation bar width</string>
+  <string name="navigation_bar_width_title">내비게이션 바 넓이</string>
   <string name="navigation_bar_width_summary">Navigation bar width if the bar is along a side (landscape)</string>
   <string name="navigation_bar_size_48_dp_default">48 dp (기본값)</string>
   <string name="navigation_bar_size_44_dp">44 dp</string>
