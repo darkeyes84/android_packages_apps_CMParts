@@ -53,7 +53,7 @@
   <string name="smart_pulldown_none_summary">표시할 알림이 없으면 빠른 설정을 표시합니다</string>
   <string name="smart_pulldown_off">끄기</string>
   <string name="smart_pulldown_none">알림 없음</string>
-  <string name="smart_pulldown_dismissable">no dismissable</string>
+  <string name="smart_pulldown_dismissable">지울 수 있는 알림 없음</string>
   <string name="smart_pulldown_ongoing">진행 중 알림 없음</string>
   <!-- Navigation Bar -->
   <string name="navigation_bar_dimensions_title">네비게이션 바 크기</string>
@@ -61,7 +61,7 @@
   <string name="navigation_bar_height_title">내비게이션 바 높이</string>
   <string name="navigation_bar_height_summary">세로 화면일때 내비게이션 바 높이</string>
   <string name="navigation_bar_width_title">내비게이션 바 넓이</string>
-  <string name="navigation_bar_width_summary">Navigation bar width if the bar is along a side (landscape)</string>
+  <string name="navigation_bar_width_summary">측면 소프트 키 사용시 크기 (가로 모드)</string>
   <string name="navigation_bar_size_48_dp_default">48 dp (기본값)</string>
   <string name="navigation_bar_size_44_dp">44 dp</string>
   <string name="navigation_bar_size_42_dp_default">42 dp (기본값)</string>
@@ -126,11 +126,11 @@
   <string name="custom_header_browse_summary">이미지를 길게 눌러 정적 모드에 사용합니다</string>
   <string name="hide_carrier_label_with_wifi_title">통신사 이름과 WIFI SSID를 숨깁니다</string>
   <string name="hide_carrier_label_with_wifi_summary">WIFI SSID가 보여지지 않을때만 통신사 이름을 보여줍니다</string>
-  <string name="nav_bar_dynamic_title">Navigation bar dynamic color</string>
-  <string name="nav_bar_dynamic_summary">Change the navigation bar color to the app primary color</string>
-  <string name="color_calibration_display_summary">Adjust various color calibration options</string>
+  <string name="nav_bar_dynamic_title">내비게이션 바 동적 색상</string>
+  <string name="nav_bar_dynamic_summary">네비게이션 바 색상을 앱의 주 색상으로 변경합니다</string>
+  <string name="color_calibration_display_summary">다양한 색상 보정 옵션 조정</string>
   <string name="volume_wake_screen_summary_off">볼륨 버튼을 눌러서 기기를 켭니다</string>
-  <string name="volume_wake_screen_summary_on">This option is disabled when playback control is enabled and music is playing</string>
+  <string name="volume_wake_screen_summary_on">재생 제어가 활성화되어 있고 음악이 재생중이면 이 옵션이 비활성화됩니다</string>
   <string name="battery_light_almost_full_color_title">충전됨 (90%)</string>
   <string name="battery_light_really_full_color_title">충전 완료(100%)</string>
 </resources>
