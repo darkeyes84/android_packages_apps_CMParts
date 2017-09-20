@@ -91,13 +91,13 @@
   <string name="wifi_status_bar_ssid_title">WiFi의 SSID 표시</string>
   <string name="wifi_status_bar_ssid_summary">Show the WiFi SSID of a connected network in the status bar</string>
   <!-- Custom carrier label and position -->
-  <string name="carrier_label_settings_title">Show carrier label</string>
+  <string name="carrier_label_settings_title">이동통신사 라벨 표시</string>
   <string name="carrier_label_settings_summary">Show the carrier label in the status bar</string>
   <!-- Low battery notification -->
   <string name="battery_low_notification_title">배터리 부족 알림</string>
   <string name="battery_low_notification_summary">Show a notification when the battery is low</string>
   <!-- Battery saver color -->
-  <string name="battery_saver_mode_color_title">Battery saver warning color</string>
+  <string name="battery_saver_mode_color_title">배터리 세이버 경고 색상</string>
   <string name="battery_saver_mode_color_summary">베터리 세이버가 활성화되면 상태 표시줄과 내비게이션 바를 주황색으로 표시합니다</string>
   <!-- Battery bar settings -->
   <string name="battery_bar_title">배터리 바</string>
@@ -115,13 +115,13 @@
   <!-- QS headers -->
   <string name="status_bar_custom_header_title">사용자 지정 헤더</string>
   <string name="status_bar_custom_header_summary">Enable custom images in the notification panel</string>
-  <string name="custom_header_title">Enable custom headers</string>
+  <string name="custom_header_title">사용자 헤더 활성화</string>
   <string name="daylight_header_pack_title">헤더 이미지 팩</string>
-  <string name="status_bar_custom_header_shadow_title">Darken header image</string>
-  <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
+  <string name="status_bar_custom_header_shadow_title">어두운 헤더 이미지</string>
+  <string name="status_bar_custom_header_shadow_summary">밝은 이미지에서의 시인성을 높여줍니다</string>
   <string name="static_header_provider_title">정적 이미지</string>
   <string name="daylight_header_provider_title">동적펼침</string>
-  <string name="custom_header_provider_title">Header provider</string>
+  <string name="custom_header_provider_title">헤더 제공자</string>
   <string name="custom_header_browse_title">설치된 헤더를 확인</string>
   <string name="custom_header_browse_summary">이미지를 길게 눌러 정적 모드에 사용합니다</string>
   <string name="hide_carrier_label_with_wifi_title">Hide carrier label with WiFi SSID</string>
