@@ -19,7 +19,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Show bluetooth icon when disconnected -->
   <string name="status_bar_bluetooth_icon">블루투스 아이콘</string>
-  <string name="status_bar_bluetooth_icon_summary">Show icon when it is enabled but not connected</string>
+  <string name="status_bar_bluetooth_icon_summary">활성화 되어있지만 연결되지 않았을때 아이콘을 보여줍니다</string>
   <!-- Hide the alarm icon in the expanded status bar -->
   <string name="show_next_alarm_icon_title">알람 아이콘</string>
   <string name="show_next_alarm_icon_summary">알람이 설정되어 있으면 상태바에 아이콘을 표시합니다</string>
@@ -27,7 +27,7 @@
   <string name="default_string">기본값</string>
   <string name="network_traffic_title">네트워크 트래픽</string>
   <string name="show_network_traffic_state">상태 표시줄 네트워크 트래픽 모니터</string>
-  <string name="network_traffic_summary">Enable various network traffic options in the status bar</string>
+  <string name="network_traffic_summary">상태 표시줄에 다양한 네트워크 트래픽 설정을 활성화합니다</string>
   <string name="show_network_traffic_unit">표시 단위</string>
   <string name="show_network_traffic_frequency">새로고침 간격</string>
   <string name="show_network_traffic_disable">비활성화</string>
@@ -46,7 +46,7 @@
   <string name="network_traffic_hidearrow">화살표 숨기기</string>
   <string name="network_traffic_hidearrow_summary">트래픽 표시기에서 화살표를 숨깁니다</string>
   <string name="volume_keys_control_ring_stream_title">볼륨키로 벨소리 볼륨을 제어</string>
-  <string name="volume_keys_control_ring_stream_summary">If on, volume keys control ringtone volume. If off, volume keys control media volume.</string>
+  <string name="volume_keys_control_ring_stream_summary">활성화시, 볼륨키가 전화 볼륨을 조절합니다. 비활성화시, 볼륨키가 미디어 볼륨을 조절합니다</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">스마트 내리기</string>
   <string name="smart_pulldown_summary">%1$s개 이상의 알림이 있으면 빠른 설정을 표시합니다</string>
@@ -59,7 +59,7 @@
   <string name="navigation_bar_dimensions_title">네비게이션 바 크기</string>
   <string name="navigation_bar_dimensions_title_summary">네비게이션 바 크기 조절</string>
   <string name="navigation_bar_height_title">내비게이션 바 높이</string>
-  <string name="navigation_bar_height_summary">Navigation bar height while in portrait</string>
+  <string name="navigation_bar_height_summary">세로 화면일때 내비게이션 바 높이</string>
   <string name="navigation_bar_width_title">내비게이션 바 넓이</string>
   <string name="navigation_bar_width_summary">Navigation bar width if the bar is along a side (landscape)</string>
   <string name="navigation_bar_size_48_dp_default">48 dp (기본값)</string>
@@ -72,7 +72,7 @@
   <string name="navigation_bar_size_24_dp">24 dp</string>
   <!-- Date in status bar -->
   <string name="status_bar_date">날짜</string>
-  <string name="status_bar_date_summary">Display the date in the status bar</string>
+  <string name="status_bar_date_summary">상태 표시줄에 날짜를 표시합니다</string>
   <string name="status_bar_date_style">날짜 스타일</string>
   <string name="status_bar_date_format">날짜 형식</string>
   <string name="status_bar_date_none">표시 안 함</string>
@@ -89,13 +89,13 @@
   <string name="pixel_navbar_anim_summary">홈 버튼 애니메이션 활성화</string>
   <!-- SSID in status bar -->
   <string name="wifi_status_bar_ssid_title">WiFi의 SSID 표시</string>
-  <string name="wifi_status_bar_ssid_summary">Show the WiFi SSID of a connected network in the status bar</string>
+  <string name="wifi_status_bar_ssid_summary">상태 표시줄에 연결된 WIFI SSID를 표시합니다</string>
   <!-- Custom carrier label and position -->
   <string name="carrier_label_settings_title">이동통신사 라벨 표시</string>
-  <string name="carrier_label_settings_summary">Show the carrier label in the status bar</string>
+  <string name="carrier_label_settings_summary">상태 표시줄에 통신사 이름을 표시합니다</string>
   <!-- Low battery notification -->
   <string name="battery_low_notification_title">배터리 부족 알림</string>
-  <string name="battery_low_notification_summary">Show a notification when the battery is low</string>
+  <string name="battery_low_notification_summary">배터리가 적을 때 알림 표시</string>
   <!-- Battery saver color -->
   <string name="battery_saver_mode_color_title">배터리 세이버 경고 색상</string>
   <string name="battery_saver_mode_color_summary">베터리 세이버가 활성화되면 상태 표시줄과 내비게이션 바를 주황색으로 표시합니다</string>
@@ -114,7 +114,7 @@
   <string name="battery_bar_center">중앙 정렬</string>
   <!-- QS headers -->
   <string name="status_bar_custom_header_title">사용자 지정 헤더</string>
-  <string name="status_bar_custom_header_summary">Enable custom images in the notification panel</string>
+  <string name="status_bar_custom_header_summary">알림 패널에 사용자 지정 이미지를 활성화 합니다</string>
   <string name="custom_header_title">사용자 헤더 활성화</string>
   <string name="daylight_header_pack_title">헤더 이미지 팩</string>
   <string name="status_bar_custom_header_shadow_title">어두운 헤더 이미지</string>
@@ -124,8 +124,8 @@
   <string name="custom_header_provider_title">헤더 제공자</string>
   <string name="custom_header_browse_title">설치된 헤더를 확인</string>
   <string name="custom_header_browse_summary">이미지를 길게 눌러 정적 모드에 사용합니다</string>
-  <string name="hide_carrier_label_with_wifi_title">Hide carrier label with WiFi SSID</string>
-  <string name="hide_carrier_label_with_wifi_summary">Only show the carrier label when the WiFi SSID is not showing</string>
+  <string name="hide_carrier_label_with_wifi_title">통신사 이름과 WIFI SSID를 숨깁니다</string>
+  <string name="hide_carrier_label_with_wifi_summary">WIFI SSID가 보여지지 않을때만 통신사 이름을 보여줍니다</string>
   <string name="nav_bar_dynamic_title">Navigation bar dynamic color</string>
   <string name="nav_bar_dynamic_summary">Change the navigation bar color to the app primary color</string>
   <string name="color_calibration_display_summary">Adjust various color calibration options</string>
