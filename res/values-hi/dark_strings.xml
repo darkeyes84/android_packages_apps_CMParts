@@ -46,9 +46,9 @@
   <string name="network_traffic_hidearrow">तीर छुपाएँ</string>
   <string name="network_traffic_hidearrow_summary">यातायात संकेतकों में से तीर छुपाएँ</string>
   <string name="volume_keys_control_ring_stream_title">वॉल्यूम बटन रिंगटोन वॉल्यूम नियंत्रण करते हैं</string>
-  <string name="volume_keys_control_ring_stream_summary">If on, volume keys control ringtone volume. If off, volume keys control media volume.</string>
+  <string name="volume_keys_control_ring_stream_summary">अगर पर, वॉल्यूम कुंजी नियंत्रण रिंगटोन मात्रा यदि बंद, वॉल्यूम कुंजी मीडिया वॉल्यूम को नियंत्रित करते हैं</string>
   <!-- Smart pulldown-->
-  <string name="smart_pulldown_title">Smart pulldown</string>
+  <string name="smart_pulldown_title">होशियार नीचे खींचना</string>
   <string name="smart_pulldown_summary">Open Quick Settings when there are %1$s notifications</string>
   <string name="smart_pulldown_none_summary">Open Quick Settings when there are no notifications</string>
   <string name="smart_pulldown_off">Off</string>
