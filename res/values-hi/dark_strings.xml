@@ -49,19 +49,19 @@
   <string name="volume_keys_control_ring_stream_summary">अगर पर, वॉल्यूम कुंजी नियंत्रण रिंगटोन मात्रा यदि बंद, वॉल्यूम कुंजी मीडिया वॉल्यूम को नियंत्रित करते हैं</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">होशियार नीचे खींचना</string>
-  <string name="smart_pulldown_summary">Open Quick Settings when there are %1$s notifications</string>
-  <string name="smart_pulldown_none_summary">Open Quick Settings when there are no notifications</string>
-  <string name="smart_pulldown_off">Off</string>
-  <string name="smart_pulldown_none">no notifications</string>
-  <string name="smart_pulldown_dismissable">no dismissable</string>
-  <string name="smart_pulldown_ongoing">no ongoing</string>
+  <string name="smart_pulldown_summary">%1$s नोटिफिकेशन होने पर त्वरित सेटिंग्स खोलें</string>
+  <string name="smart_pulldown_none_summary">नोटिफिकेशन नहीं होने पर त्वरित सेटिंग्स खोलें</string>
+  <string name="smart_pulldown_off">ऑफ</string>
+  <string name="smart_pulldown_none">कोई नोटिफिकेशन नहीं</string>
+  <string name="smart_pulldown_dismissable">कोई खारिज करने योग्य नहीं</string>
+  <string name="smart_pulldown_ongoing">नहीं चल रहे</string>
   <!-- Navigation Bar -->
-  <string name="navigation_bar_dimensions_title">Navigation bar dimensions</string>
-  <string name="navigation_bar_dimensions_title_summary">Resize the navigation bar</string>
-  <string name="navigation_bar_height_title">Navigation bar height</string>
-  <string name="navigation_bar_height_summary">Navigation bar height while in portrait</string>
-  <string name="navigation_bar_width_title">Navigation bar width</string>
-  <string name="navigation_bar_width_summary">Navigation bar width if the bar is along a side (landscape)</string>
+  <string name="navigation_bar_dimensions_title">नेविगेशन बार आयाम</string>
+  <string name="navigation_bar_dimensions_title_summary">नेविगेशन बार का आकार बदलें</string>
+  <string name="navigation_bar_height_title">नेविगेशन पट्टी ऊंचाई</string>
+  <string name="navigation_bar_height_summary">पोर्ट्रेट में नेविगेशन बार</string>
+  <string name="navigation_bar_width_title">नेविगेशन बार चौड़ाई</string>
+  <string name="navigation_bar_width_summary">नेविगेशन बार चौड़ाई (परिदृश्य)</string>
   <string name="navigation_bar_size_48_dp_default">48 dp (default)</string>
   <string name="navigation_bar_size_44_dp">44 dp</string>
   <string name="navigation_bar_size_42_dp_default">42 dp (default)</string>
@@ -71,31 +71,31 @@
   <string name="navigation_bar_size_30_dp">30 dp</string>
   <string name="navigation_bar_size_24_dp">24 dp</string>
   <!-- Date in status bar -->
-  <string name="status_bar_date">Date</string>
-  <string name="status_bar_date_summary">Display the date in the status bar</string>
-  <string name="status_bar_date_style">Date style</string>
-  <string name="status_bar_date_format">Date format</string>
-  <string name="status_bar_date_none">Don\'t show</string>
-  <string name="status_bar_date_small">Small font size</string>
-  <string name="status_bar_date_normal">Normal font size</string>
-  <string name="status_bar_date_style_normal">Normal</string>
-  <string name="status_bar_date_style_lowercase">Lowercase</string>
-  <string name="status_bar_date_style_uppercase">Uppercase</string>
-  <string name="status_bar_date_position">Date position</string>
-  <string name="status_bar_date_right">Right of time</string>
-  <string name="status_bar_date_left">Left of time</string>
+  <string name="status_bar_date">तिथि</string>
+  <string name="status_bar_date_summary">स्थिति बार में दिनांक प्रदर्शित करें</string>
+  <string name="status_bar_date_style">दिनांक शैली</string>
+  <string name="status_bar_date_format">दिनांक स्वरूप</string>
+  <string name="status_bar_date_none">शो न करें</string>
+  <string name="status_bar_date_small">छोटा आकार</string>
+  <string name="status_bar_date_normal">साधारण आकार</string>
+  <string name="status_bar_date_style_normal">साधारण</string>
+  <string name="status_bar_date_style_lowercase">लोअरकेस</string>
+  <string name="status_bar_date_style_uppercase">अपरकेस</string>
+  <string name="status_bar_date_position">दिनांक स्थान</string>
+  <string name="status_bar_date_right">सही समय</string>
+  <string name="status_bar_date_left">समय के बाएं ओर</string>
   <!-- Pixel navbar animation -->
-  <string name="pixel_navbar_anim_title">Home button animation</string>
-  <string name="pixel_navbar_anim_summary">Enable the home button animation</string>
+  <string name="pixel_navbar_anim_title">होम बटन एनीमेशन</string>
+  <string name="pixel_navbar_anim_summary">होम बटन एनीमेशन सक्षम करें</string>
   <!-- SSID in status bar -->
-  <string name="wifi_status_bar_ssid_title">Show WiFi SSID</string>
-  <string name="wifi_status_bar_ssid_summary">Show the WiFi SSID of a connected network in the status bar</string>
+  <string name="wifi_status_bar_ssid_title">वाईफ़ाई SSID दिखाएं</string>
+  <string name="wifi_status_bar_ssid_summary">स्थिति पट्टी में कनेक्ट वाईफ़ाई SSID दिखाएं</string>
   <!-- Custom carrier label and position -->
-  <string name="carrier_label_settings_title">Show carrier label</string>
-  <string name="carrier_label_settings_summary">Show the carrier label in the status bar</string>
+  <string name="carrier_label_settings_title">वाहक लेबल दिखाना</string>
+  <string name="carrier_label_settings_summary">स्टेटस बार में वाहक लेबल दिखाएं</string>
   <!-- Low battery notification -->
-  <string name="battery_low_notification_title">Low battery notification</string>
-  <string name="battery_low_notification_summary">Show a notification when the battery is low</string>
+  <string name="battery_low_notification_title">कम बैटरी अधिसूचना</string>
+  <string name="battery_low_notification_summary">कम बैटरी सूचना दिखाएं</string>
   <!-- Battery saver color -->
   <string name="battery_saver_mode_color_title">Battery saver warning color</string>
   <string name="battery_saver_mode_color_summary">Show orange status bar and navigation bar when battery saver is activated</string>
