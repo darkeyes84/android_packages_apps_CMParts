@@ -71,6 +71,11 @@
             android:summary="@string/pixel_navbar_anim_summary"
             android:defaultValue="true" />
 
+        <cyanogenmod.preference.CMSecureSettingSwitchPreference
+            android:key="kill_app_longpress_back"
+            android:title="@string/kill_app_longpress_back"
+            android:summary="@string/kill_app_longpress_back_summary"/>
+
         <ListPreference
             android:key="navigation_home_long_press"
             android:dialogTitle="@string/navigation_bar_home_long_press_title"
@@ -116,6 +121,13 @@
             android:summary="@string/torch_long_press_power_gesture_desc"
             android:defaultValue="false"
             cm:requiresConfig="@*android:bool/config_supportLongPressPowerWhenNonInteractive" />
+
+        <cyanogenmod.preference.CMSystemSettingSwitchPreference
+            android:key="torch_long_press_power_proximity"
+            android:title="@string/torch_long_press_power_proximity_title"
+            android:summary="@string/torch_long_press_power_proximity_summary"
+            android:defaultValue="true"
+            android:dependency="torch_long_press_power_gesture" />
 
         <ListPreference
             android:key="torch_long_press_power_timeout"

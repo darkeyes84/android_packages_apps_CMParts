@@ -155,4 +155,11 @@
     <string name="battery_light_almost_full_color_title">Charged (90%)</string>
     <string name="battery_light_really_full_color_title">Fully charged (100%)</string>
 
+    <!-- Kill app long-press back -->
+    <string name="kill_app_longpress_back">Kill app back button</string>
+    <string name="kill_app_longpress_back_summary">Kill the foreground app by long pressing the back button</string>
+
+    <string name="torch_long_press_power_proximity_title">Prevent accidental torch</string>
+    <string name="torch_long_press_power_proximity_summary">Check the proximity sensor prior to activating torch</string>
+
 </resources>
