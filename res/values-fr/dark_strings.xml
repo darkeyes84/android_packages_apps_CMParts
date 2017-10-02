@@ -137,5 +137,5 @@
   <string name="kill_app_longpress_back">Kill app back button</string>
   <string name="kill_app_longpress_back_summary">Kill the foreground app by long pressing the back button</string>
   <string name="torch_long_press_power_proximity_title">Prevent accidental torch</string>
-  <string name="torch_long_press_power_proximity_summary">Check the proximity sensor prior to activating torch</string>
+  <string name="torch_long_press_power_proximity_summary">Utiliser le capteur de proximité pour prévenir l\'activation de la torche</string>
 </resources>
