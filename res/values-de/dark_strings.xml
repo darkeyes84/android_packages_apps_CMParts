@@ -134,8 +134,8 @@
   <string name="battery_light_almost_full_color_title">Akkustand (90 %)</string>
   <string name="battery_light_really_full_color_title">Voll aufgeladen (100 %)</string>
   <!-- Kill app long-press back -->
-  <string name="kill_app_longpress_back">Aktuelle App bei langen Drücken der Zurück Taste beenden</string>
+  <string name="kill_app_longpress_back">App beenden mit Zurück-Taste</string>
   <string name="kill_app_longpress_back_summary">Aktuelle App bei gedrückt halten der Zurück Taste schließen</string>
   <string name="torch_long_press_power_proximity_title">Verhindert versehentliches Aktivieren der Taschenlampe</string>
-  <string name="torch_long_press_power_proximity_summary">Check the proximity sensor prior to activating torch</string>
+  <string name="torch_long_press_power_proximity_summary">Vor Einschalten der Taschenlampe Näherungssensor überprüfen</string>
 </resources>
