@@ -136,6 +136,6 @@
   <!-- Kill app long-press back -->
   <string name="kill_app_longpress_back">Termina applicazione con pulsante indietro</string>
   <string name="kill_app_longpress_back_summary">Termina l\'applicazione in primo piano con la pressione prolungata del pulsante indietro</string>
-  <string name="torch_long_press_power_proximity_title">Prevent accidental torch</string>
-  <string name="torch_long_press_power_proximity_summary">Check the proximity sensor prior to activating torch</string>
+  <string name="torch_long_press_power_proximity_title">Previeni attivazione accidentale della torcia</string>
+  <string name="torch_long_press_power_proximity_summary">Controlla il sensore di prossimità prima di attivare la torcia</string>
 </resources>
