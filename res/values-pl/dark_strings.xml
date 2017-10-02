@@ -136,6 +136,6 @@
   <!-- Kill app long-press back -->
   <string name="kill_app_longpress_back">Zabijaj aplikacje przyciskiem wstecz</string>
   <string name="kill_app_longpress_back_summary">Przytrzymanie przycisku wstecz zabija aktywną aplikację</string>
-  <string name="torch_long_press_power_proximity_title">Prevent accidental torch</string>
-  <string name="torch_long_press_power_proximity_summary">Check the proximity sensor prior to activating torch</string>
+  <string name="torch_long_press_power_proximity_title">Zapobiegaj przypadkowemu wybudzeniu</string>
+  <string name="torch_long_press_power_proximity_summary">Sprawdź czujnik zbliżeniowy przed włączeniem latarki</string>
 </resources>
