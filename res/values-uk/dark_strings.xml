@@ -137,5 +137,5 @@
   <string name="kill_app_longpress_back">Закрити додаток кнопкою \"Назад\"</string>
   <string name="kill_app_longpress_back_summary">Закрити запущений додаток утриманням кнопки \"Назад\"</string>
   <string name="torch_long_press_power_proximity_title">Запобігання випадкового увімкнення ліхтарика</string>
-  <string name="torch_long_press_power_proximity_summary">Check the proximity sensor prior to activating torch</string>
+  <string name="torch_long_press_power_proximity_summary">Перевірка датчика наближення перед активацією ліхтарика</string>
 </resources>
