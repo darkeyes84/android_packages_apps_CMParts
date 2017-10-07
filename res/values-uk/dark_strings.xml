@@ -140,16 +140,16 @@
   <string name="torch_long_press_power_proximity_summary">Перевірка датчика наближення перед активацією ліхтарика</string>
   <!-- Pie -->
   <string name="pie_settings">PIE</string>
-  <string name="pie_gravity_title">Location</string>
-  <string name="pie_gravity_bottom">Bottom</string>
-  <string name="pie_gravity_right">Right</string>
-  <string name="pie_gravity_left">Left</string>
-  <string name="pie_theme_mode_title">Theme</string>
-  <string name="pie_auto">Automatic</string>
+  <string name="pie_gravity_title">Розташування</string>
+  <string name="pie_gravity_bottom">Внизу</string>
+  <string name="pie_gravity_right">Праворуч</string>
+  <string name="pie_gravity_left">Ліворуч</string>
+  <string name="pie_theme_mode_title">Тема</string>
+  <string name="pie_auto">Автоматично</string>
   <string name="pie_white">White</string>
   <string name="pie_dark">Dark</string>
-  <string name="pie_battery_title">Battery indicator</string>
-  <string name="pie_battery_text">Text only</string>
+  <string name="pie_battery_title">Індикатор заряду акумулятора</string>
+  <string name="pie_battery_text">Лише текст</string>
   <string name="pie_battery_circle">Circle only</string>
   <string name="pie_battery_both">Both</string>
   <string name="pie_status_indicator">Network indicator</string>
