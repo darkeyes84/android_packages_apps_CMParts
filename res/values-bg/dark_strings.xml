@@ -147,14 +147,14 @@
   <string name="pie_theme_mode_title">Тема</string>
   <string name="pie_auto">Автоматично</string>
   <string name="pie_white">Бяло</string>
-  <string name="pie_dark">Dark</string>
-  <string name="pie_battery_title">Battery indicator</string>
-  <string name="pie_battery_text">Text only</string>
-  <string name="pie_battery_circle">Circle only</string>
-  <string name="pie_battery_both">Both</string>
-  <string name="pie_status_indicator">Network indicator</string>
-  <string name="pie_status_wifi">WiFi only</string>
-  <string name="pie_status_mobile">Mobile network only</string>
-  <string name="pie_status_none">None</string>
-  <string name="pie_status_both">Both</string>
+  <string name="pie_dark">Тъмно</string>
+  <string name="pie_battery_title">Индикатор за батерията</string>
+  <string name="pie_battery_text">Само текст</string>
+  <string name="pie_battery_circle">Само кръг</string>
+  <string name="pie_battery_both">И двете</string>
+  <string name="pie_status_indicator">Мрежов индикатор</string>
+  <string name="pie_status_wifi">Само WiFi</string>
+  <string name="pie_status_mobile">Само мобилни мрежи</string>
+  <string name="pie_status_none">Никакви</string>
+  <string name="pie_status_both">И двете</string>
 </resources>
