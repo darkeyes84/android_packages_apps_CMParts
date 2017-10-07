@@ -30,6 +30,11 @@
             android:entries="@array/expanded_desktop_style_entries"
             android:entryValues="@array/expanded_desktop_style_values" />
 
+        <SwitchPreference
+            android:key="pie_settings"
+            android:title="@string/pie_settings"
+            android:summary="@string/pie_settings_summary" />
+
     </PreferenceCategory>
 
     <org.cyanogenmod.cmparts.widget.WallOfTextPreference

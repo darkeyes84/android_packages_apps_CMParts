@@ -81,6 +81,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             "torch_long_press_power_gesture";
     private static final String KEY_TORCH_LONG_PRESS_POWER_TIMEOUT =
             "torch_long_press_power_timeout";
+    private static final String KEY_PIE_SETTINGS = "pie_settings";
 
     private static final String CATEGORY_POWER = "power_key";
     private static final String CATEGORY_HOME = "home_key";
@@ -132,6 +133,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     public static final int KEY_MASK_CAMERA = 0x20;
     public static final int KEY_MASK_VOLUME = 0x40;
 
+    private Preference mPieFragment;
     private ListPreference mHomeLongPressAction;
     private ListPreference mHomeDoubleTapAction;
     private ListPreference mMenuPressAction;
@@ -172,6 +174,11 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         final Resources res = getResources();
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        mPieFragment = findPreference(KEY_PIE_SETTINGS);
+        if (mPieFragment != null) {
+            mPieFragment.setOnPreferenceChangeListener(this);
+        }
 
         final int deviceKeys = getResources().getInteger(
                 com.android.internal.R.integer.config_deviceHardwareKeys);
@@ -770,6 +777,10 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             return true;
         } else if (preference == mHomeAnswerCall) {
             handleToggleHomeButtonAnswersCallPreferenceClick();
+            return true;
+        }  else if (preference == mPieFragment) {
+            startActivity(new Intent("android.settings.PIE_SETTINGS")
+                    .putExtra(":settings:show_fragment_as_subsetting", true));
             return true;
         }
 

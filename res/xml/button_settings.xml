@@ -35,6 +35,10 @@
         android:key="navigation_bar_category"
         android:title="@string/navigation_bar_category" >
 
+        <Preference
+            android:key="pie_settings"
+	        android:title="@string/pie_settings" />
+
         <PreferenceScreen
             android:key="navigation_bar"
             android:title="@string/navigation_bar_title">

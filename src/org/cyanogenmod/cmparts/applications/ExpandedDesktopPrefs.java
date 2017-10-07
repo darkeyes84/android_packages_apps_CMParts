@@ -19,11 +19,13 @@ package org.cyanogenmod.cmparts.applications;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.RemoteException;
+import android.os.UserHandle;
 import android.provider.Settings;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
+import android.support.v14.preference.SwitchPreference;
 import android.view.WindowManagerGlobal;
 import android.view.WindowManagerPolicyControl;
 
@@ -37,10 +39,12 @@ public class ExpandedDesktopPrefs extends SettingsPreferenceFragment
 
     private static final String KEY_EXPANDED_DESKTOP_OPTIONS = "expanded_desktop_options";
     private static final String KEY_EXPANDED_DESKTOP_STYLE = "expanded_desktop_style";
+    private static final String KEY_PIE_SETTINGS = "pie_settings";
 
     private final Uri DEFAULT_WINDOW_POLICY_STYLE =
             Settings.Global.getUriFor(Settings.Global.POLICY_CONTROL_STYLE);
 
+    private SwitchPreference mPieState;
     private ListPreference mExpandedDesktopStylePref;
     private int mExpandedDesktopStyle;
 
@@ -74,6 +78,10 @@ public class ExpandedDesktopPrefs extends SettingsPreferenceFragment
     private void createPreferences() {
         mExpandedDesktopStylePref = (ListPreference) findPreference(KEY_EXPANDED_DESKTOP_STYLE);
         mExpandedDesktopStylePref.setOnPreferenceChangeListener(this);
+        mPieState = (SwitchPreference) findPreference(KEY_PIE_SETTINGS);
+        mPieState.setChecked(Settings.Secure.getIntForUser(getContentResolver(),
+                Settings.Secure.PIE_STATE, 0, UserHandle.USER_CURRENT) == 1);
+        mPieState.setOnPreferenceChangeListener(this);
         updateExpandedDesktopStyle();
     }
 
@@ -86,8 +94,14 @@ public class ExpandedDesktopPrefs extends SettingsPreferenceFragment
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object value) {
-        final int val = Integer.parseInt((String) value);
-        WindowManagerPolicyControl.saveStyleToSettings(getActivity(), val);
+        if (preference == mExpandedDesktopStylePref) {
+			int val = Integer.parseInt((String) value);
+			WindowManagerPolicyControl.saveStyleToSettings(getActivity(), val);
+		} else if (preference == mPieState) {
+			boolean val = (Boolean) value;
+			Settings.Secure.putIntForUser(getContentResolver(),
+                Settings.Secure.PIE_STATE, val ? 1 : 0, UserHandle.USER_CURRENT);
+		}
         return true;
     }
 
