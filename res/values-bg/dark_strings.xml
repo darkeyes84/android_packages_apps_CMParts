@@ -134,19 +134,19 @@
   <string name="battery_light_almost_full_color_title">Батерията е заредена (90%)</string>
   <string name="battery_light_really_full_color_title">Батерията е напълно заредена (100%)</string>
   <!-- Kill app long-press back -->
-  <string name="kill_app_longpress_back">Kill app back button</string>
-  <string name="kill_app_longpress_back_summary">Kill the foreground app by long pressing the back button</string>
-  <string name="torch_long_press_power_proximity_title">Prevent accidental torch</string>
-  <string name="torch_long_press_power_proximity_summary">Check the proximity sensor prior to activating torch</string>
+  <string name="kill_app_longpress_back">Спиране на приложение с бутона за назад</string>
+  <string name="kill_app_longpress_back_summary">Спри приложението на преден план с бутона за назад</string>
+  <string name="torch_long_press_power_proximity_title">Предотвратява на случайно включване на фенерчето</string>
+  <string name="torch_long_press_power_proximity_summary">Провери сензора за близост преди да включиш фенерчето</string>
   <!-- Pie -->
   <string name="pie_settings">PIE</string>
-  <string name="pie_gravity_title">Location</string>
-  <string name="pie_gravity_bottom">Bottom</string>
-  <string name="pie_gravity_right">Right</string>
-  <string name="pie_gravity_left">Left</string>
-  <string name="pie_theme_mode_title">Theme</string>
-  <string name="pie_auto">Automatic</string>
-  <string name="pie_white">White</string>
+  <string name="pie_gravity_title">Местоположение</string>
+  <string name="pie_gravity_bottom">Отдолу</string>
+  <string name="pie_gravity_right">Вдясно</string>
+  <string name="pie_gravity_left">Вляво</string>
+  <string name="pie_theme_mode_title">Тема</string>
+  <string name="pie_auto">Автоматично</string>
+  <string name="pie_white">Бяло</string>
   <string name="pie_dark">Dark</string>
   <string name="pie_battery_title">Battery indicator</string>
   <string name="pie_battery_text">Text only</string>
