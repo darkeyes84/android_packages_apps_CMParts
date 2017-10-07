@@ -155,6 +155,6 @@
   <string name="pie_status_indicator">Індикатор мережі</string>
   <string name="pie_status_wifi">Тільки WiFi</string>
   <string name="pie_status_mobile">Тільки індикатор мережі</string>
-  <string name="pie_status_none">None</string>
+  <string name="pie_status_none">Нічого</string>
   <string name="pie_status_both">Обидва</string>
 </resources>
