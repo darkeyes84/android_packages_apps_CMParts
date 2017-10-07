@@ -134,12 +134,12 @@
   <string name="battery_light_almost_full_color_title">Chargée (90 %)</string>
   <string name="battery_light_really_full_color_title">Complètement chargée (100 %)</string>
   <!-- Kill app long-press back -->
-  <string name="kill_app_longpress_back">Kill app back button</string>
-  <string name="kill_app_longpress_back_summary">Kill the foreground app by long pressing the back button</string>
-  <string name="torch_long_press_power_proximity_title">Prevent accidental torch</string>
+  <string name="kill_app_longpress_back">Fermer l\'application à l\'aide du bouton Retour</string>
+  <string name="kill_app_longpress_back_summary">Fermer l\'application en premier plan par un appui long sur le bouton Retour</string>
+  <string name="torch_long_press_power_proximity_title">Empêcher l\'activation accidentelle de la lampe de poche</string>
   <string name="torch_long_press_power_proximity_summary">Utiliser le capteur de proximité pour prévenir l\'activation de la torche</string>
   <!-- Pie -->
-  <string name="pie_settings">PIE</string>
+  <string name="pie_settings">Menu PIE</string>
   <string name="pie_gravity_title">Location</string>
   <string name="pie_gravity_bottom">Bottom</string>
   <string name="pie_gravity_right">Right</string>
