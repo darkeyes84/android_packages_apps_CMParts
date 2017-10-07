@@ -141,20 +141,20 @@
   <!-- Pie -->
   <string name="pie_settings">Расширенная панель управления</string>
   <string name="pie_gravity_title">Местоположение</string>
-  <string name="pie_gravity_bottom">Bottom</string>
-  <string name="pie_gravity_right">Right</string>
-  <string name="pie_gravity_left">Left</string>
-  <string name="pie_theme_mode_title">Theme</string>
-  <string name="pie_auto">Automatic</string>
+  <string name="pie_gravity_bottom">Внизу</string>
+  <string name="pie_gravity_right">Справа</string>
+  <string name="pie_gravity_left">Слева</string>
+  <string name="pie_theme_mode_title">Тема оформления</string>
+  <string name="pie_auto">Автоматически</string>
   <string name="pie_white">White</string>
   <string name="pie_dark">Dark</string>
-  <string name="pie_battery_title">Battery indicator</string>
-  <string name="pie_battery_text">Text only</string>
-  <string name="pie_battery_circle">Circle only</string>
-  <string name="pie_battery_both">Both</string>
-  <string name="pie_status_indicator">Network indicator</string>
-  <string name="pie_status_wifi">WiFi only</string>
-  <string name="pie_status_mobile">Mobile network only</string>
+  <string name="pie_battery_title">Индикатор батареи</string>
+  <string name="pie_battery_text">Только текст</string>
+  <string name="pie_battery_circle">Только круг</string>
+  <string name="pie_battery_both">Оба</string>
+  <string name="pie_status_indicator">Индикатор сети</string>
+  <string name="pie_status_wifi">Только Wi-Fi</string>
+  <string name="pie_status_mobile">Только мобильная сеть</string>
   <string name="pie_status_none">None</string>
-  <string name="pie_status_both">Both</string>
+  <string name="pie_status_both">Оба</string>
 </resources>
