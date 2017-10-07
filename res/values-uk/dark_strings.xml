@@ -139,22 +139,22 @@
   <string name="torch_long_press_power_proximity_title">Запобігання випадкового увімкнення ліхтарика</string>
   <string name="torch_long_press_power_proximity_summary">Перевірка датчика наближення перед активацією ліхтарика</string>
   <!-- Pie -->
-  <string name="pie_settings">PIE</string>
+  <string name="pie_settings">Розширена панель навігації</string>
   <string name="pie_gravity_title">Розташування</string>
   <string name="pie_gravity_bottom">Внизу</string>
   <string name="pie_gravity_right">Праворуч</string>
   <string name="pie_gravity_left">Ліворуч</string>
-  <string name="pie_theme_mode_title">Тема</string>
+  <string name="pie_theme_mode_title">Тема оформлення</string>
   <string name="pie_auto">Автоматично</string>
-  <string name="pie_white">White</string>
-  <string name="pie_dark">Dark</string>
+  <string name="pie_white">Біла</string>
+  <string name="pie_dark">Темна</string>
   <string name="pie_battery_title">Індикатор заряду акумулятора</string>
-  <string name="pie_battery_text">Лише текст</string>
-  <string name="pie_battery_circle">Circle only</string>
-  <string name="pie_battery_both">Both</string>
-  <string name="pie_status_indicator">Network indicator</string>
-  <string name="pie_status_wifi">WiFi only</string>
-  <string name="pie_status_mobile">Mobile network only</string>
+  <string name="pie_battery_text">Тільки текст</string>
+  <string name="pie_battery_circle">Тільки коло</string>
+  <string name="pie_battery_both">Обидва</string>
+  <string name="pie_status_indicator">Індикатор мережі</string>
+  <string name="pie_status_wifi">Тільки WiFi</string>
+  <string name="pie_status_mobile">Тільки індикатор мережі</string>
   <string name="pie_status_none">None</string>
-  <string name="pie_status_both">Both</string>
+  <string name="pie_status_both">Обидва</string>
 </resources>
