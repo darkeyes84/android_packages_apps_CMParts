@@ -147,14 +147,14 @@
   <string name="pie_theme_mode_title">主题</string>
   <string name="pie_auto">自动</string>
   <string name="pie_white">白色</string>
-  <string name="pie_dark">暗色</string>
+  <string name="pie_dark">酷黑</string>
   <string name="pie_battery_title">电量指示器</string>
   <string name="pie_battery_text">只显示文字</string>
   <string name="pie_battery_circle">只显示环形</string>
   <string name="pie_battery_both">同时显示</string>
   <string name="pie_status_indicator">网络指示器</string>
-  <string name="pie_status_wifi">只显示 Wifi</string>
+  <string name="pie_status_wifi">只显示 WiFi</string>
   <string name="pie_status_mobile">只显示移动网络</string>
-  <string name="pie_status_none">无</string>
+  <string name="pie_status_none">不显示</string>
   <string name="pie_status_both">同时显示</string>
 </resources>
