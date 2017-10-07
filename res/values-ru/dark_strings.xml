@@ -146,8 +146,8 @@
   <string name="pie_gravity_left">Слева</string>
   <string name="pie_theme_mode_title">Тема оформления</string>
   <string name="pie_auto">Автоматически</string>
-  <string name="pie_white">White</string>
-  <string name="pie_dark">Dark</string>
+  <string name="pie_white">Светлая</string>
+  <string name="pie_dark">Тёмная</string>
   <string name="pie_battery_title">Индикатор батареи</string>
   <string name="pie_battery_text">Только текст</string>
   <string name="pie_battery_circle">Только круг</string>
@@ -155,6 +155,6 @@
   <string name="pie_status_indicator">Индикатор сети</string>
   <string name="pie_status_wifi">Только Wi-Fi</string>
   <string name="pie_status_mobile">Только мобильная сеть</string>
-  <string name="pie_status_none">None</string>
+  <string name="pie_status_none">Ничего</string>
   <string name="pie_status_both">Оба</string>
 </resources>
