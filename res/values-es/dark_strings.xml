@@ -150,11 +150,11 @@
   <string name="pie_dark">Oscuro</string>
   <string name="pie_battery_title">Indicador de batería</string>
   <string name="pie_battery_text">Sólo texto</string>
-  <string name="pie_battery_circle">Circle only</string>
+  <string name="pie_battery_circle">Solo círculo</string>
   <string name="pie_battery_both">Ambos</string>
-  <string name="pie_status_indicator">Network indicator</string>
+  <string name="pie_status_indicator">Indicador de red</string>
   <string name="pie_status_wifi">Sólo WIFI</string>
-  <string name="pie_status_mobile">Mobile network only</string>
+  <string name="pie_status_mobile">Sólo red móvil</string>
   <string name="pie_status_none">Ninguno</string>
   <string name="pie_status_both">Ambos</string>
 </resources>
