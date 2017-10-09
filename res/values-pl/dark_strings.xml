@@ -141,7 +141,7 @@
   <!-- Pie -->
   <string name="pie_settings">PIE</string>
   <string name="pie_gravity_title">Lokalizacja</string>
-  <string name="pie_gravity_bottom">Dół</string>
+  <string name="pie_gravity_bottom">Na dole</string>
   <string name="pie_gravity_right">Po prawej</string>
   <string name="pie_gravity_left">Po lewej</string>
   <string name="pie_theme_mode_title">Motyw</string>
