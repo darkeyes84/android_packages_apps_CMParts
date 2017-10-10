@@ -136,8 +136,8 @@
   <!-- Kill app long-press back -->
   <string name="kill_app_longpress_back">Uygulama sonlandırıcı geri tuşu</string>
   <string name="kill_app_longpress_back_summary">Geri tuşuna uzun dokunarak ön plandaki uygulamayı sonlandır</string>
-  <string name="torch_long_press_power_proximity_title">Prevent accidental torch</string>
-  <string name="torch_long_press_power_proximity_summary">Check the proximity sensor prior to activating torch</string>
+  <string name="torch_long_press_power_proximity_title">Kazara yapılan meşaleyi önleyin</string>
+  <string name="torch_long_press_power_proximity_summary">Yaklaşma sensörünü meşale çalıştırmadan önce kontrol edin</string>
   <!-- Pie -->
   <string name="pie_settings">PIE</string>
   <string name="pie_gravity_title">Konum</string>
