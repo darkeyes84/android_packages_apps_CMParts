@@ -133,4 +133,28 @@
   <string name="volume_wake_screen_summary_on">يتم تعطيل هذا الخيار عند تمكين التحكم في التشغيل وتشغيل الموسيقى</string>
   <string name="battery_light_almost_full_color_title">تم الشحن (90%)</string>
   <string name="battery_light_really_full_color_title">مشحونة بالكامل (100%)</string>
+  <!-- Kill app long-press back -->
+  <string name="kill_app_longpress_back">اغلاق التطبيقات بزر الرجوع</string>
+  <string name="kill_app_longpress_back_summary">قتل التطبيقات بالضغط الطويل على زر الرجوع</string>
+  <string name="torch_long_press_power_proximity_title">منع الاستيقاظ بالخطأ</string>
+  <string name="torch_long_press_power_proximity_summary">التحقق من مستشعر القرب قبل إيقاظ الشعلة</string>
+  <!-- Pie -->
+  <string name="pie_settings">نمط الدائرة</string>
+  <string name="pie_gravity_title">المكان</string>
+  <string name="pie_gravity_bottom">أسفل</string>
+  <string name="pie_gravity_right">يمين</string>
+  <string name="pie_gravity_left">يسار</string>
+  <string name="pie_theme_mode_title">الثيم</string>
+  <string name="pie_auto">أوتوماتيكي</string>
+  <string name="pie_white">أبيض</string>
+  <string name="pie_dark">داكن</string>
+  <string name="pie_battery_title">مؤشر البطارية</string>
+  <string name="pie_battery_text">نص فقط</string>
+  <string name="pie_battery_circle">دائرة فقط</string>
+  <string name="pie_battery_both">كلاهما</string>
+  <string name="pie_status_indicator">مؤشر الشبكة</string>
+  <string name="pie_status_wifi">واي فاي فقط</string>
+  <string name="pie_status_mobile">شبكات الجوال فقط</string>
+  <string name="pie_status_none">لا شيء</string>
+  <string name="pie_status_both">كلاهما</string>
 </resources>

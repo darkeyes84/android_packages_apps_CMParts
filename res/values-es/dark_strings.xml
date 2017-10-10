@@ -133,4 +133,28 @@
   <string name="volume_wake_screen_summary_on">Esta opción se desactiva cuando el control de la reproducción está activado y está sonando música</string>
   <string name="battery_light_almost_full_color_title">Cargado (90%)</string>
   <string name="battery_light_really_full_color_title">Totalmente cargado (100%)</string>
+  <!-- Kill app long-press back -->
+  <string name="kill_app_longpress_back">Botón de retroceso finaliza la aplicación</string>
+  <string name="kill_app_longpress_back_summary">Finalizar la aplicación actual al mantener pulsado el botón de retroceso</string>
+  <string name="torch_long_press_power_proximity_title">Prevenir encendido accidental de la linterna</string>
+  <string name="torch_long_press_power_proximity_summary">Comprobar el sensor de proximidad antes de activar la linterna</string>
+  <!-- Pie -->
+  <string name="pie_settings">PIE</string>
+  <string name="pie_gravity_title">Ubicación</string>
+  <string name="pie_gravity_bottom">Abajo</string>
+  <string name="pie_gravity_right">Derecha</string>
+  <string name="pie_gravity_left">Izquierda</string>
+  <string name="pie_theme_mode_title">Tema</string>
+  <string name="pie_auto">Automático</string>
+  <string name="pie_white">Blanco</string>
+  <string name="pie_dark">Oscuro</string>
+  <string name="pie_battery_title">Indicador de batería</string>
+  <string name="pie_battery_text">Sólo texto</string>
+  <string name="pie_battery_circle">Solo círculo</string>
+  <string name="pie_battery_both">Ambos</string>
+  <string name="pie_status_indicator">Indicador de red</string>
+  <string name="pie_status_wifi">Sólo WIFI</string>
+  <string name="pie_status_mobile">Sólo red móvil</string>
+  <string name="pie_status_none">Ninguno</string>
+  <string name="pie_status_both">Ambos</string>
 </resources>

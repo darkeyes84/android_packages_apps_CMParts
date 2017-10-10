@@ -133,4 +133,28 @@
   <string name="volume_wake_screen_summary_on">재생 제어가 활성화되어 있고 음악이 재생중이면 이 옵션이 비활성화됩니다</string>
   <string name="battery_light_almost_full_color_title">충전됨 (90%)</string>
   <string name="battery_light_really_full_color_title">충전 완료(100%)</string>
+  <!-- Kill app long-press back -->
+  <string name="kill_app_longpress_back">뒤로가기 버튼으로 앱 강제종료</string>
+  <string name="kill_app_longpress_back_summary">뒤로 버튼을 길게 눌러 실행중인 앱을 강제 종료하기</string>
+  <string name="torch_long_press_power_proximity_title">실수로 화면 켜기 방지</string>
+  <string name="torch_long_press_power_proximity_summary">토치를 활성화 하기 전에 근접 센서 확인</string>
+  <!-- Pie -->
+  <string name="pie_settings">PIE 컨트롤</string>
+  <string name="pie_gravity_title">위치</string>
+  <string name="pie_gravity_bottom">하단</string>
+  <string name="pie_gravity_right">오른쪽</string>
+  <string name="pie_gravity_left">왼쪽</string>
+  <string name="pie_theme_mode_title">테마</string>
+  <string name="pie_auto">자동</string>
+  <string name="pie_white">흰색 테마</string>
+  <string name="pie_dark">어둡게</string>
+  <string name="pie_battery_title">배터리 표시</string>
+  <string name="pie_battery_text">텍스트만</string>
+  <string name="pie_battery_circle">원만</string>
+  <string name="pie_battery_both">양쪽 모두</string>
+  <string name="pie_status_indicator">네트워크 표시</string>
+  <string name="pie_status_wifi">WiFi만</string>
+  <string name="pie_status_mobile">모바일 네트워크만</string>
+  <string name="pie_status_none">없음</string>
+  <string name="pie_status_both">양쪽 모두</string>
 </resources>

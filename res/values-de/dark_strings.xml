@@ -133,4 +133,28 @@
   <string name="volume_wake_screen_summary_on">Diese Option ist deaktiviert, wenn die Wiedergabesteuerung aktiviert ist und Musik läuft</string>
   <string name="battery_light_almost_full_color_title">Akkustand (90 %)</string>
   <string name="battery_light_really_full_color_title">Voll aufgeladen (100 %)</string>
+  <!-- Kill app long-press back -->
+  <string name="kill_app_longpress_back">App beenden mit Zurück-Taste</string>
+  <string name="kill_app_longpress_back_summary">Aktuelle App bei gedrückt halten der Zurück Taste schließen</string>
+  <string name="torch_long_press_power_proximity_title">Verhindert versehentliches Aktivieren der Taschenlampe</string>
+  <string name="torch_long_press_power_proximity_summary">Vor Einschalten der Taschenlampe Näherungssensor überprüfen</string>
+  <!-- Pie -->
+  <string name="pie_settings">PIE-Halbkreissteuerung</string>
+  <string name="pie_gravity_title">Position</string>
+  <string name="pie_gravity_bottom">Unten</string>
+  <string name="pie_gravity_right">Rechts</string>
+  <string name="pie_gravity_left">Links</string>
+  <string name="pie_theme_mode_title">Erscheinungsbild</string>
+  <string name="pie_auto">Automatisch</string>
+  <string name="pie_white">Weiß</string>
+  <string name="pie_dark">Dunkel</string>
+  <string name="pie_battery_title">Akkuanzeige</string>
+  <string name="pie_battery_text">Nur Text</string>
+  <string name="pie_battery_circle">Nur Kreis</string>
+  <string name="pie_battery_both">Beides</string>
+  <string name="pie_status_indicator">Netzwerkanzeige</string>
+  <string name="pie_status_wifi">Nur WLAN</string>
+  <string name="pie_status_mobile">Nur Mobilfunknetz</string>
+  <string name="pie_status_none">Keine</string>
+  <string name="pie_status_both">Beides</string>
 </resources>

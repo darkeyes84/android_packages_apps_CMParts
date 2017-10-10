@@ -133,4 +133,28 @@
   <string name="volume_wake_screen_summary_on">Ta opcja jest wyłączona, gdy włączone jest sterowanie odtwarzaniem i muzyka jest odtwarzana</string>
   <string name="battery_light_almost_full_color_title">Naładowana (90%)</string>
   <string name="battery_light_really_full_color_title">W pełni naładowany (100%)</string>
+  <!-- Kill app long-press back -->
+  <string name="kill_app_longpress_back">Zabijaj aplikacje przyciskiem wstecz</string>
+  <string name="kill_app_longpress_back_summary">Przytrzymanie przycisku wstecz zabija aktywną aplikację</string>
+  <string name="torch_long_press_power_proximity_title">Zapobiegaj przypadkowemu włączeniu latarki</string>
+  <string name="torch_long_press_power_proximity_summary">Sprawdź czujnik zbliżeniowy przed uruchomieniem latarki</string>
+  <!-- Pie -->
+  <string name="pie_settings">PIE</string>
+  <string name="pie_gravity_title">Lokalizacja</string>
+  <string name="pie_gravity_bottom">Na dole</string>
+  <string name="pie_gravity_right">Po prawej</string>
+  <string name="pie_gravity_left">Po lewej</string>
+  <string name="pie_theme_mode_title">Motyw</string>
+  <string name="pie_auto">Automatycznie</string>
+  <string name="pie_white">Biały</string>
+  <string name="pie_dark">Ciemny</string>
+  <string name="pie_battery_title">Wskaźnik baterii</string>
+  <string name="pie_battery_text">Tylko tekst</string>
+  <string name="pie_battery_circle">Tylko okrąg</string>
+  <string name="pie_battery_both">Oba</string>
+  <string name="pie_status_indicator">Wskaźnik szybkości sieci</string>
+  <string name="pie_status_wifi">Tylko WiFi </string>
+  <string name="pie_status_mobile">Tylko sieć komórkowa</string>
+  <string name="pie_status_none">Brak</string>
+  <string name="pie_status_both">Oba</string>
 </resources>

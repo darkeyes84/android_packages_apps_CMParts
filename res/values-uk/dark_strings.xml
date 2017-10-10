@@ -133,4 +133,28 @@
   <string name="volume_wake_screen_summary_on">Цей параметр вимкнено, якщо увімкнено керування відтворенням та відтворюється музика</string>
   <string name="battery_light_almost_full_color_title">Заряджено (90%)</string>
   <string name="battery_light_really_full_color_title">Повністю заряджений (100%)</string>
+  <!-- Kill app long-press back -->
+  <string name="kill_app_longpress_back">Закрити додаток кнопкою \"Назад\"</string>
+  <string name="kill_app_longpress_back_summary">Закрити запущений додаток утриманням кнопки \"Назад\"</string>
+  <string name="torch_long_press_power_proximity_title">Запобігання випадкового увімкнення ліхтарика</string>
+  <string name="torch_long_press_power_proximity_summary">Перевірка датчика наближення перед активацією ліхтарика</string>
+  <!-- Pie -->
+  <string name="pie_settings">Розширена панель навігації</string>
+  <string name="pie_gravity_title">Розташування</string>
+  <string name="pie_gravity_bottom">Внизу</string>
+  <string name="pie_gravity_right">Праворуч</string>
+  <string name="pie_gravity_left">Ліворуч</string>
+  <string name="pie_theme_mode_title">Тема оформлення</string>
+  <string name="pie_auto">Автоматично</string>
+  <string name="pie_white">Біла</string>
+  <string name="pie_dark">Темна</string>
+  <string name="pie_battery_title">Індикатор заряду акумулятора</string>
+  <string name="pie_battery_text">Тільки текст</string>
+  <string name="pie_battery_circle">Тільки коло</string>
+  <string name="pie_battery_both">Обидва</string>
+  <string name="pie_status_indicator">Індикатор мережі</string>
+  <string name="pie_status_wifi">Тільки WiFi</string>
+  <string name="pie_status_mobile">Тільки індикатор мережі</string>
+  <string name="pie_status_none">Нічого</string>
+  <string name="pie_status_both">Обидва</string>
 </resources>
