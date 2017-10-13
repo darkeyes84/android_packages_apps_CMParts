@@ -126,11 +126,10 @@
             android:defaultValue="false"
             cm:requiresConfig="@*android:bool/config_supportLongPressPowerWhenNonInteractive" />
 
-        <cyanogenmod.preference.CMSystemSettingSwitchPreference
+        <SwitchPreference
             android:key="torch_long_press_power_proximity"
             android:title="@string/torch_long_press_power_proximity_title"
             android:summary="@string/torch_long_press_power_proximity_summary"
-            android:defaultValue="true"
             android:dependency="torch_long_press_power_gesture" />
 
         <ListPreference
