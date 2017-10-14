@@ -138,23 +138,6 @@
   <string name="kill_app_longpress_back_summary">Geri tuşuna uzun dokunarak ön plandaki uygulamayı sonlandır</string>
   <string name="torch_long_press_power_proximity_title">Kazara yapılan meşaleyi önleyin</string>
   <string name="torch_long_press_power_proximity_summary">Yaklaşma sensörünü meşale çalıştırmadan önce kontrol edin</string>
-  <!-- Pie -->
   <string name="pie_settings">PIE</string>
-  <string name="pie_gravity_title">Konum</string>
-  <string name="pie_gravity_bottom">Alt</string>
-  <string name="pie_gravity_right">Sağ</string>
-  <string name="pie_gravity_left">Sol</string>
-  <string name="pie_theme_mode_title">Tema</string>
-  <string name="pie_auto">Otomatik</string>
-  <string name="pie_white">Beyaz</string>
-  <string name="pie_dark">Koyu</string>
-  <string name="pie_battery_title">Pil göstergesi</string>
-  <string name="pie_battery_text">Yalnızca metin</string>
-  <string name="pie_battery_circle">Yalnızca daire</string>
-  <string name="pie_battery_both">Her ikisi</string>
-  <string name="pie_status_indicator">Ağ göstergesi</string>
-  <string name="pie_status_wifi">Yalnızca WiFi</string>
-  <string name="pie_status_mobile">Yalnızca mobil ağ</string>
-  <string name="pie_status_none">Hiçbiri</string>
-  <string name="pie_status_both">Her ikisi</string>
+  <string name="pie_settings_summary">Use PIE controls instead of the navigation bar</string>
 </resources>
