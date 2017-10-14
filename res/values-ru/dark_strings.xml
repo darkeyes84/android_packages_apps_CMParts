@@ -139,5 +139,5 @@
   <string name="torch_long_press_power_proximity_title">Предотвращать случайное включение экрана</string>
   <string name="torch_long_press_power_proximity_summary">Проверка датчика приближения перед включением экрана</string>
   <string name="pie_settings">Расширенная панель управления</string>
-  <string name="pie_settings_summary">Use PIE controls instead of the navigation bar</string>
+  <string name="pie_settings_summary">Использовать панель PIE вместо панели навигации</string>
 </resources>
