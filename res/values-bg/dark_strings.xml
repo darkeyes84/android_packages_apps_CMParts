@@ -138,23 +138,6 @@
   <string name="kill_app_longpress_back_summary">Спри приложението на преден план с бутона за назад</string>
   <string name="torch_long_press_power_proximity_title">Предотвратява на случайно включване на фенерчето</string>
   <string name="torch_long_press_power_proximity_summary">Провери сензора за близост преди да включиш фенерчето</string>
-  <!-- Pie -->
   <string name="pie_settings">PIE</string>
-  <string name="pie_gravity_title">Местоположение</string>
-  <string name="pie_gravity_bottom">Отдолу</string>
-  <string name="pie_gravity_right">Вдясно</string>
-  <string name="pie_gravity_left">Вляво</string>
-  <string name="pie_theme_mode_title">Тема</string>
-  <string name="pie_auto">Автоматично</string>
-  <string name="pie_white">Бяло</string>
-  <string name="pie_dark">Тъмно</string>
-  <string name="pie_battery_title">Индикатор за батерията</string>
-  <string name="pie_battery_text">Само текст</string>
-  <string name="pie_battery_circle">Само кръг</string>
-  <string name="pie_battery_both">И двете</string>
-  <string name="pie_status_indicator">Мрежов индикатор</string>
-  <string name="pie_status_wifi">Само WiFi</string>
-  <string name="pie_status_mobile">Само мобилни мрежи</string>
-  <string name="pie_status_none">Никакви</string>
-  <string name="pie_status_both">И двете</string>
+  <string name="pie_settings_summary">Use PIE controls instead of the navigation bar</string>
 </resources>
