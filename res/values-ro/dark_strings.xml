@@ -138,23 +138,6 @@
   <string name="kill_app_longpress_back_summary">Închide aplicația din prim-plan apăsând lung butonul înapoi</string>
   <string name="torch_long_press_power_proximity_title">Previne pornirea accidentală a lanternei</string>
   <string name="torch_long_press_power_proximity_summary">Verifică senzorul de proximitate înainte de pornirea lanternei</string>
-  <!-- Pie -->
   <string name="pie_settings">Controale evantai</string>
-  <string name="pie_gravity_title">Locaţie</string>
-  <string name="pie_gravity_bottom">Jos</string>
-  <string name="pie_gravity_right">Dreapta</string>
-  <string name="pie_gravity_left">Stânga</string>
-  <string name="pie_theme_mode_title">Temă</string>
-  <string name="pie_auto">Automat</string>
-  <string name="pie_white">Alb</string>
-  <string name="pie_dark">Întunecat</string>
-  <string name="pie_battery_title">Indicator baterie</string>
-  <string name="pie_battery_text">Doar text</string>
-  <string name="pie_battery_circle">Doar cerc</string>
-  <string name="pie_battery_both">Ambele</string>
-  <string name="pie_status_indicator">Indicator reţea</string>
-  <string name="pie_status_wifi">Doar WiFi</string>
-  <string name="pie_status_mobile">Doar rețeaua mobilă</string>
-  <string name="pie_status_none">Nici unul</string>
-  <string name="pie_status_both">Ambele</string>
+  <string name="pie_settings_summary">Use PIE controls instead of the navigation bar</string>
 </resources>
