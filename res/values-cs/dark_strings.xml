@@ -138,23 +138,6 @@
   <string name="kill_app_longpress_back_summary">Dlouhým stiskem tlačítka zpět se provede ukončení aplikace na popředí</string>
   <string name="torch_long_press_power_proximity_title">Zabránit náhodnému zapnutí svítilny</string>
   <string name="torch_long_press_power_proximity_summary">Zkontrolovat senzor přiblížení před zapnutím svítilny</string>
-  <!-- Pie -->
   <string name="pie_settings">PIE</string>
-  <string name="pie_gravity_title">Umístění</string>
-  <string name="pie_gravity_bottom">Dole</string>
-  <string name="pie_gravity_right">Vpravo</string>
-  <string name="pie_gravity_left">Vlevo</string>
-  <string name="pie_theme_mode_title">Motiv</string>
-  <string name="pie_auto">Automaticky</string>
-  <string name="pie_white">Bílá</string>
-  <string name="pie_dark">Tmavá</string>
-  <string name="pie_battery_title">Indikátor baterie</string>
-  <string name="pie_battery_text">Pouze text</string>
-  <string name="pie_battery_circle">Pouze kruh</string>
-  <string name="pie_battery_both">Obojí</string>
-  <string name="pie_status_indicator">Indikátor sítě</string>
-  <string name="pie_status_wifi">Pouze WiFi</string>
-  <string name="pie_status_mobile">Pouze mobilní sítě</string>
-  <string name="pie_status_none">Žádné</string>
-  <string name="pie_status_both">Obojí</string>
+  <string name="pie_settings_summary">Use PIE controls instead of the navigation bar</string>
 </resources>
