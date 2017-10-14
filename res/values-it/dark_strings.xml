@@ -138,23 +138,6 @@
   <string name="kill_app_longpress_back_summary">Termina l\'applicazione in primo piano con la pressione prolungata del pulsante indietro</string>
   <string name="torch_long_press_power_proximity_title">Previeni attivazione accidentale della torcia</string>
   <string name="torch_long_press_power_proximity_summary">Controlla il sensore di prossimità prima di attivare la torcia</string>
-  <!-- Pie -->
   <string name="pie_settings">PIE</string>
-  <string name="pie_gravity_title">Posizione</string>
-  <string name="pie_gravity_bottom">In basso</string>
-  <string name="pie_gravity_right">Destra</string>
-  <string name="pie_gravity_left">Sinistra</string>
-  <string name="pie_theme_mode_title">Tema</string>
-  <string name="pie_auto">Automatico</string>
-  <string name="pie_white">Bianco</string>
-  <string name="pie_dark">Scuro</string>
-  <string name="pie_battery_title">Indicatore della batteria</string>
-  <string name="pie_battery_text">Solo testo</string>
-  <string name="pie_battery_circle">Solo cerchio</string>
-  <string name="pie_battery_both">Entrambi</string>
-  <string name="pie_status_indicator">Indicatore di rete</string>
-  <string name="pie_status_wifi">Solo WiFi</string>
-  <string name="pie_status_mobile">Solo rete dati</string>
-  <string name="pie_status_none">Nessuno</string>
-  <string name="pie_status_both">Entrambi</string>
+  <string name="pie_settings_summary">Use PIE controls instead of the navigation bar</string>
 </resources>
