@@ -138,23 +138,6 @@
   <string name="kill_app_longpress_back_summary">लंबे समय तक वापस बटन दबाने से अग्रभूमि app को मार डालो</string>
   <string name="torch_long_press_power_proximity_title">ग़लती से जगाए जाने को रोकें</string>
   <string name="torch_long_press_power_proximity_summary">चेक निकटता संवेदक मशाल को सक्रिय करने से पहले</string>
-  <!-- Pie -->
   <string name="pie_settings">पाई</string>
-  <string name="pie_gravity_title">स्थान</string>
-  <string name="pie_gravity_bottom">नीचे</string>
-  <string name="pie_gravity_right">दाईं ओर</string>
-  <string name="pie_gravity_left">बाएँ</string>
-  <string name="pie_theme_mode_title">थीम</string>
-  <string name="pie_auto">आटोमेटिक</string>
-  <string name="pie_white">सफ़ेद</string>
-  <string name="pie_dark">डार्क</string>
-  <string name="pie_battery_title">बैटरी सूचक</string>
-  <string name="pie_battery_text">केवल टेक्स्ट</string>
-  <string name="pie_battery_circle">केवल वृत्त</string>
-  <string name="pie_battery_both">दोनों</string>
-  <string name="pie_status_indicator">नेटवर्क सूचक</string>
-  <string name="pie_status_wifi">केवल वाईफाई</string>
-  <string name="pie_status_mobile">केवल मोबाइल नेटवर्क</string>
-  <string name="pie_status_none">कोई नहीं</string>
-  <string name="pie_status_both">दोनों</string>
+  <string name="pie_settings_summary">Use PIE controls instead of the navigation bar</string>
 </resources>
