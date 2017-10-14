@@ -138,23 +138,6 @@
   <string name="kill_app_longpress_back_summary">Долгое нажатие кнопки «Назад» закроет запущенное приложение</string>
   <string name="torch_long_press_power_proximity_title">Предотвращать случайное включение экрана</string>
   <string name="torch_long_press_power_proximity_summary">Проверка датчика приближения перед включением экрана</string>
-  <!-- Pie -->
   <string name="pie_settings">Расширенная панель управления</string>
-  <string name="pie_gravity_title">Местоположение</string>
-  <string name="pie_gravity_bottom">Внизу</string>
-  <string name="pie_gravity_right">Справа</string>
-  <string name="pie_gravity_left">Слева</string>
-  <string name="pie_theme_mode_title">Тема оформления</string>
-  <string name="pie_auto">Автоматически</string>
-  <string name="pie_white">Светлая</string>
-  <string name="pie_dark">Тёмная</string>
-  <string name="pie_battery_title">Индикатор батареи</string>
-  <string name="pie_battery_text">Только текст</string>
-  <string name="pie_battery_circle">Только круг</string>
-  <string name="pie_battery_both">Оба</string>
-  <string name="pie_status_indicator">Индикатор сети</string>
-  <string name="pie_status_wifi">Только Wi-Fi</string>
-  <string name="pie_status_mobile">Только мобильная сеть</string>
-  <string name="pie_status_none">Ничего</string>
-  <string name="pie_status_both">Оба</string>
+  <string name="pie_settings_summary">Use PIE controls instead of the navigation bar</string>
 </resources>
