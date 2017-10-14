@@ -138,23 +138,6 @@
   <string name="kill_app_longpress_back_summary">通过长按返回键终止前台应用程序</string>
   <string name="torch_long_press_power_proximity_title">防止意外启动手电筒</string>
   <string name="torch_long_press_power_proximity_summary">启动手电筒前检查距离传感器</string>
-  <!-- Pie -->
   <string name="pie_settings">Pie</string>
-  <string name="pie_gravity_title">位置</string>
-  <string name="pie_gravity_bottom">底部</string>
-  <string name="pie_gravity_right">右侧</string>
-  <string name="pie_gravity_left">左侧</string>
-  <string name="pie_theme_mode_title">主题</string>
-  <string name="pie_auto">自动</string>
-  <string name="pie_white">白色</string>
-  <string name="pie_dark">酷黑</string>
-  <string name="pie_battery_title">电量指示器</string>
-  <string name="pie_battery_text">只显示文字</string>
-  <string name="pie_battery_circle">只显示环形</string>
-  <string name="pie_battery_both">同时显示</string>
-  <string name="pie_status_indicator">网络指示器</string>
-  <string name="pie_status_wifi">只显示 WiFi</string>
-  <string name="pie_status_mobile">只显示移动网络</string>
-  <string name="pie_status_none">不显示</string>
-  <string name="pie_status_both">同时显示</string>
+  <string name="pie_settings_summary">Use PIE controls instead of the navigation bar</string>
 </resources>
