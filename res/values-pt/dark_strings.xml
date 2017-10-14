@@ -138,23 +138,6 @@
   <string name="kill_app_longpress_back_summary">Fechar a aplicação em primeiro plano pressionando o botão de voltar</string>
   <string name="torch_long_press_power_proximity_title">Impedir que a lanterna se ligue acidentalmente</string>
   <string name="torch_long_press_power_proximity_summary">Verificar o sensor de proximidade antes de ligar a lanterna</string>
-  <!-- Pie -->
   <string name="pie_settings">PIE</string>
-  <string name="pie_gravity_title">Localização</string>
-  <string name="pie_gravity_bottom">Em baixo</string>
-  <string name="pie_gravity_right">À direita</string>
-  <string name="pie_gravity_left">À esquerda</string>
-  <string name="pie_theme_mode_title">Tema</string>
-  <string name="pie_auto">Automático</string>
-  <string name="pie_white">Claro</string>
-  <string name="pie_dark">Escuro</string>
-  <string name="pie_battery_title">Indicador do nível da bateria</string>
-  <string name="pie_battery_text">Apenas texto</string>
-  <string name="pie_battery_circle">Apenas o círculo</string>
-  <string name="pie_battery_both">Ambos</string>
-  <string name="pie_status_indicator">Indicador de rede</string>
-  <string name="pie_status_wifi">Apenas WiFi</string>
-  <string name="pie_status_mobile">Apenas rede móvel</string>
-  <string name="pie_status_none">Nenhum</string>
-  <string name="pie_status_both">Ambos</string>
+  <string name="pie_settings_summary">Use PIE controls instead of the navigation bar</string>
 </resources>
