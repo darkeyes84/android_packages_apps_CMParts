@@ -139,5 +139,5 @@
   <string name="torch_long_press_power_proximity_title">Zabránit náhodnému zapnutí svítilny</string>
   <string name="torch_long_press_power_proximity_summary">Zkontrolovat senzor přiblížení před zapnutím svítilny</string>
   <string name="pie_settings">PIE</string>
-  <string name="pie_settings_summary">Use PIE controls instead of the navigation bar</string>
+  <string name="pie_settings_summary">Použití ovládacích prvků PIE namísto navigačního panelu</string>
 </resources>
