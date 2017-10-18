@@ -139,5 +139,5 @@
   <string name="torch_long_press_power_proximity_title">Impedir que a lanterna se ligue acidentalmente</string>
   <string name="torch_long_press_power_proximity_summary">Verificar o sensor de proximidade antes de ligar a lanterna</string>
   <string name="pie_settings">PIE</string>
-  <string name="pie_settings_summary">Use PIE controls instead of the navigation bar</string>
+  <string name="pie_settings_summary">Usar os controlos PIE em vez da barra de navegação</string>
 </resources>
