@@ -139,5 +139,5 @@
   <string name="torch_long_press_power_proximity_title">منع الاستيقاظ بالخطأ</string>
   <string name="torch_long_press_power_proximity_summary">التحقق من مستشعر القرب قبل إيقاظ الشعلة</string>
   <string name="pie_settings">نمط الدائرة</string>
-  <string name="pie_settings_summary">Use PIE controls instead of the navigation bar</string>
+  <string name="pie_settings_summary">استخدام PIE بدلاً من شريط التنقل</string>
 </resources>
