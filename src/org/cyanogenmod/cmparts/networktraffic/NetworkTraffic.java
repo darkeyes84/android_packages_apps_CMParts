@@ -10,6 +10,7 @@
 
 package org.cyanogenmod.cmparts.networktraffic;
 
+import android.annotation.Nullable;
 import android.content.ContentResolver;
 import android.content.res.Resources;
 import android.net.TrafficStats;
@@ -20,13 +21,19 @@ import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
 import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Switch;
 
+import org.cyanogenmod.cmparts.PartsActivity;
 import org.cyanogenmod.cmparts.SettingsPreferenceFragment;
 import org.cyanogenmod.cmparts.R;
+import org.cyanogenmod.cmparts.widget.SwitchBar;
 import org.cyanogenmod.cmparts.widget.TrafficBarPreference;
 
-public class NetworkTraffic extends SettingsPreferenceFragment
-    implements Preference.OnPreferenceChangeListener {
+public class NetworkTraffic extends SettingsPreferenceFragment implements 
+    SwitchBar.OnSwitchChangeListener, Preference.OnPreferenceChangeListener {
 
     private static final String TAG = "NetworkTraffic";
 
@@ -43,12 +50,15 @@ public class NetworkTraffic extends SettingsPreferenceFragment
     private int MASK_UNIT;
     private int MASK_PERIOD;
 
+    private SwitchBar mSwitchBar;
     private ListPreference mNetTrafficState;
     private ListPreference mNetTrafficUnit;
     private ListPreference mNetTrafficPeriod;
     private SwitchPreference mNetTrafficAutohide;
     private SwitchPreference mNetTrafficHidearrow;
     private TrafficBarPreference mNetTrafficAutohideThreshold;
+
+    private int oldSetting;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -85,13 +95,15 @@ public class NetworkTraffic extends SettingsPreferenceFragment
         // TrafficStats will return UNSUPPORTED if the device does not support it.
         if (TrafficStats.getTotalTxBytes() != TrafficStats.UNSUPPORTED &&
                 TrafficStats.getTotalRxBytes() != TrafficStats.UNSUPPORTED) {
-            mNetTrafficVal = Settings.System.getInt(getContentResolver(),
+            mNetTrafficVal = Settings.System.getInt(getActivity().getContentResolver(),
                     Settings.System.NETWORK_TRAFFIC_STATE, 0);
+            oldSetting = Settings.System.getInt(getActivity().getContentResolver(),
+                    Settings.System.NETWORK_TRAFFIC_OLD, 0);
             int intIndex = mNetTrafficVal & (MASK_UP + MASK_DOWN);
-            intIndex = mNetTrafficState.findIndexOfValue(String.valueOf(intIndex));
-            updateNetworkTrafficState(intIndex);
+            int oldIndex = oldSetting & (MASK_UP + MASK_DOWN);
+            updateNetworkTrafficState();
 
-            mNetTrafficState.setValueIndex(intIndex >= 0 ? intIndex : 0);
+            mNetTrafficState.setValueIndex(intIndex > 0 ? intIndex - 1 : oldIndex > 0 ? oldIndex - 1 : 2);
             mNetTrafficState.setSummary(mNetTrafficState.getEntry());
             mNetTrafficState.setOnPreferenceChangeListener(this);
 
@@ -107,19 +119,69 @@ public class NetworkTraffic extends SettingsPreferenceFragment
         }
     }
 
-    private void updateNetworkTrafficState(int mIndex) {
-        if (mIndex <= 0) {
-            mNetTrafficUnit.setEnabled(false);
-            mNetTrafficPeriod.setEnabled(false);
-            mNetTrafficAutohide.setEnabled(false);
-            mNetTrafficHidearrow.setEnabled(false);
-            mNetTrafficAutohideThreshold.setEnabled(false);
+    @Override
+    public void onViewCreated(final View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        boolean isChecked = (Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.NETWORK_TRAFFIC_STATE, 0) & (MASK_UP + MASK_DOWN)) != 0;
+        mSwitchBar = ((PartsActivity) getActivity()).getSwitchBar();
+        mSwitchBar.addOnSwitchChangeListener(this);
+        mSwitchBar.setChecked(isChecked);
+        mSwitchBar.show();
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+            Bundle savedInstanceState) {
+
+        return super.onCreateView(inflater, container, savedInstanceState);
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+
+        if (mSwitchBar != null) {
+			mSwitchBar.hide();
+            mSwitchBar.removeOnSwitchChangeListener(this);
+        }
+    }
+
+    @Override
+    public void onSwitchChanged(Switch switchView, boolean isChecked) {
+		if (!isChecked) {
+			oldSetting = Settings.System.getInt(getActivity().getContentResolver(),
+                    Settings.System.NETWORK_TRAFFIC_STATE, 0);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.NETWORK_TRAFFIC_OLD, oldSetting);
+            mNetTrafficVal = setBit(mNetTrafficVal, MASK_UP, false);
+            mNetTrafficVal = setBit(mNetTrafficVal, MASK_DOWN, false);
         } else {
+			int intState = oldSetting & (MASK_UP + MASK_DOWN);
+            mNetTrafficVal = setBit(mNetTrafficVal, MASK_UP, getBit(intState, MASK_UP));
+            mNetTrafficVal = setBit(mNetTrafficVal, MASK_DOWN, getBit(intState, MASK_DOWN));
+		}
+        Settings.System.putInt(getActivity().getContentResolver(),
+                Settings.System.NETWORK_TRAFFIC_STATE, isChecked ? oldSetting : mNetTrafficVal);
+        updateNetworkTrafficState();
+    }
+
+    private void updateNetworkTrafficState() {
+        boolean isChecked = (Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.NETWORK_TRAFFIC_STATE, 0) & (MASK_UP + MASK_DOWN)) != 0;
+        if (isChecked) {
+			mNetTrafficState.setEnabled(true);
             mNetTrafficUnit.setEnabled(true);
             mNetTrafficPeriod.setEnabled(true);
             mNetTrafficAutohide.setEnabled(true);
             mNetTrafficHidearrow.setEnabled(true);
-            mNetTrafficAutohideThreshold.setEnabled(true);
+        } else {
+			mNetTrafficState.setEnabled(false);
+            mNetTrafficUnit.setEnabled(false);
+            mNetTrafficPeriod.setEnabled(false);
+            mNetTrafficAutohide.setEnabled(false);
+            mNetTrafficHidearrow.setEnabled(false);
         }
     }
 
@@ -132,7 +194,7 @@ public class NetworkTraffic extends SettingsPreferenceFragment
                     Settings.System.NETWORK_TRAFFIC_STATE, mNetTrafficVal);
             int index = mNetTrafficState.findIndexOfValue((String) newValue);
             mNetTrafficState.setSummary(mNetTrafficState.getEntries()[index]);
-            updateNetworkTrafficState(index);
+            updateNetworkTrafficState();
             return true;
         } else if (preference == mNetTrafficUnit) {
             mNetTrafficVal = setBit(mNetTrafficVal, MASK_UNIT, ((String)newValue).equals("1"));

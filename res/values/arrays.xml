@@ -324,14 +324,12 @@
 
     <!-- Network Traffic Display States -->
     <string-array name="show_network_traffic_state_entries" translatable="false">
-        <item>@string/show_network_traffic_disable</item>
         <item>@string/show_network_traffic_up</item>
         <item>@string/show_network_traffic_down</item>
         <item>@string/show_network_traffic_all</item>
     </string-array>
 
     <string-array name="show_network_traffic_state_values" translatable="false">
-        <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
