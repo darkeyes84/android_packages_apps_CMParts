@@ -10,6 +10,7 @@
 
 package org.cyanogenmod.cmparts.statusbar;
 
+import android.annotation.Nullable;
 import android.content.ContentResolver;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -18,21 +19,28 @@ import android.content.pm.ResolveInfo;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.UserHandle;
+import android.os.UserHandle;
 import android.provider.Settings;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v14.preference.SwitchPreference;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Switch;
 
 import java.util.List;
 import java.util.ArrayList;
 
+import org.cyanogenmod.cmparts.PartsActivity;
 import org.cyanogenmod.cmparts.SettingsPreferenceFragment;
 import org.cyanogenmod.cmparts.R;
+import org.cyanogenmod.cmparts.widget.SwitchBar;
 import org.cyanogenmod.cmparts.widget.TrafficBarPreference;
 
-public class CustomHeaders extends SettingsPreferenceFragment
-    implements Preference.OnPreferenceChangeListener {
+public class CustomHeaders extends SettingsPreferenceFragment implements 
+    SwitchBar.OnSwitchChangeListener, Preference.OnPreferenceChangeListener {
 
     private static final String CUSTOM_HEADERS = "status_bar_custom_header";
     private static final String DAYLIGHT_HEADER_PACK = "daylight_header_pack";
@@ -41,25 +49,24 @@ public class CustomHeaders extends SettingsPreferenceFragment
     private static final String CUSTOM_HEADER_PROVIDER = "custom_header_provider";
     private static final String CUSTOM_HEADER_BROWSE = "custom_header_browse";
 
-    private SwitchPreference mCustomHeaders;
+    private SwitchBar mSwitchBar;
     private ListPreference mDaylightHeaderPack;
     private ListPreference mHeaderProvider;
     private TrafficBarPreference mHeaderShadow;
     private PreferenceScreen mHeaderBrowse;
     private String mDaylightHeaderProvider;
+    private String mProviderName;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         
+        boolean isEnabled = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.STATUS_BAR_CUSTOM_HEADER, 0) == 1;
+        
         addPreferencesFromResource(R.xml.custom_headers);
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
-
-        mCustomHeaders = (SwitchPreference) findPreference(CUSTOM_HEADERS);
-        mCustomHeaders.setChecked((Settings.System.getInt(resolver,
-                Settings.System.STATUS_BAR_CUSTOM_HEADER, 0) == 1));
-        mCustomHeaders.setOnPreferenceChangeListener(this);
 
         String settingHeaderPackage = Settings.System.getString(resolver,
                 Settings.System.STATUS_BAR_DAYLIGHT_HEADER_PACK);
@@ -92,31 +99,64 @@ public class CustomHeaders extends SettingsPreferenceFragment
         mHeaderShadow.setOnPreferenceChangeListener(this);
 
         mDaylightHeaderProvider = getResources().getString(R.string.daylight_header_provider);
-        String providerName = Settings.System.getString(resolver,
+        mProviderName = Settings.System.getString(resolver,
                 Settings.System.STATUS_BAR_CUSTOM_HEADER_PROVIDER);
-        if (providerName == null) {
-            providerName = mDaylightHeaderProvider;
+        if (mProviderName == null) {
+            mProviderName = mDaylightHeaderProvider;
         }
         mHeaderProvider = (ListPreference) findPreference(CUSTOM_HEADER_PROVIDER);
-        valueIndex = mHeaderProvider.findIndexOfValue(providerName);
+        valueIndex = mHeaderProvider.findIndexOfValue(mProviderName);
         mHeaderProvider.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
         mHeaderProvider.setSummary(mHeaderProvider.getEntry());
         mHeaderProvider.setOnPreferenceChangeListener(this);
-        mDaylightHeaderPack.setEnabled(providerName.equals(mDaylightHeaderProvider));
+        mHeaderProvider.setEnabled(isEnabled);
+        mDaylightHeaderPack.setEnabled(isEnabled && mProviderName.equals(mDaylightHeaderProvider));
 
         mHeaderBrowse = (PreferenceScreen) findPreference(CUSTOM_HEADER_BROWSE);
-        mHeaderBrowse.setEnabled(isBrowseHeaderAvailable());
+        mHeaderBrowse.setEnabled(isEnabled && isBrowseHeaderAvailable());
+    }
+
+    @Override
+    public void onViewCreated(final View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        mSwitchBar = ((PartsActivity) getActivity()).getSwitchBar();
+        mSwitchBar.addOnSwitchChangeListener(this);
+        mSwitchBar.setChecked(Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.STATUS_BAR_CUSTOM_HEADER, 0) == 1);
+        mSwitchBar.show();
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+            Bundle savedInstanceState) {
+
+        return super.onCreateView(inflater, container, savedInstanceState);
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+
+        if (mSwitchBar != null) {
+			mSwitchBar.hide();
+            mSwitchBar.removeOnSwitchChangeListener(this);
+        }
+    }
+
+    @Override
+    public void onSwitchChanged(Switch switchView, boolean isChecked) {
+        Settings.System.putInt(getActivity().getContentResolver(),
+                Settings.System.STATUS_BAR_CUSTOM_HEADER, isChecked ? 1 : 0);
+		mDaylightHeaderPack.setEnabled(isChecked && mProviderName.equals(mDaylightHeaderProvider));
+		mHeaderBrowse.setEnabled(isChecked && isBrowseHeaderAvailable());
+		mHeaderProvider.setEnabled(isChecked);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-        if (preference == mCustomHeaders) {
-            boolean value = (Boolean) newValue;
-            Settings.System.putInt(resolver,
-                    Settings.System.STATUS_BAR_CUSTOM_HEADER, value ? 1 : 0);
-            return true;
-        } else if (preference == mDaylightHeaderPack) {
+        if (preference == mDaylightHeaderPack) {
             String value = (String) newValue;
             Settings.System.putString(resolver,
                     Settings.System.STATUS_BAR_DAYLIGHT_HEADER_PACK, value);
