@@ -46,24 +46,20 @@
 	    android:summary="@string/network_traffic_summary"
 	    android:title="@string/network_traffic_title" />
 
-	<cyanogenmod.preference.CMSystemSettingSwitchPreference
+	<SwitchPreference
         android:key="wifi_status_bar_ssid"
         android:title="@string/wifi_status_bar_ssid_title"
-        android:summary="@string/wifi_status_bar_ssid_summary"
-        android:defaultValue="false" />
+        android:summary="@string/wifi_status_bar_ssid_summary" />
 
-    <cyanogenmod.preference.CMSystemSettingSwitchPreference
+    <SwitchPreference
         android:key="status_bar_show_carrier"
         android:title="@string/carrier_label_settings_title"
-        android:summary="@string/carrier_label_settings_summary"
-        android:defaultValue="false" />
+        android:summary="@string/carrier_label_settings_summary" />
 
-    <cyanogenmod.preference.CMSystemSettingSwitchPreference
+    <SwitchPreference
         android:key="hide_carrier_label_with_wifi"
         android:title="@string/hide_carrier_label_with_wifi_title"
-        android:summary="@string/hide_carrier_label_with_wifi_summary"
-        android:defaultValue="false" 
-        android:dependency="status_bar_show_carrier" />
+        android:summary="@string/hide_carrier_label_with_wifi_summary" />
 
     <PreferenceCategory
         android:title="@string/status_bar_icons_title">

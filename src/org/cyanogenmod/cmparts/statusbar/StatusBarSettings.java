@@ -26,6 +26,7 @@ import android.text.format.DateFormat;
 import android.view.View;
 
 import cyanogenmod.preference.CMSystemSettingListPreference;
+import cyanogenmod.providers.CMSettings;
 
 import org.cyanogenmod.cmparts.R;
 import org.cyanogenmod.cmparts.SettingsPreferenceFragment;
@@ -52,6 +53,9 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private static final String PREF_BATT_BAR_STYLE = "battery_bar_style";
     private static final String PREF_BATT_BAR_WIDTH = "battery_bar_thickness";
     private static final String PREF_BATT_ANIMATE = "battery_bar_animate";
+    private static final String PREF_WIFI_STATUS_BAR_SSID = "wifi_status_bar_ssid";
+    private static final String PREF_STATUS_BAR_SHOW_CARRIER = "status_bar_show_carrier";
+    private static final String PREF_HIDE_CARRIER_WITH_WIFI = "hide_carrier_label_with_wifi";
 
     private static final int STATUS_BAR_BATTERY_STYLE_HIDDEN = 4;
     private static final int STATUS_BAR_BATTERY_STYLE_TEXT = 6;
@@ -60,6 +64,10 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private static final int PULLDOWN_DIR_LEFT = 2;
     public static final int STATUS_BAR_DATE_STYLE_LOWERCASE = 1;
     public static final int STATUS_BAR_DATE_STYLE_UPPERCASE = 2;
+
+    private SwitchPreference mShowWifiStatusBar;
+    private SwitchPreference mShowCarrierStatusBar;
+    private SwitchPreference mHideCarrierWithWifi;
 
     private CMSystemSettingListPreference mQuickPulldown;
     private CMSystemSettingListPreference mSmartPulldown;
@@ -168,6 +176,22 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         mBatteryBarThickness.setSummary(mBatteryBarThickness.getEntry());
 
         updateBatteryBarOptions();
+
+        mShowWifiStatusBar = (SwitchPreference) findPreference(PREF_WIFI_STATUS_BAR_SSID);
+        mShowWifiStatusBar.setOnPreferenceChangeListener(this);
+        mShowWifiStatusBar.setChecked(CMSettings.System.getInt(getActivity().getContentResolver(),
+                CMSettings.System.WIFI_STATUS_BAR_SSID, 0) == 1);
+
+        mShowCarrierStatusBar = (SwitchPreference) findPreference(PREF_STATUS_BAR_SHOW_CARRIER);
+        mShowCarrierStatusBar.setOnPreferenceChangeListener(this);
+        mShowWifiStatusBar.setChecked(CMSettings.System.getInt(getActivity().getContentResolver(),
+                CMSettings.System.STATUS_BAR_SHOW_CARRIER, 0) == 1);
+
+        mHideCarrierWithWifi = (SwitchPreference) findPreference(PREF_HIDE_CARRIER_WITH_WIFI);
+        mHideCarrierWithWifi.setOnPreferenceChangeListener(this);
+        mHideCarrierWithWifi.setChecked(CMSettings.System.getInt(getActivity().getContentResolver(),
+                CMSettings.System.HIDE_CARRIER_LABEL_WITH_WIFI, 0) == 1);
+        updateCarrierWifi();
     }
 
     @Override
@@ -247,6 +271,20 @@ public class StatusBarSettings extends SettingsPreferenceFragment
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.BATTERY_BAR_THICKNESS, value);
             mBatteryBarThickness.setSummary(mBatteryBarThickness.getEntries()[index]);
+        } else if (preference == mShowWifiStatusBar) {
+			boolean value = (Boolean) newValue;
+            CMSettings.System.putInt(getContentResolver(),
+                    CMSettings.System.WIFI_STATUS_BAR_SSID, value ? 1 : 0);
+            updateCarrierWifi();
+        } else if (preference == mShowCarrierStatusBar) {
+			boolean value = (Boolean) newValue;
+            CMSettings.System.putInt(getContentResolver(),
+                    CMSettings.System.STATUS_BAR_SHOW_CARRIER, value ? 1 : 0);
+            updateCarrierWifi();
+        } else if (preference == mHideCarrierWithWifi) {
+			boolean value = (Boolean) newValue;
+            CMSettings.System.putInt(getContentResolver(),
+                    CMSettings.System.HIDE_CARRIER_LABEL_WITH_WIFI, value ? 1 : 0);
         }
         return true;
     }
@@ -256,7 +294,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         boolean value;
         if (preference == mBatteryBarChargingAnimation) {
             value = mBatteryBarChargingAnimation.isChecked();
-            Settings.System.putInt(getContentResolver(), Settings.System.BATTERY_BAR_ANIMATE, value ? 1 : 0);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.BATTERY_BAR_ANIMATE, value ? 1 : 0);
         } else {
             return super.onPreferenceTreeClick(preference);
         }
@@ -333,4 +372,13 @@ public class StatusBarSettings extends SettingsPreferenceFragment
             mBatteryBarChargingAnimation.setEnabled(true);
         }
     }
+
+    private void updateCarrierWifi() {
+        boolean showWifi = CMSettings.System.getInt(getActivity().getContentResolver(),
+                CMSettings.System.WIFI_STATUS_BAR_SSID, 0) == 1;
+        boolean showCarrier = CMSettings.System.getInt(getActivity().getContentResolver(),
+                CMSettings.System.STATUS_BAR_SHOW_CARRIER, 0) == 1;
+
+        mHideCarrierWithWifi.setEnabled(showWifi && showCarrier);
+	}
 }
