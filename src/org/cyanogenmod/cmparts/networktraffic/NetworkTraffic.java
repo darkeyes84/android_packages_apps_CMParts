@@ -98,7 +98,7 @@ public class NetworkTraffic extends SettingsPreferenceFragment implements
             mNetTrafficVal = Settings.System.getInt(getActivity().getContentResolver(),
                     Settings.System.NETWORK_TRAFFIC_STATE, 0);
             oldSetting = Settings.System.getInt(getActivity().getContentResolver(),
-                    Settings.System.NETWORK_TRAFFIC_OLD, 0);
+                    Settings.System.NETWORK_TRAFFIC_OLD_STATE, 3);
             int intIndex = mNetTrafficVal & (MASK_UP + MASK_DOWN);
             int oldIndex = oldSetting & (MASK_UP + MASK_DOWN);
             updateNetworkTrafficState();
@@ -154,7 +154,7 @@ public class NetworkTraffic extends SettingsPreferenceFragment implements
 			oldSetting = Settings.System.getInt(getActivity().getContentResolver(),
                     Settings.System.NETWORK_TRAFFIC_STATE, 0);
             Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.NETWORK_TRAFFIC_OLD, oldSetting);
+                    Settings.System.NETWORK_TRAFFIC_OLD_STATE, oldSetting);
             mNetTrafficVal = setBit(mNetTrafficVal, MASK_UP, false);
             mNetTrafficVal = setBit(mNetTrafficVal, MASK_DOWN, false);
         } else {
