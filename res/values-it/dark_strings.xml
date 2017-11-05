@@ -121,7 +121,7 @@
   <string name="status_bar_custom_header_shadow_summary">Per una migliore visibilità su immagini luminose</string>
   <string name="static_header_provider_title">Statico</string>
   <string name="daylight_header_provider_title">Dinamico</string>
-  <string name="custom_header_provider_title">Header provider</string>
+  <string name="custom_header_provider_title">Provider header</string>
   <string name="custom_header_browse_title">Sfoglia gli Headers installati</string>
   <string name="custom_header_browse_summary">Premere a lungo su qualsiasi immagine da utilizzare per la modalità statica</string>
   <string name="hide_carrier_label_with_wifi_title">Nascondi il nome dell\'operatore mobile con il WiFi SSID</string>
@@ -139,5 +139,5 @@
   <string name="torch_long_press_power_proximity_title">Previeni attivazione accidentale della torcia</string>
   <string name="torch_long_press_power_proximity_summary">Controlla il sensore di prossimità prima di attivare la torcia</string>
   <string name="pie_settings">PIE</string>
-  <string name="pie_settings_summary">Use PIE controls instead of the navigation bar</string>
+  <string name="pie_settings_summary">Utilizza i controlli PIE al posto della barra di navigazione</string>
 </resources>
