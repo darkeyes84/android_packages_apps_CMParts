@@ -62,9 +62,9 @@
   <string name="navigation_bar_height_summary">पोर्ट्रेट में नेविगेशन बार</string>
   <string name="navigation_bar_width_title">नेविगेशन बार चौड़ाई</string>
   <string name="navigation_bar_width_summary">नेविगेशन बार चौड़ाई (परिदृश्य)</string>
-  <string name="navigation_bar_size_48_dp_default">48 dp (default)</string>
+  <string name="navigation_bar_size_48_dp_default">48 dp (डिफ़ॉल्ट)</string>
   <string name="navigation_bar_size_44_dp">44 dp</string>
-  <string name="navigation_bar_size_42_dp_default">42 dp (default)</string>
+  <string name="navigation_bar_size_42_dp_default">42 dp (डिफ़ॉल्ट)</string>
   <string name="navigation_bar_size_42_dp">42 dp</string>
   <string name="navigation_bar_size_40_dp">40 dp</string>
   <string name="navigation_bar_size_36_dp">36 dp</string>
@@ -139,5 +139,5 @@
   <string name="torch_long_press_power_proximity_title">ग़लती से जगाए जाने को रोकें</string>
   <string name="torch_long_press_power_proximity_summary">चेक निकटता संवेदक मशाल को सक्रिय करने से पहले</string>
   <string name="pie_settings">पाई</string>
-  <string name="pie_settings_summary">Use PIE controls instead of the navigation bar</string>
+  <string name="pie_settings_summary">नेविगेशन बार की बजाये PIE कण्ट्रोल का उपयोग करें</string>
 </resources>
