@@ -140,8 +140,8 @@
   <!-- Kill app long-press back -->
   <string name="kill_app_longpress_back">إنهاء التطبيقات بزر الرجوع</string>
   <string name="kill_app_longpress_back_summary">إنها تطبيقات الخلفية بالضغط الطويل على زر الرجوع</string>
-  <string name="torch_long_press_power_proximity_title">منع الاستيقاظ بالخطأ</string>
-  <string name="torch_long_press_power_proximity_summary">التحقق من مستشعر القرب قبل إيقاظ الشعلة</string>
-  <string name="pie_settings">نمط الدائرة</string>
-  <string name="pie_settings_summary">استخدام PIE بدلاً من شريط التنقل</string>
+  <string name="torch_long_press_power_proximity_title">منع تشغيل الفلاش العرَضي</string>
+  <string name="torch_long_press_power_proximity_summary">التحقق من مستشعر القرب قبل تشغيل الفلاش</string>
+  <string name="pie_settings">نمط التحكم الدائري</string>
+  <string name="pie_settings_summary">استخدام نمط التحكم الدائري بدلاً من شريط التنقل</string>
 </resources>
