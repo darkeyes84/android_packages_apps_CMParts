@@ -83,20 +83,20 @@
   <string name="status_bar_date_style_lowercase">أحرف صغيرة</string>
   <string name="status_bar_date_style_uppercase">أحرف كبيرة</string>
   <string name="status_bar_date_position">موضع التاريخ</string>
-  <string name="status_bar_date_right">يمين الوقت</string>
-  <string name="status_bar_date_left">يسار الوقت</string>
+  <string name="status_bar_date_right">إلى يمين الساعة</string>
+  <string name="status_bar_date_left">إلى يسار الساعة</string>
   <!-- Pixel navbar animation -->
   <string name="pixel_navbar_anim_title">مؤثرات الحركة لزر الشاشة الرئيسية</string>
   <string name="pixel_navbar_anim_summary">تمكين المؤثرات لزر الشاشة الرئيسية</string>
   <!-- SSID in status bar -->
-  <string name="wifi_status_bar_ssid_title">عرض تسمية الشبكة الاسلكية</string>
-  <string name="wifi_status_bar_ssid_summary">عرض تسمية الشبكة الاسلكية المتصلة في شريط الحالة</string>
+  <string name="wifi_status_bar_ssid_title">عرض معلومات الواي فاي</string>
+  <string name="wifi_status_bar_ssid_summary">عرض معلومات شبكة الواي فاي المتصلة في شريط الإشعارات</string>
   <!-- Custom carrier label and position -->
-  <string name="carrier_label_settings_title">أظهر إسم مشغّل الشبكة</string>
-  <string name="carrier_label_settings_summary">أظهر إسم مشغّل الشبكة في شريط الحالة</string>
+  <string name="carrier_label_settings_title">إظهار إسم مشغّل الشبكة</string>
+  <string name="carrier_label_settings_summary">إظهار إسم مشغّل الشبكة في شريط الإشعارات</string>
   <!-- Low battery notification -->
-  <string name="battery_low_notification_title">تحذير البطارية منخفضة</string>
-  <string name="battery_low_notification_summary">إظهار التحذير عندما تكون البطارية منخفضة</string>
+  <string name="battery_low_notification_title">إشعار إنخفاض البطارية</string>
+  <string name="battery_low_notification_summary">إظهار إشعار عند إنخفاض البطارية</string>
   <!-- Battery saver color -->
   <string name="battery_saver_mode_color_title">لون تحذير موفر البطارية</string>
   <string name="battery_saver_mode_color_summary">فعّل أشرطة التنقل - الحالة البرتقالية عندما يكون توفير البطارية منشّط</string>
