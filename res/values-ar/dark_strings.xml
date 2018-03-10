@@ -133,10 +133,10 @@
   <string name="nav_bar_dynamic_title">لون شريط التنقل الحيوي</string>
   <string name="nav_bar_dynamic_summary">تغيير لون شريط التنقل حسب لون التطبيق المعروض</string>
   <string name="color_calibration_display_summary">ضبط خيارات معايرة اللون المتعددة</string>
-  <string name="volume_wake_screen_summary_off">الضغط على زر الصوت سيوقظ الجهاز</string>
-  <string name="volume_wake_screen_summary_on">يتم تعطيل هذا الخيار عند تمكين التحكم في التشغيل وتشغيل الموسيقى</string>
-  <string name="battery_light_almost_full_color_title">تم الشحن (90%)</string>
-  <string name="battery_light_really_full_color_title">مشحونة بالكامل (100%)</string>
+  <string name="volume_wake_screen_summary_off">الضغط على ازرار الصوت سيوقظ الجهاز</string>
+  <string name="volume_wake_screen_summary_on">سيتم تعطيل هذا الخيار عند تمكين التحكم في تشغيل الموسيقى وعند عملها</string>
+  <string name="battery_light_almost_full_color_title">تم شحن (٪٩٠)</string>
+  <string name="battery_light_really_full_color_title">البطارية مشحونة بالكامل (100%)</string>
   <!-- Kill app long-press back -->
   <string name="kill_app_longpress_back">اغلاق التطبيقات بزر الرجوع</string>
   <string name="kill_app_longpress_back_summary">قتل التطبيقات بالضغط الطويل على زر الرجوع</string>
