@@ -99,13 +99,13 @@
   <string name="battery_low_notification_summary">إظهار إشعار عند إنخفاض البطارية</string>
   <!-- Battery saver color -->
   <string name="battery_saver_mode_color_title">لون تحذير موفر البطارية</string>
-  <string name="battery_saver_mode_color_summary">فعّل أشرطة التنقل - الحالة البرتقالية عندما يكون توفير البطارية منشّط</string>
+  <string name="battery_saver_mode_color_summary">إظهار شريطَي الإشعارات والتنقل باللون البرتقالي عند تفعيل موفر البطارية</string>
   <!-- Battery bar settings -->
   <string name="battery_bar_title">شريط البطارية</string>
   <string name="battery_bar_location">شريط البطارية</string>
   <string name="battery_bar_style_title">نمط شريط البطارية</string>
   <string name="battery_bar_thickness_title">سُمك شريط البطارية</string>
-  <string name="battery_bar_animate_title">الرسوم المتحركة عند الشحن</string>
+  <string name="battery_bar_animate_title">مؤثرات الحركة أثناء الشحن</string>
   <string name="battery_bar_animate_summary">قد تؤدي الرسوم التحركة للشحن إلى أداء سيء. أنت حر في تمكينها.</string>
   <string name="battery_bar_hide">أُخْفِيَتْ</string>
   <string name="battery_bar_statusbar">شريط الحالة</string>
