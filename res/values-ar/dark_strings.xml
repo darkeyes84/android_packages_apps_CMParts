@@ -127,7 +127,7 @@
   <string name="daylight_header_provider_title">حيوي</string>
   <string name="custom_header_provider_title">مزود الترويسة</string>
   <string name="custom_header_browse_title">إستعراض الترويسات المثبتة</string>
-  <string name="custom_header_browse_summary">إضغط مطولاً على أي صورة لإستخدامها للنمط الساكن</string>
+  <string name="custom_header_browse_summary">إضغط مطولاً على اي صورة لاستخدامها في الوضع الثابت</string>
   <string name="hide_carrier_label_with_wifi_title">إخفاء اسم مشغّل الشبكة عند إظهار اسم الشبكة الاسلكية</string>
   <string name="hide_carrier_label_with_wifi_summary">إظهار تسمية مشغّل الشبكة فقط عندما لا يتم عرض تسمية الشبكة الاسلكية</string>
   <string name="nav_bar_dynamic_title">لون شريط التنقل</string>
