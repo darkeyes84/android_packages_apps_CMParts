@@ -106,17 +106,20 @@
   <string name="battery_bar_style_title">نمط شريط البطارية</string>
   <string name="battery_bar_thickness_title">سُمك شريط البطارية</string>
   <string name="battery_bar_animate_title">مؤثرات الحركة أثناء الشحن</string>
-  <string name="battery_bar_animate_summary">قد تؤدي الرسوم التحركة للشحن إلى أداء سيء. أنت حر في تمكينها.</string>
-  <string name="battery_bar_hide">أُخْفِيَتْ</string>
-  <string name="battery_bar_statusbar">شريط الحالة</string>
+  <string name="battery_bar_animate_summary">قد تؤدي مؤثرات الحركة أثناء الشحن إلى تجربة إستخدام سيئة.
+مكّنها حسب تقديرك.
+
+</string>
+  <string name="battery_bar_hide">مخفي</string>
+  <string name="battery_bar_statusbar">شريط الإشعارات</string>
   <string name="battery_bar_topnav">أعلى شريط التنقل</string>
   <string name="battery_bar_bottomnav">أسفل شريط التنقل</string>
-  <string name="battery_bar_reg">العادية</string>
-  <string name="battery_bar_center">مركزي عاكس</string>
+  <string name="battery_bar_reg">إعتيادي</string>
+  <string name="battery_bar_center">متوسط معكوس</string>
   <!-- QS headers -->
-  <string name="status_bar_custom_header_title">رؤوس مخصصة</string>
-  <string name="status_bar_custom_header_summary">تمكين الصور المخصصة في شريط الحالة</string>
-  <string name="custom_header_title">تمكين إعادة توجيه مخصص</string>
+  <string name="status_bar_custom_header_title">إشعارات رأسية مخصصة</string>
+  <string name="status_bar_custom_header_summary">تمكين تخصيص صور في لوحة الإشعارات</string>
+  <string name="custom_header_title">تمكين تخصيص الإشعارات الرأسية</string>
   <string name="daylight_header_pack_title">حزمة صور للرأسية</string>
   <string name="status_bar_custom_header_shadow_title">صور داكنة للرأسية</string>
   <string name="status_bar_custom_header_shadow_summary">لرؤية افضل على صور برَاقة</string>
