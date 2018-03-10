@@ -54,18 +54,18 @@
   <string name="smart_pulldown_none_summary">فتح الإعدادات السريعة عندما لايوجد إشعارات</string>
   <string name="smart_pulldown_off">إطفاء</string>
   <string name="smart_pulldown_none">لا توجد إشعارات</string>
-  <string name="smart_pulldown_dismissable">لا يوجد \'يمكن تجاهلها\'</string>
-  <string name="smart_pulldown_ongoing">لا يوجد \'مستمرة\'</string>
+  <string name="smart_pulldown_dismissable">لا يوجد إشعارات \'يمكن تجاهلها\'</string>
+  <string name="smart_pulldown_ongoing">لا يوجد إشعارات \'جارية\'</string>
   <!-- Navigation Bar -->
   <string name="navigation_bar_dimensions_title">أبعاد شريط التنقل</string>
   <string name="navigation_bar_dimensions_title_summary">تغيير حجم شريط التنقل</string>
   <string name="navigation_bar_height_title">إرتفاع شريط التنقل</string>
-  <string name="navigation_bar_height_summary">إرتفاع شريط التنقل في وضع الشاشة الافقي</string>
+  <string name="navigation_bar_height_summary">إرتفاع شريط التنقل في وضع الشاشة الرأسي</string>
   <string name="navigation_bar_width_title">مستوى عرض شريط التنقل</string>
-  <string name="navigation_bar_width_summary">مستوى عرض شريط التنقل إذا كان الشريط على جانب (أفقي)</string>
-  <string name="navigation_bar_size_48_dp_default">48 dp (الافتراضي)</string>
+  <string name="navigation_bar_width_summary">مستوى عرض شريط التنقل في وضع الشاشة الأفقي</string>
+  <string name="navigation_bar_size_48_dp_default">48 dp (الإفتراضي)</string>
   <string name="navigation_bar_size_44_dp">44 dp</string>
-  <string name="navigation_bar_size_42_dp_default">42 dp (الافتراضي)</string>
+  <string name="navigation_bar_size_42_dp_default">42 dp (الإفتراضي)</string>
   <string name="navigation_bar_size_42_dp">42 dp</string>
   <string name="navigation_bar_size_40_dp">40 dp</string>
   <string name="navigation_bar_size_36_dp">36 dp</string>
@@ -73,12 +73,12 @@
   <string name="navigation_bar_size_24_dp">24 dp</string>
   <!-- Date in status bar -->
   <string name="status_bar_date">التاريخ</string>
-  <string name="status_bar_date_summary">عرض التاريخ في شريط الحالة</string>
-  <string name="status_bar_date_style">شكل التاريخ</string>
-  <string name="status_bar_date_format">صيغة التاريخ</string>
-  <string name="status_bar_date_none">لا تظهر</string>
-  <string name="status_bar_date_small">حجم خط صغير</string>
-  <string name="status_bar_date_normal">حجم الخط الطبيعي</string>
+  <string name="status_bar_date_summary">عرض التاريخ في شريط الإشعارات</string>
+  <string name="status_bar_date_style">نمط التاريخ</string>
+  <string name="status_bar_date_format">تنسيق التاريخ</string>
+  <string name="status_bar_date_none">عدم إظهار</string>
+  <string name="status_bar_date_small">حجم الخط صغير</string>
+  <string name="status_bar_date_normal">حجم الخط طبيعي</string>
   <string name="status_bar_date_style_normal">طبيعي</string>
   <string name="status_bar_date_style_lowercase">أحرف صغيرة</string>
   <string name="status_bar_date_style_uppercase">أحرف كبيرة</string>
