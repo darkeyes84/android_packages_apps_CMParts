@@ -22,12 +22,12 @@
   <string name="status_bar_bluetooth_icon_summary">إظهار الرمز عند التمكين حتى في عدم الإتصال</string>
   <!-- Hide the alarm icon in the expanded status bar -->
   <string name="show_next_alarm_icon_title">أيقونة المنبه</string>
-  <string name="show_next_alarm_icon_summary">إظهار رمز المنبه في شريط المعلومات عندما يتم تعيين وقت التنبيه</string>
+  <string name="show_next_alarm_icon_summary">إظهار الرمز في شريط المعلومات عندما يتم تعيين وقت التنبيه</string>
   <!-- Network traffic -->
   <string name="default_string">الإفتراضي</string>
-  <string name="network_traffic_title">حركة تنقل الشبكة</string>
-  <string name="show_network_traffic_state">مراقب حركة البيانات في شريط الحالة</string>
-  <string name="network_traffic_summary">تمكين خيارات متعددة لحركة تنقل الشبكة في شريط الحالة</string>
+  <string name="network_traffic_title">حركة مرور البيانات</string>
+  <string name="show_network_traffic_state">مراقب حركة مرور البيانات في شريط الإشعارات</string>
+  <string name="network_traffic_summary">تمكين خيارات متعددة لحركة مرور البيانات في شريط الإشعارات</string>
   <string name="show_network_traffic_unit">وحدة العرض</string>
   <string name="show_network_traffic_frequency">الفاصل الزمني للتحديث</string>
   <string name="show_network_traffic_disable">معطل</string>
@@ -36,12 +36,12 @@
   <string name="show_network_traffic_all">الصادر والوارد</string>
   <string name="show_network_traffic_bit">بت في الثانية</string>
   <string name="show_network_traffic_byte">بايت في الثانية</string>
-  <string name="show_network_traffic_500">500 مل ثانية</string>
+  <string name="show_network_traffic_500">500 ملِ ثانية</string>
   <string name="show_network_traffic_1000">1000 مل ثانية</string>
-  <string name="show_network_traffic_1500">1500 مل ثانية</string>
-  <string name="show_network_traffic_2000">2000 مل ثانية</string>
+  <string name="show_network_traffic_1500">1500 ملِ ثانية</string>
+  <string name="show_network_traffic_2000">2000 ملِ ثانية</string>
   <string name="network_traffic_autohide">إخفاء تلقائي</string>
-  <string name="network_traffic_autohide_summary">اخفاء رصد حركة تنقل البيانات عند عدم وجود نشاط</string>
+  <string name="network_traffic_autohide_summary">اخفاء مراقب حركة البيانات عند عدم وجود نشاط</string>
   <string name="network_traffic_autohide_threshold">عتبة عدم النشاط</string>
   <string name="network_traffic_hidearrow">إخفاء الأسهم</string>
   <string name="network_traffic_hidearrow_summary">اخفاء الاسهم في مؤشر حركة البيانات</string>
