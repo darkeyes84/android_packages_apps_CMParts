@@ -138,8 +138,8 @@
   <string name="battery_light_almost_full_color_title">تم شحن (٪٩٠)</string>
   <string name="battery_light_really_full_color_title">البطارية مشحونة بالكامل (100%)</string>
   <!-- Kill app long-press back -->
-  <string name="kill_app_longpress_back">اغلاق التطبيقات بزر الرجوع</string>
-  <string name="kill_app_longpress_back_summary">قتل التطبيقات بالضغط الطويل على زر الرجوع</string>
+  <string name="kill_app_longpress_back">إنهاء التطبيقات بزر الرجوع</string>
+  <string name="kill_app_longpress_back_summary">إنها تطبيقات الخلفية بالضغط الطويل على زر الرجوع</string>
   <string name="torch_long_press_power_proximity_title">منع الاستيقاظ بالخطأ</string>
   <string name="torch_long_press_power_proximity_summary">التحقق من مستشعر القرب قبل إيقاظ الشعلة</string>
   <string name="pie_settings">نمط الدائرة</string>
