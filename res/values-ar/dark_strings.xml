@@ -19,7 +19,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Show bluetooth icon when disconnected -->
   <string name="status_bar_bluetooth_icon">أيقونة البلوتوث</string>
-  <string name="status_bar_bluetooth_icon_summary">إظهار أيقونة البلوتوث عندما يتم التمكين ولكن لاتظهر عند عدم التمكين</string>
+  <string name="status_bar_bluetooth_icon_summary">إظهار الرمز عند التمكين حتى في عدم الإتصال</string>
   <!-- Hide the alarm icon in the expanded status bar -->
   <string name="show_next_alarm_icon_title">أيقونة المنبه</string>
   <string name="show_next_alarm_icon_summary">إظهار رمز المنبه في شريط المعلومات عندما يتم تعيين وقت التنبيه</string>
