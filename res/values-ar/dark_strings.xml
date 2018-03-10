@@ -42,15 +42,16 @@
   <string name="show_network_traffic_2000">2000 ملِ ثانية</string>
   <string name="network_traffic_autohide">إخفاء تلقائي</string>
   <string name="network_traffic_autohide_summary">اخفاء مراقب حركة البيانات عند عدم وجود نشاط</string>
-  <string name="network_traffic_autohide_threshold">عتبة عدم النشاط</string>
+  <string name="network_traffic_autohide_threshold">حدود عدم النشاط</string>
   <string name="network_traffic_hidearrow">إخفاء الأسهم</string>
-  <string name="network_traffic_hidearrow_summary">اخفاء الاسهم في مؤشر حركة البيانات</string>
-  <string name="volume_keys_control_ring_stream_title">مفاتيح الصوت تتحكم في صوت النغمة</string>
-  <string name="volume_keys_control_ring_stream_summary">إذا تم التشغيل مفاتيح الصوت ستتحكم في صوت النغمة. إذا تم الإيقاف مفاتيح الصوت ستتحكم في صوت الوسائط.</string>
+  <string name="network_traffic_hidearrow_summary">اخفاء الأسهم في مؤشر حركة البيانات</string>
+  <string name="volume_keys_control_ring_stream_title">مفاتيح الصوت تتحكم في صوت الرنين</string>
+  <string name="volume_keys_control_ring_stream_summary">عند التـمكين،مفاتيح الصوت ستتحكم في صوت الرنين.
+عند التعطيل،مفاتيح الصوت ستتحكم في صوت الوسائط.</string>
   <!-- Smart pulldown-->
-  <string name="smart_pulldown_title">السحب الذكي لأسفل</string>
-  <string name="smart_pulldown_summary">فتح الإعدادات سريعة عندما يكون هناك %1$s من الإخطارات الحالية</string>
-  <string name="smart_pulldown_none_summary">فتح الاعدادات السريعة عندما لا يكون هناك اشعارات</string>
+  <string name="smart_pulldown_title">شريط الإشعارات المنسدل الذكي</string>
+  <string name="smart_pulldown_summary">فتح الإعدادات السريعة عندما يوجد %1$s من الإشعارات</string>
+  <string name="smart_pulldown_none_summary">فتح الإعدادات السريعة عندما لايوجد إشعارات</string>
   <string name="smart_pulldown_off">إطفاء</string>
   <string name="smart_pulldown_none">لا توجد إشعارات</string>
   <string name="smart_pulldown_dismissable">لا يوجد \'يمكن تجاهلها\'</string>
