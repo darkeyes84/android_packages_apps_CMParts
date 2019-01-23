@@ -17,127 +17,127 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Show bluetooth icon when disconnected -->
-  <string name="status_bar_bluetooth_icon">Bluetooth simgesi</string>
-  <string name="status_bar_bluetooth_icon_summary">Etkin ama bağlı olmadığında ikonu göster</string>
-  <!-- Hide the alarm icon in the expanded status bar -->
-  <string name="show_next_alarm_icon_title">Alarm simgesi</string>
-  <string name="show_next_alarm_icon_summary">Alarm ayarlandığında genişletilmiş durum çubuğunda bir simge göster</string>
-  <!-- Network traffic -->
-  <string name="default_string">Varsayılan</string>
-  <string name="network_traffic_title">Ağ trafiği</string>
-  <string name="show_network_traffic_state">Ağ trafiğini durum çubuğunda göster</string>
-  <string name="network_traffic_summary">Çeşitli ağ trafik seçeneklerini durum çubuğunda etkinleştir</string>
-  <string name="show_network_traffic_unit">Görüntüleme birimi</string>
-  <string name="show_network_traffic_frequency">Güncelleme sıklığı</string>
-  <string name="show_network_traffic_disable">Devre Dışı</string>
-  <string name="show_network_traffic_up">Giden</string>
-  <string name="show_network_traffic_down">Gelen</string>
-  <string name="show_network_traffic_all">Giden ve gelen</string>
-  <string name="show_network_traffic_bit">Bit / saniye</string>
-  <string name="show_network_traffic_byte">Bayt / saniye</string>
-  <string name="show_network_traffic_500">500 ms</string>
-  <string name="show_network_traffic_1000">1000 ms</string>
-  <string name="show_network_traffic_1500">1500 ms</string>
-  <string name="show_network_traffic_2000">2000 ms</string>
-  <string name="network_traffic_autohide">Otomatik Gizle</string>
-  <string name="network_traffic_autohide_summary">Etkinlik olmadığında trafik monitörünü gizle</string>
-  <string name="network_traffic_autohide_threshold">Hareketsizlik sınırı</string>
-  <string name="network_traffic_hidearrow">Okları gizle</string>
-  <string name="network_traffic_hidearrow_summary">Ağ trafiği belirteçlerinde okları gizle</string>
-  <string name="volume_keys_control_ring_stream_title">Ses tuşları zil sesi düzeyini kontrol eder</string>
-  <string name="volume_keys_control_ring_stream_summary">Eğer aktifse, ses tuşları zil sesi düzeyini kontrol eder. Eğer devredışıysa ses tuşları medya ses düzeyini kontrol eder.</string>
-  <!-- Smart pulldown-->
-  <string name="smart_pulldown_title">Akıllı aşağı kaydırma</string>
-  <string name="smart_pulldown_summary">%1$s bildirim mevcut olduğunda Hızlı Ayarları aç</string>
-  <string name="smart_pulldown_none_summary">Hiçbir bildirim olmadığında hızlı ayarları açın</string>
-  <string name="smart_pulldown_off">Kapalı</string>
-  <string name="smart_pulldown_none">Bildirim yok</string>
-  <string name="smart_pulldown_dismissable">Kapatılabilir bildirim yok</string>
-  <string name="smart_pulldown_ongoing">Devam eden yok</string>
-  <!-- Navigation Bar -->
-  <string name="navigation_bar_dimensions_title">Gezinti çubuğu boyutları</string>
-  <string name="navigation_bar_dimensions_title_summary">Gezinti çubuğunu yeniden boyutlandır</string>
-  <string name="navigation_bar_height_title">Gezinti çubuğu yüksekliği</string>
-  <string name="navigation_bar_height_summary">Portre modunda gezinti çubuğu yüksekliği</string>
-  <string name="navigation_bar_width_title">Gezinti çubuğu genişliği</string>
-  <string name="navigation_bar_width_summary">Manzara modu gezinti çubuğu genişliği</string>
-  <string name="navigation_bar_size_48_dp_default">48 dp (Varsayılan)</string>
-  <string name="navigation_bar_size_44_dp">44 dp</string>
-  <string name="navigation_bar_size_42_dp_default">42 dp (Varsayılan)</string>
-  <string name="navigation_bar_size_42_dp">42 dp</string>
-  <string name="navigation_bar_size_40_dp">40 dp</string>
-  <string name="navigation_bar_size_36_dp">36 dp</string>
-  <string name="navigation_bar_size_30_dp">30 dp</string>
-  <string name="navigation_bar_size_24_dp">24 dp</string>
-  <!-- Date in status bar -->
-  <string name="status_bar_date">Tarih</string>
-  <string name="status_bar_date_summary">Tarihi durum çubuğunda görüntüle</string>
-  <string name="status_bar_date_style">Tarihi stili</string>
-  <string name="status_bar_date_format">Tarih formatı</string>
-  <string name="status_bar_date_none">Gösterme</string>
-  <string name="status_bar_date_small">Küçük font boyutu</string>
-  <string name="status_bar_date_normal">Normal font boyutu</string>
-  <string name="status_bar_date_style_normal">Normal</string>
-  <string name="status_bar_date_style_lowercase">Küçük harf</string>
-  <string name="status_bar_date_style_uppercase">Büyük harf</string>
-  <string name="status_bar_date_position">Tarih konumu</string>
-  <string name="status_bar_date_right">Saatin sağında</string>
-  <string name="status_bar_date_left">Saatin solunda</string>
-  <!-- Pixel navbar animation -->
-  <string name="pixel_navbar_anim_title">Ev tuşu animasyonu</string>
-  <string name="pixel_navbar_anim_summary">Ev tuşu animasyonunu etkinleştir</string>
-  <!-- SSID in status bar -->
-  <string name="wifi_status_bar_ssid_title">WiFi SSID göster</string>
-  <string name="wifi_status_bar_ssid_summary">Bağlı ağ WiFi SSID\'sini durum çubuğunda göster</string>
-  <!-- Custom carrier label and position -->
-  <string name="carrier_label_settings_title">Operatör adını göster</string>
-  <string name="carrier_label_settings_summary">Operatör adını durum çubuğunda göster</string>
-  <!-- Low battery notification -->
-  <string name="battery_low_notification_title">Düşük pil bildirimi</string>
-  <string name="battery_low_notification_summary">Pil düşük olduğunda bildirim göster</string>
-  <!-- Battery saver color -->
-  <string name="battery_saver_mode_color_title">Pil tasarrufu uyarı rengi</string>
-  <string name="battery_saver_mode_color_summary">Pil tasarrufu aktif olduğunda, durum ve gezinme çubuklarını turuncu olarak göster</string>
-  <!-- Battery bar settings -->
-  <string name="battery_bar_title">Pil çubuğu</string>
-  <string name="battery_bar_location">Pil çubuğu</string>
-  <string name="battery_bar_style_title">Pil buçuğu stili</string>
-  <string name="battery_bar_thickness_title">Pil çubuğu kalınlığı</string>
-  <string name="battery_bar_animate_title">Şarj animasyonu</string>
-  <string name="battery_bar_animate_summary">Şarj animasyonu düşük bir kullanıcı deneyimine neden olabilir. Kendi takdirinize bağlı olarak etkinleştirin.</string>
-  <string name="battery_bar_hide">Gizli</string>
-  <string name="battery_bar_statusbar">Durum çubuğu</string>
-  <string name="battery_bar_topnav">Gezinme çubuğunun üstü</string>
-  <string name="battery_bar_bottomnav">Gezinme çubuğunun altı</string>
-  <string name="battery_bar_reg">Standart</string>
-  <string name="battery_bar_center">Merkez-yansıtılmış</string>
-  <!-- QS headers -->
-  <string name="status_bar_custom_header_title">Özel başlıklar</string>
-  <string name="status_bar_custom_header_summary">Bildirim panelinde özel görüntüleri etkinleştir</string>
-  <string name="custom_header_title">Özel başlıkları etkinleştir</string>
-  <string name="daylight_header_pack_title">Başlık görüntü paketi</string>
-  <string name="status_bar_custom_header_shadow_title">Başlık görüntüsünü karart</string>
-  <string name="status_bar_custom_header_shadow_summary">Parlak görüntülerde daha iyi görüş için</string>
-  <string name="static_header_provider_title">Statik</string>
-  <string name="daylight_header_provider_title">Dinamik</string>
-  <string name="custom_header_provider_title">Başlık sağlayıcısı</string>
-  <string name="custom_header_browse_title">Yüklü başlıklara gözat</string>
-  <string name="custom_header_browse_summary">Herhangi bir görüntüyü statik modunda kullanmak için uzun basın</string>
-  <string name="hide_carrier_label_with_wifi_title">Operatör etiketi ile WiFi SSID gizle</string>
-  <string name="hide_carrier_label_with_wifi_summary">Operatör etiketini yalnızca WiFi SSID etkin değilken göster</string>
-  <string name="nav_bar_dynamic_title">Gezinme çubuğu dinamik rengi</string>
-  <string name="nav_bar_dynamic_summary">Gezinti çubuğunun rengini uygulama ana rengiyle değiştir</string>
-  <string name="color_calibration_display_summary">Çeşitli renk kalibrasyon ayarlarını değiştirin</string>
-  <string name="volume_wake_screen_summary_off">Ses tuşlarına basmak cihazınızı uyandırır</string>
-  <string name="volume_wake_screen_summary_on">Bu seçenek müzik oynatma kontrolü etkin ve müzik çalıyorsa devre dışıdır</string>
-  <string name="battery_light_almost_full_color_title">Şarj (%90)</string>
-  <string name="battery_light_really_full_color_title">Tam olarak şarj edilmiş (%100)</string>
-  <!-- Kill app long-press back -->
-  <string name="kill_app_longpress_back">Uygulama sonlandırıcı geri tuşu</string>
-  <string name="kill_app_longpress_back_summary">Geri tuşuna uzun dokunarak ön plandaki uygulamayı sonlandır</string>
-  <string name="torch_long_press_power_proximity_title">Kazara yapılan meşaleyi önleyin</string>
-  <string name="torch_long_press_power_proximity_summary">Yaklaşma sensörünü meşale çalıştırmadan önce kontrol edin</string>
-  <string name="pie_settings">PIE</string>
-  <string name="pie_settings_summary">Gezinti çubuğu yerine pasta denetimleri kullan</string>
+    <!-- Show bluetooth icon when disconnected -->
+    <string name="status_bar_bluetooth_icon">Bluetooth simgesi</string>
+    <string name="status_bar_bluetooth_icon_summary">Etkin ama bağlı olmadığında ikonu göster</string>
+    <!-- Hide the alarm icon in the expanded status bar -->
+    <string name="show_next_alarm_icon_title">Alarm simgesi</string>
+    <string name="show_next_alarm_icon_summary">Alarm ayarlandığında genişletilmiş durum çubuğunda bir simge göster</string>
+    <!-- Network traffic -->
+    <string name="default_string">Varsayılan</string>
+    <string name="network_traffic_title">Ağ trafiği</string>
+    <string name="show_network_traffic_state">Ağ trafiğini durum çubuğunda göster</string>
+    <string name="network_traffic_summary">Çeşitli ağ trafik seçeneklerini durum çubuğunda etkinleştir</string>
+    <string name="show_network_traffic_unit">Görüntüleme birimi</string>
+    <string name="show_network_traffic_frequency">Güncelleme sıklığı</string>
+    <string name="show_network_traffic_disable">Devre Dışı</string>
+    <string name="show_network_traffic_up">Giden</string>
+    <string name="show_network_traffic_down">Gelen</string>
+    <string name="show_network_traffic_all">Giden ve gelen</string>
+    <string name="show_network_traffic_bit">Bit / saniye</string>
+    <string name="show_network_traffic_byte">Bayt / saniye</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Otomatik Gizle</string>
+    <string name="network_traffic_autohide_summary">Etkinlik olmadığında trafik monitörünü gizle</string>
+    <string name="network_traffic_autohide_threshold">Hareketsizlik sınırı</string>
+    <string name="network_traffic_hidearrow">Okları gizle</string>
+    <string name="network_traffic_hidearrow_summary">Ağ trafiği belirteçlerinde okları gizle</string>
+    <string name="volume_keys_control_ring_stream_title">Ses tuşları zil sesi düzeyini kontrol eder</string>
+    <string name="volume_keys_control_ring_stream_summary">Eğer aktifse, ses tuşları zil sesi düzeyini kontrol eder. Eğer devredışıysa ses tuşları medya ses düzeyini kontrol eder.</string>
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Akıllı aşağı kaydırma</string>
+    <string name="smart_pulldown_summary">%1$s bildirim mevcut olduğunda Hızlı Ayarları aç</string>
+    <string name="smart_pulldown_none_summary">Hiçbir bildirim olmadığında hızlı ayarları açın</string>
+    <string name="smart_pulldown_off">Kapalı</string>
+    <string name="smart_pulldown_none">Bildirim yok</string>
+    <string name="smart_pulldown_dismissable">Kapatılabilir bildirim yok</string>
+    <string name="smart_pulldown_ongoing">Devam eden yok</string>
+    <!-- Navigation Bar -->
+    <string name="navigation_bar_dimensions_title">Gezinti çubuğu boyutları</string>
+    <string name="navigation_bar_dimensions_title_summary">Gezinti çubuğunu yeniden boyutlandır</string>
+    <string name="navigation_bar_height_title">Gezinti çubuğu yüksekliği</string>
+    <string name="navigation_bar_height_summary">Portre modunda gezinti çubuğu yüksekliği</string>
+    <string name="navigation_bar_width_title">Gezinti çubuğu genişliği</string>
+    <string name="navigation_bar_width_summary">Manzara modu gezinti çubuğu genişliği</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (Varsayılan)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (Varsayılan)</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <!-- Date in status bar -->
+    <string name="status_bar_date">Tarih</string>
+    <string name="status_bar_date_summary">Tarihi durum çubuğunda görüntüle</string>
+    <string name="status_bar_date_style">Tarihi stili</string>
+    <string name="status_bar_date_format">Tarih formatı</string>
+    <string name="status_bar_date_none">Gösterme</string>
+    <string name="status_bar_date_small">Küçük font boyutu</string>
+    <string name="status_bar_date_normal">Normal font boyutu</string>
+    <string name="status_bar_date_style_normal">Normal</string>
+    <string name="status_bar_date_style_lowercase">Küçük harf</string>
+    <string name="status_bar_date_style_uppercase">Büyük harf</string>
+    <string name="status_bar_date_position">Tarih konumu</string>
+    <string name="status_bar_date_right">Saatin sağında</string>
+    <string name="status_bar_date_left">Saatin solunda</string>
+    <!-- Pixel navbar animation -->
+    <string name="pixel_navbar_anim_title">Ev tuşu animasyonu</string>
+    <string name="pixel_navbar_anim_summary">Ev tuşu animasyonunu etkinleştir</string>
+    <!-- SSID in status bar -->
+    <string name="wifi_status_bar_ssid_title">WiFi SSID göster</string>
+    <string name="wifi_status_bar_ssid_summary">Bağlı ağ WiFi SSID\'sini durum çubuğunda göster</string>
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Operatör adını göster</string>
+    <string name="carrier_label_settings_summary">Operatör adını durum çubuğunda göster</string>
+    <!-- Low battery notification -->
+    <string name="battery_low_notification_title">Düşük pil bildirimi</string>
+    <string name="battery_low_notification_summary">Pil düşük olduğunda bildirim göster</string>
+    <!-- Battery saver color -->
+    <string name="battery_saver_mode_color_title">Pil tasarrufu uyarı rengi</string>
+    <string name="battery_saver_mode_color_summary">Pil tasarrufu aktif olduğunda, durum ve gezinme çubuklarını turuncu olarak göster</string>
+    <!-- Battery bar settings -->
+    <string name="battery_bar_title">Pil çubuğu</string>
+    <string name="battery_bar_location">Pil çubuğu</string>
+    <string name="battery_bar_style_title">Pil buçuğu stili</string>
+    <string name="battery_bar_thickness_title">Pil çubuğu kalınlığı</string>
+    <string name="battery_bar_animate_title">Şarj animasyonu</string>
+    <string name="battery_bar_animate_summary">Şarj animasyonu düşük bir kullanıcı deneyimine neden olabilir. Kendi takdirinize bağlı olarak etkinleştirin.</string>
+    <string name="battery_bar_hide">Gizli</string>
+    <string name="battery_bar_statusbar">Durum çubuğu</string>
+    <string name="battery_bar_topnav">Gezinme çubuğunun üstü</string>
+    <string name="battery_bar_bottomnav">Gezinme çubuğunun altı</string>
+    <string name="battery_bar_reg">Standart</string>
+    <string name="battery_bar_center">Merkez-yansıtılmış</string>
+    <!-- QS headers -->
+    <string name="status_bar_custom_header_title">Özel başlıklar</string>
+    <string name="status_bar_custom_header_summary">Bildirim panelinde özel görüntüleri etkinleştir</string>
+    <string name="custom_header_title">Özel başlıkları etkinleştir</string>
+    <string name="daylight_header_pack_title">Başlık görüntü paketi</string>
+    <string name="status_bar_custom_header_shadow_title">Başlık görüntüsünü karart</string>
+    <string name="status_bar_custom_header_shadow_summary">Parlak görüntülerde daha iyi görüş için</string>
+    <string name="static_header_provider_title">Statik</string>
+    <string name="daylight_header_provider_title">Dinamik</string>
+    <string name="custom_header_provider_title">Başlık sağlayıcısı</string>
+    <string name="custom_header_browse_title">Yüklü başlıklara gözat</string>
+    <string name="custom_header_browse_summary">Herhangi bir görüntüyü statik modunda kullanmak için uzun basın</string>
+    <string name="hide_carrier_label_with_wifi_title">Operatör etiketi ile WiFi SSID gizle</string>
+    <string name="hide_carrier_label_with_wifi_summary">Operatör etiketini yalnızca WiFi SSID etkin değilken göster</string>
+    <string name="nav_bar_dynamic_title">Gezinme çubuğu dinamik rengi</string>
+    <string name="nav_bar_dynamic_summary">Gezinti çubuğunun rengini uygulama ana rengiyle değiştir</string>
+    <string name="color_calibration_display_summary">Çeşitli renk kalibrasyon ayarlarını değiştirin</string>
+    <string name="volume_wake_screen_summary_off">Ses tuşlarına basmak cihazınızı uyandırır</string>
+    <string name="volume_wake_screen_summary_on">Bu seçenek müzik oynatma kontrolü etkin ve müzik çalıyorsa devre dışıdır</string>
+    <string name="battery_light_almost_full_color_title">Şarj (%90)</string>
+    <string name="battery_light_really_full_color_title">Tam olarak şarj edilmiş (%100)</string>
+    <!-- Kill app long-press back -->
+    <string name="kill_app_longpress_back">Uygulama sonlandırıcı geri tuşu</string>
+    <string name="kill_app_longpress_back_summary">Geri tuşuna uzun dokunarak ön plandaki uygulamayı sonlandır</string>
+    <string name="torch_long_press_power_proximity_title">Kazara yapılan meşaleyi önleyin</string>
+    <string name="torch_long_press_power_proximity_summary">Yaklaşma sensörünü meşale çalıştırmadan önce kontrol edin</string>
+    <string name="pie_settings">PIE</string>
+    <string name="pie_settings_summary">Gezinti çubuğu yerine pasta denetimleri kullan</string>
 </resources>
