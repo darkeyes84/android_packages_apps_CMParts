@@ -17,127 +17,127 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Show bluetooth icon when disconnected -->
-  <string name="status_bar_bluetooth_icon">Icône Bluetooth</string>
-  <string name="status_bar_bluetooth_icon_summary">Afficher l’icône lorsqu’il est activé mais pas connecté</string>
-  <!-- Hide the alarm icon in the expanded status bar -->
-  <string name="show_next_alarm_icon_title">Icône Alarme</string>
-  <string name="show_next_alarm_icon_summary">Afficher l\'icône quand une alarme est programmée</string>
-  <!-- Network traffic -->
-  <string name="default_string">Par Défaut</string>
-  <string name="network_traffic_title">Trafic réseau</string>
-  <string name="show_network_traffic_state">Moniteur de trafic dans la barre d\'état</string>
-  <string name="network_traffic_summary">Activer les diverses options de trafic réseau dans la barre d\'état</string>
-  <string name="show_network_traffic_unit">Unité d\'affichage</string>
-  <string name="show_network_traffic_frequency">Intervalle de mise à jour</string>
-  <string name="show_network_traffic_disable">Désactivé</string>
-  <string name="show_network_traffic_up">Sortant</string>
-  <string name="show_network_traffic_down">Entrant</string>
-  <string name="show_network_traffic_all">Entrant et sortant</string>
-  <string name="show_network_traffic_bit">Bits par seconde</string>
-  <string name="show_network_traffic_byte">Octets par seconde</string>
-  <string name="show_network_traffic_500">500 ms</string>
-  <string name="show_network_traffic_1000">1000 ms</string>
-  <string name="show_network_traffic_1500">1500 ms</string>
-  <string name="show_network_traffic_2000">2000 ms</string>
-  <string name="network_traffic_autohide">Masquer automatiquement</string>
-  <string name="network_traffic_autohide_summary">Masquer le moniteur de trafic lorsqu\'il n\'y a aucune activité</string>
-  <string name="network_traffic_autohide_threshold">Seuil d\'inactivité</string>
-  <string name="network_traffic_hidearrow">Masquer les flèches</string>
-  <string name="network_traffic_hidearrow_summary">Masquer les flèches du moniteur de trafic</string>
-  <string name="volume_keys_control_ring_stream_title">Les touches du volume contrôlent le volume de la sonnerie</string>
-  <string name="volume_keys_control_ring_stream_summary">Si activé, les boutons du volume modifie le volume de la sonnerie. Si désactivé, les boutons du volume modifie le volume des médias.</string>
-  <!-- Smart pulldown-->
-  <string name="smart_pulldown_title">Déroulement intelligent</string>
-  <string name="smart_pulldown_summary">Ouvrir les réglages rapides quand il y a %1$s notifications</string>
-  <string name="smart_pulldown_none_summary">Ouvrir les réglages rapides quand aucune notification n\'est présente</string>
-  <string name="smart_pulldown_off">Désactivé</string>
-  <string name="smart_pulldown_none">aucune notification</string>
-  <string name="smart_pulldown_dismissable">non effaçable</string>
-  <string name="smart_pulldown_ongoing">aucune en cours</string>
-  <!-- Navigation Bar -->
-  <string name="navigation_bar_dimensions_title">Dimensions de la barre de navigation</string>
-  <string name="navigation_bar_dimensions_title_summary">Redimensionner la barre de navigation</string>
-  <string name="navigation_bar_height_title">Hauteur de la barre de navigation</string>
-  <string name="navigation_bar_height_summary">Hauteur de la barre de navigation en mode portrait</string>
-  <string name="navigation_bar_width_title">Largeur de la barre de navigation</string>
-  <string name="navigation_bar_width_summary">Largeur de la barre de navigation lorsqu\'elle est placée sur un coté (mode paysage)</string>
-  <string name="navigation_bar_size_48_dp_default">48 dp (par défaut)</string>
-  <string name="navigation_bar_size_44_dp">44 dp</string>
-  <string name="navigation_bar_size_42_dp_default">42 dp (par défaut)</string>
-  <string name="navigation_bar_size_42_dp">42 dp</string>
-  <string name="navigation_bar_size_40_dp">40 dp</string>
-  <string name="navigation_bar_size_36_dp">36 dp</string>
-  <string name="navigation_bar_size_30_dp">30 dp</string>
-  <string name="navigation_bar_size_24_dp">24 dp</string>
-  <!-- Date in status bar -->
-  <string name="status_bar_date">Date</string>
-  <string name="status_bar_date_summary">Afficher la date dans la barre d’état</string>
-  <string name="status_bar_date_style">Style de la date</string>
-  <string name="status_bar_date_format">Format de la date</string>
-  <string name="status_bar_date_none">Ne pas afficher</string>
-  <string name="status_bar_date_small">Police de petite taille</string>
-  <string name="status_bar_date_normal">Police de taille normale</string>
-  <string name="status_bar_date_style_normal">Normale</string>
-  <string name="status_bar_date_style_lowercase">Minuscule</string>
-  <string name="status_bar_date_style_uppercase">Majuscule</string>
-  <string name="status_bar_date_position">Position de la date</string>
-  <string name="status_bar_date_right">À droite de l\'heure</string>
-  <string name="status_bar_date_left">À gauche de l\'heure</string>
-  <!-- Pixel navbar animation -->
-  <string name="pixel_navbar_anim_title">Animation du bouton d\'accueil</string>
-  <string name="pixel_navbar_anim_summary">Activer l’animation du bouton d\'accueil</string>
-  <!-- SSID in status bar -->
-  <string name="wifi_status_bar_ssid_title">Afficher le WiFi SSID</string>
-  <string name="wifi_status_bar_ssid_summary">Afficher le WiFi SSID du réseau auquel vous êtes connecté dans la barre d\'état</string>
-  <!-- Custom carrier label and position -->
-  <string name="carrier_label_settings_title">Afficher le nom de l\'opérateur</string>
-  <string name="carrier_label_settings_summary">Afficher le nom de l\'opérateur dans la barre d\'état</string>
-  <!-- Low battery notification -->
-  <string name="battery_low_notification_title">Notification de batterie faible</string>
-  <string name="battery_low_notification_summary">Afficher une notification lorsque la batterie atteint un niveau faible</string>
-  <!-- Battery saver color -->
-  <string name="battery_saver_mode_color_title">Couleur de l\'économiseur de batterie</string>
-  <string name="battery_saver_mode_color_summary">Afficher la barre d\'état et de navigation en orange quand l\'économiseur de batterie est activé</string>
-  <!-- Battery bar settings -->
-  <string name="battery_bar_title">Barre de batterie</string>
-  <string name="battery_bar_location">Barre de batterie</string>
-  <string name="battery_bar_style_title">Style de la barre de batterie</string>
-  <string name="battery_bar_thickness_title">Épaisseur de la barre de la batterie</string>
-  <string name="battery_bar_animate_title">Animation lors de la charge</string>
-  <string name="battery_bar_animate_summary">L\'animation de chargement peut entraîner une expérience utilisateur médiocre. Activer à votre convenance.</string>
-  <string name="battery_bar_hide">Masquée</string>
-  <string name="battery_bar_statusbar">Barre d\'état</string>
-  <string name="battery_bar_topnav">En haut de la barre de navigation</string>
-  <string name="battery_bar_bottomnav">En bas de la barre de navigation</string>
-  <string name="battery_bar_reg">Standard</string>
-  <string name="battery_bar_center">Centrée, mode miroir</string>
-  <!-- QS headers -->
-  <string name="status_bar_custom_header_title">En-têtes personnalisés</string>
-  <string name="status_bar_custom_header_summary">Activez les images personnalisées dans le panneau de notification</string>
-  <string name="custom_header_title">Activer les en-têtes personnalisés</string>
-  <string name="daylight_header_pack_title">Pack d\'image d\'en-tête</string>
-  <string name="status_bar_custom_header_shadow_title">Assombrir l’image d’en-tête</string>
-  <string name="status_bar_custom_header_shadow_summary">Pour une meilleure visibilité sur des images brillantes</string>
-  <string name="static_header_provider_title">Persistant</string>
-  <string name="daylight_header_provider_title">Dynamique</string>
-  <string name="custom_header_provider_title">Fournisseur de l’en-tête</string>
-  <string name="custom_header_browse_title">Parcourir les en-têtes installés</string>
-  <string name="custom_header_browse_summary">Appui prolongé sur une image pour l\'utiliser en mode persistant</string>
-  <string name="hide_carrier_label_with_wifi_title">Masquer le nom de l\'opérateur avec le nom du WiFi SSID</string>
-  <string name="hide_carrier_label_with_wifi_summary">Afficher le nom de l\'opérateur uniquement si le WiFi SSID n\'est pas affiché</string>
-  <string name="nav_bar_dynamic_title">Couleur dynamique de la barre de navigation</string>
-  <string name="nav_bar_dynamic_summary">Modifier la couleur de la barre de navigation avec la couleur principale de l\'application</string>
-  <string name="color_calibration_display_summary">Régler diverses options de calibrage de couleur</string>
-  <string name="volume_wake_screen_summary_off">Un appui sur un des boutons de volume sortira votre appareil de veille</string>
-  <string name="volume_wake_screen_summary_on">Cette option est désactivée lorsque le contrôle de lecture est activé et qu\'une musique est jouée</string>
-  <string name="battery_light_almost_full_color_title">Chargée (90 %)</string>
-  <string name="battery_light_really_full_color_title">Complètement chargée (100 %)</string>
-  <!-- Kill app long-press back -->
-  <string name="kill_app_longpress_back">Fermer l\'application à l\'aide du bouton Retour</string>
-  <string name="kill_app_longpress_back_summary">Fermer l\'application en premier plan par un appui long sur le bouton Retour</string>
-  <string name="torch_long_press_power_proximity_title">Empêcher l\'activation accidentelle de la torche</string>
-  <string name="torch_long_press_power_proximity_summary">Utiliser le capteur de proximité pour prévenir l\'activation de la torche</string>
-  <string name="pie_settings">Menu PIE</string>
-  <string name="pie_settings_summary">Utiliser les contrôles circulaires PIE à la place de la barre de navigation</string>
+    <!-- Show bluetooth icon when disconnected -->
+    <string name="status_bar_bluetooth_icon">Icône Bluetooth</string>
+    <string name="status_bar_bluetooth_icon_summary">Afficher l’icône lorsqu’il est activé mais pas connecté</string>
+    <!-- Hide the alarm icon in the expanded status bar -->
+    <string name="show_next_alarm_icon_title">Icône Alarme</string>
+    <string name="show_next_alarm_icon_summary">Afficher l\'icône quand une alarme est programmée</string>
+    <!-- Network traffic -->
+    <string name="default_string">Par Défaut</string>
+    <string name="network_traffic_title">Trafic réseau</string>
+    <string name="show_network_traffic_state">Moniteur de trafic dans la barre d\'état</string>
+    <string name="network_traffic_summary">Activer les diverses options de trafic réseau dans la barre d\'état</string>
+    <string name="show_network_traffic_unit">Unité d\'affichage</string>
+    <string name="show_network_traffic_frequency">Intervalle de mise à jour</string>
+    <string name="show_network_traffic_disable">Désactivé</string>
+    <string name="show_network_traffic_up">Sortant</string>
+    <string name="show_network_traffic_down">Entrant</string>
+    <string name="show_network_traffic_all">Entrant et sortant</string>
+    <string name="show_network_traffic_bit">Bits par seconde</string>
+    <string name="show_network_traffic_byte">Octets par seconde</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Masquer automatiquement</string>
+    <string name="network_traffic_autohide_summary">Masquer le moniteur de trafic lorsqu\'il n\'y a aucune activité</string>
+    <string name="network_traffic_autohide_threshold">Seuil d\'inactivité</string>
+    <string name="network_traffic_hidearrow">Masquer les flèches</string>
+    <string name="network_traffic_hidearrow_summary">Masquer les flèches du moniteur de trafic</string>
+    <string name="volume_keys_control_ring_stream_title">Les touches du volume contrôlent le volume de la sonnerie</string>
+    <string name="volume_keys_control_ring_stream_summary">Si activé, les boutons du volume modifie le volume de la sonnerie. Si désactivé, les boutons du volume modifie le volume des médias.</string>
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Déroulement intelligent</string>
+    <string name="smart_pulldown_summary">Ouvrir les réglages rapides quand il y a %1$s notifications</string>
+    <string name="smart_pulldown_none_summary">Ouvrir les réglages rapides quand aucune notification n\'est présente</string>
+    <string name="smart_pulldown_off">Désactivé</string>
+    <string name="smart_pulldown_none">aucune notification</string>
+    <string name="smart_pulldown_dismissable">non effaçable</string>
+    <string name="smart_pulldown_ongoing">aucune en cours</string>
+    <!-- Navigation Bar -->
+    <string name="navigation_bar_dimensions_title">Dimensions de la barre de navigation</string>
+    <string name="navigation_bar_dimensions_title_summary">Redimensionner la barre de navigation</string>
+    <string name="navigation_bar_height_title">Hauteur de la barre de navigation</string>
+    <string name="navigation_bar_height_summary">Hauteur de la barre de navigation en mode portrait</string>
+    <string name="navigation_bar_width_title">Largeur de la barre de navigation</string>
+    <string name="navigation_bar_width_summary">Largeur de la barre de navigation lorsqu\'elle est placée sur un coté (mode paysage)</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (par défaut)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (par défaut)</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <!-- Date in status bar -->
+    <string name="status_bar_date">Date</string>
+    <string name="status_bar_date_summary">Afficher la date dans la barre d’état</string>
+    <string name="status_bar_date_style">Style de la date</string>
+    <string name="status_bar_date_format">Format de la date</string>
+    <string name="status_bar_date_none">Ne pas afficher</string>
+    <string name="status_bar_date_small">Police de petite taille</string>
+    <string name="status_bar_date_normal">Police de taille normale</string>
+    <string name="status_bar_date_style_normal">Normale</string>
+    <string name="status_bar_date_style_lowercase">Minuscule</string>
+    <string name="status_bar_date_style_uppercase">Majuscule</string>
+    <string name="status_bar_date_position">Position de la date</string>
+    <string name="status_bar_date_right">À droite de l\'heure</string>
+    <string name="status_bar_date_left">À gauche de l\'heure</string>
+    <!-- Pixel navbar animation -->
+    <string name="pixel_navbar_anim_title">Animation du bouton d\'accueil</string>
+    <string name="pixel_navbar_anim_summary">Activer l’animation du bouton d\'accueil</string>
+    <!-- SSID in status bar -->
+    <string name="wifi_status_bar_ssid_title">Afficher le WiFi SSID</string>
+    <string name="wifi_status_bar_ssid_summary">Afficher le WiFi SSID du réseau auquel vous êtes connecté dans la barre d\'état</string>
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Afficher le nom de l\'opérateur</string>
+    <string name="carrier_label_settings_summary">Afficher le nom de l\'opérateur dans la barre d\'état</string>
+    <!-- Low battery notification -->
+    <string name="battery_low_notification_title">Notification de batterie faible</string>
+    <string name="battery_low_notification_summary">Afficher une notification lorsque la batterie atteint un niveau faible</string>
+    <!-- Battery saver color -->
+    <string name="battery_saver_mode_color_title">Couleur de l\'économiseur de batterie</string>
+    <string name="battery_saver_mode_color_summary">Afficher la barre d\'état et de navigation en orange quand l\'économiseur de batterie est activé</string>
+    <!-- Battery bar settings -->
+    <string name="battery_bar_title">Barre de batterie</string>
+    <string name="battery_bar_location">Barre de batterie</string>
+    <string name="battery_bar_style_title">Style de la barre de batterie</string>
+    <string name="battery_bar_thickness_title">Épaisseur de la barre de la batterie</string>
+    <string name="battery_bar_animate_title">Animation lors de la charge</string>
+    <string name="battery_bar_animate_summary">L\'animation de chargement peut entraîner une expérience utilisateur médiocre. Activer à votre convenance.</string>
+    <string name="battery_bar_hide">Masquée</string>
+    <string name="battery_bar_statusbar">Barre d\'état</string>
+    <string name="battery_bar_topnav">En haut de la barre de navigation</string>
+    <string name="battery_bar_bottomnav">En bas de la barre de navigation</string>
+    <string name="battery_bar_reg">Standard</string>
+    <string name="battery_bar_center">Centrée, mode miroir</string>
+    <!-- QS headers -->
+    <string name="status_bar_custom_header_title">En-têtes personnalisés</string>
+    <string name="status_bar_custom_header_summary">Activez les images personnalisées dans le panneau de notification</string>
+    <string name="custom_header_title">Activer les en-têtes personnalisés</string>
+    <string name="daylight_header_pack_title">Pack d\'image d\'en-tête</string>
+    <string name="status_bar_custom_header_shadow_title">Assombrir l’image d’en-tête</string>
+    <string name="status_bar_custom_header_shadow_summary">Pour une meilleure visibilité sur des images brillantes</string>
+    <string name="static_header_provider_title">Persistant</string>
+    <string name="daylight_header_provider_title">Dynamique</string>
+    <string name="custom_header_provider_title">Fournisseur de l’en-tête</string>
+    <string name="custom_header_browse_title">Parcourir les en-têtes installés</string>
+    <string name="custom_header_browse_summary">Appui prolongé sur une image pour l\'utiliser en mode persistant</string>
+    <string name="hide_carrier_label_with_wifi_title">Masquer le nom de l\'opérateur avec le nom du WiFi SSID</string>
+    <string name="hide_carrier_label_with_wifi_summary">Afficher le nom de l\'opérateur uniquement si le WiFi SSID n\'est pas affiché</string>
+    <string name="nav_bar_dynamic_title">Couleur dynamique de la barre de navigation</string>
+    <string name="nav_bar_dynamic_summary">Modifier la couleur de la barre de navigation avec la couleur principale de l\'application</string>
+    <string name="color_calibration_display_summary">Régler diverses options de calibrage de couleur</string>
+    <string name="volume_wake_screen_summary_off">Un appui sur un des boutons de volume sortira votre appareil de veille</string>
+    <string name="volume_wake_screen_summary_on">Cette option est désactivée lorsque le contrôle de lecture est activé et qu\'une musique est jouée</string>
+    <string name="battery_light_almost_full_color_title">Chargée (90 %)</string>
+    <string name="battery_light_really_full_color_title">Complètement chargée (100 %)</string>
+    <!-- Kill app long-press back -->
+    <string name="kill_app_longpress_back">Fermer l\'application à l\'aide du bouton Retour</string>
+    <string name="kill_app_longpress_back_summary">Fermer l\'application en premier plan par un appui long sur le bouton Retour</string>
+    <string name="torch_long_press_power_proximity_title">Empêcher l\'activation accidentelle de la torche</string>
+    <string name="torch_long_press_power_proximity_summary">Utiliser le capteur de proximité pour prévenir l\'activation de la torche</string>
+    <string name="pie_settings">Menu PIE</string>
+    <string name="pie_settings_summary">Utiliser les contrôles circulaires PIE à la place de la barre de navigation</string>
 </resources>
