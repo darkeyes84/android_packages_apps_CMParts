@@ -17,127 +17,127 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Show bluetooth icon when disconnected -->
-  <string name="status_bar_bluetooth_icon">Значок Bluetooth</string>
-  <string name="status_bar_bluetooth_icon_summary">Показывать значок, когда он включен, но не подключен</string>
-  <!-- Hide the alarm icon in the expanded status bar -->
-  <string name="show_next_alarm_icon_title">Значок будильника</string>
-  <string name="show_next_alarm_icon_summary">Показывать значок в расширенной строке состояния, когда установлен будильник</string>
-  <!-- Network traffic -->
-  <string name="default_string">По умолчанию</string>
-  <string name="network_traffic_title">Сетевой трафик</string>
-  <string name="show_network_traffic_state">Индикатор сетевого трафика</string>
-  <string name="network_traffic_summary">Включить или выключить отображение индикатора сетевого трафика в строке состояния и настроить его стиль, порог неактивности и интервал обновления</string>
-  <string name="show_network_traffic_unit">Единицы измерения</string>
-  <string name="show_network_traffic_frequency">Интервал обновления</string>
-  <string name="show_network_traffic_disable">Выключен</string>
-  <string name="show_network_traffic_up">Исходящий</string>
-  <string name="show_network_traffic_down">Входящий</string>
-  <string name="show_network_traffic_all">Исходящий и входящий</string>
-  <string name="show_network_traffic_bit">Бит в секунду</string>
-  <string name="show_network_traffic_byte">Байт в секунду</string>
-  <string name="show_network_traffic_500">500 мс</string>
-  <string name="show_network_traffic_1000">1000 мс</string>
-  <string name="show_network_traffic_1500">1500 мс</string>
-  <string name="show_network_traffic_2000">2000 мс</string>
-  <string name="network_traffic_autohide">Скрывать автоматически</string>
-  <string name="network_traffic_autohide_summary">Скрывать индикатор сетевого трафика, когда сеть неактивна</string>
-  <string name="network_traffic_autohide_threshold">Порог неактивности</string>
-  <string name="network_traffic_hidearrow">Скрыть стрелки</string>
-  <string name="network_traffic_hidearrow_summary">Скрыть стрелки в индикаторе трафика</string>
-  <string name="volume_keys_control_ring_stream_title">Кнопки громкости регулируют громкость рингтона</string>
-  <string name="volume_keys_control_ring_stream_summary">Если включено, кнопки громкости регулируют громкость звонка. Если выключено, кнопки громкости регулируют громкость.</string>
-  <!-- Smart pulldown-->
-  <string name="smart_pulldown_title">Умная панель уведомлений</string>
-  <string name="smart_pulldown_summary">Открыть быстрые настройки %1$s уведомлений</string>
-  <string name="smart_pulldown_none_summary">Открыть быстрые настройки без уведомлений</string>
-  <string name="smart_pulldown_off">Выключено</string>
-  <string name="smart_pulldown_none">без уведомлений</string>
-  <string name="smart_pulldown_dismissable">без удаляемых</string>
-  <string name="smart_pulldown_ongoing">без постоянных</string>
-  <!-- Navigation Bar -->
-  <string name="navigation_bar_dimensions_title">Размер панели навигации</string>
-  <string name="navigation_bar_dimensions_title_summary">Изменение размера панели навигации</string>
-  <string name="navigation_bar_height_title">Высота панели навигации</string>
-  <string name="navigation_bar_height_summary">Высота панели навигации в портретном режиме</string>
-  <string name="navigation_bar_width_title">Ширина панели навигации</string>
-  <string name="navigation_bar_width_summary">Ширина панели навигации в ландшафтном режиме</string>
-  <string name="navigation_bar_size_48_dp_default">48 dp (по умолчанию)</string>
-  <string name="navigation_bar_size_44_dp">44 dp</string>
-  <string name="navigation_bar_size_42_dp_default">42 dp (по умолчанию)</string>
-  <string name="navigation_bar_size_42_dp">42 dp</string>
-  <string name="navigation_bar_size_40_dp">40 dp</string>
-  <string name="navigation_bar_size_36_dp">36 dp</string>
-  <string name="navigation_bar_size_30_dp">30 dp</string>
-  <string name="navigation_bar_size_24_dp">24 dp</string>
-  <!-- Date in status bar -->
-  <string name="status_bar_date">Дата</string>
-  <string name="status_bar_date_summary">Показывать дату в строке состояния</string>
-  <string name="status_bar_date_style">Стиль даты</string>
-  <string name="status_bar_date_format">Формат даты</string>
-  <string name="status_bar_date_none">Не показывать</string>
-  <string name="status_bar_date_small">Маленький размер шрифта</string>
-  <string name="status_bar_date_normal">Нормальный размер шрифта</string>
-  <string name="status_bar_date_style_normal">Обычный</string>
-  <string name="status_bar_date_style_lowercase">Строчный</string>
-  <string name="status_bar_date_style_uppercase">Прописной</string>
-  <string name="status_bar_date_position">Расположение даты</string>
-  <string name="status_bar_date_right">Справа от часов</string>
-  <string name="status_bar_date_left">Слева от часов</string>
-  <!-- Pixel navbar animation -->
-  <string name="pixel_navbar_anim_title">Анимация Pixel</string>
-  <string name="pixel_navbar_anim_summary">Включает анимацию кнопки домой, как на устройствах Pixel</string>
-  <!-- SSID in status bar -->
-  <string name="wifi_status_bar_ssid_title">Показывать Wi-Fi SSID</string>
-  <string name="wifi_status_bar_ssid_summary">Показывает Wi-Fi SSID подключенного сети в строке состояния</string>
-  <!-- Custom carrier label and position -->
-  <string name="carrier_label_settings_title">Название оператора</string>
-  <string name="carrier_label_settings_summary">Показать название оператора в строке состояния</string>
-  <!-- Low battery notification -->
-  <string name="battery_low_notification_title">Уведомление о низком уровне заряда</string>
-  <string name="battery_low_notification_summary">Показывать уведомления, о низком заряде батареи</string>
-  <!-- Battery saver color -->
-  <string name="battery_saver_mode_color_title">Цвет предупреждения в режиме энергосбережения</string>
-  <string name="battery_saver_mode_color_summary">Окрасить строку состояния и панель навигации в оранжевый цвет, когда активирован режим энергосбережения</string>
-  <!-- Battery bar settings -->
-  <string name="battery_bar_title">Полоса батареи</string>
-  <string name="battery_bar_location">Полоса батареи</string>
-  <string name="battery_bar_style_title">Стиль панели батареи</string>
-  <string name="battery_bar_thickness_title">Толщина полосы батареи</string>
-  <string name="battery_bar_animate_title">Анимация зарядки</string>
-  <string name="battery_bar_animate_summary">Анимация зарядки может привести к ухудшению производительности. Включайте на Ваше собственное усмотрение.</string>
-  <string name="battery_bar_hide">Не показывать</string>
-  <string name="battery_bar_statusbar">Строка состояния</string>
-  <string name="battery_bar_topnav">Верхняя часть панели навигации</string>
-  <string name="battery_bar_bottomnav">Нижняя часть панели навигации</string>
-  <string name="battery_bar_reg">Стандартный</string>
-  <string name="battery_bar_center">По центру-зеркально</string>
-  <!-- QS headers -->
-  <string name="status_bar_custom_header_title">Пользовательское изображение в заголовке</string>
-  <string name="status_bar_custom_header_summary">Включить пользовательское изображение в заголовке панели уведомлений</string>
-  <string name="custom_header_title">Включить пользовательское изображение в заголовке</string>
-  <string name="daylight_header_pack_title">Набор изображений для заголовка</string>
-  <string name="status_bar_custom_header_shadow_title">Тень изображения в заголовке</string>
-  <string name="status_bar_custom_header_shadow_summary">Для лучшей видимости на светлых изображениях</string>
-  <string name="static_header_provider_title">Статичный</string>
-  <string name="daylight_header_provider_title">Динамический</string>
-  <string name="custom_header_provider_title">Провайдер заголовка</string>
-  <string name="custom_header_browse_title">Обзор установленных заголовков</string>
-  <string name="custom_header_browse_summary">Длительное нажатие на любое изображение, для перевода в статический режим</string>
-  <string name="hide_carrier_label_with_wifi_title">Скрыть название оператора с WiFi SSID</string>
-  <string name="hide_carrier_label_with_wifi_summary">Показывать только название оператора, когда WiFi SSID скрыт</string>
-  <string name="nav_bar_dynamic_title">Динамический цвет панели навигации</string>
-  <string name="nav_bar_dynamic_summary">Включите/выключите этот переключатель для панели навигации, чтобы адаптировать панель к стандартному черному цвету. Перезапустите желаемое приложение, чтобы увидеть эффект</string>
-  <string name="color_calibration_display_summary">Настроить различные параметры калибровки цвета</string>
-  <string name="volume_wake_screen_summary_off">Включать экран при нажатии кнопок регулировки громкости</string>
-  <string name="volume_wake_screen_summary_on">Этот параметр недоступен, когда включено управление воспроизведением и играет музыка</string>
-  <string name="battery_light_almost_full_color_title">Заряжена до 90%</string>
-  <string name="battery_light_really_full_color_title">Полностью заряжена (100%)</string>
-  <!-- Kill app long-press back -->
-  <string name="kill_app_longpress_back">Закрытие приложения кнопкой «Назад»</string>
-  <string name="kill_app_longpress_back_summary">Долгое нажатие кнопки «Назад» закроет запущенное приложение</string>
-  <string name="torch_long_press_power_proximity_title">Предотвращать случайное включение экрана</string>
-  <string name="torch_long_press_power_proximity_summary">Проверка датчика приближения перед включением экрана</string>
-  <string name="pie_settings">Расширенная панель управления</string>
-  <string name="pie_settings_summary">Использовать панель PIE вместо панели навигации</string>
+    <!-- Show bluetooth icon when disconnected -->
+    <string name="status_bar_bluetooth_icon">Значок Bluetooth</string>
+    <string name="status_bar_bluetooth_icon_summary">Показывать значок, когда он включен, но не подключен</string>
+    <!-- Hide the alarm icon in the expanded status bar -->
+    <string name="show_next_alarm_icon_title">Значок будильника</string>
+    <string name="show_next_alarm_icon_summary">Показывать значок в расширенной строке состояния, когда установлен будильник</string>
+    <!-- Network traffic -->
+    <string name="default_string">По умолчанию</string>
+    <string name="network_traffic_title">Сетевой трафик</string>
+    <string name="show_network_traffic_state">Индикатор сетевого трафика</string>
+    <string name="network_traffic_summary">Включить или выключить отображение индикатора сетевого трафика в строке состояния и настроить его стиль, порог неактивности и интервал обновления</string>
+    <string name="show_network_traffic_unit">Единицы измерения</string>
+    <string name="show_network_traffic_frequency">Интервал обновления</string>
+    <string name="show_network_traffic_disable">Выключен</string>
+    <string name="show_network_traffic_up">Исходящий</string>
+    <string name="show_network_traffic_down">Входящий</string>
+    <string name="show_network_traffic_all">Исходящий и входящий</string>
+    <string name="show_network_traffic_bit">Бит в секунду</string>
+    <string name="show_network_traffic_byte">Байт в секунду</string>
+    <string name="show_network_traffic_500">500 мс</string>
+    <string name="show_network_traffic_1000">1000 мс</string>
+    <string name="show_network_traffic_1500">1500 мс</string>
+    <string name="show_network_traffic_2000">2000 мс</string>
+    <string name="network_traffic_autohide">Скрывать автоматически</string>
+    <string name="network_traffic_autohide_summary">Скрывать индикатор сетевого трафика, когда сеть неактивна</string>
+    <string name="network_traffic_autohide_threshold">Порог неактивности</string>
+    <string name="network_traffic_hidearrow">Скрыть стрелки</string>
+    <string name="network_traffic_hidearrow_summary">Скрыть стрелки в индикаторе трафика</string>
+    <string name="volume_keys_control_ring_stream_title">Кнопки громкости регулируют громкость рингтона</string>
+    <string name="volume_keys_control_ring_stream_summary">Если включено, кнопки громкости регулируют громкость звонка. Если выключено, кнопки громкости регулируют громкость.</string>
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Умная панель уведомлений</string>
+    <string name="smart_pulldown_summary">Открыть быстрые настройки %1$s уведомлений</string>
+    <string name="smart_pulldown_none_summary">Открыть быстрые настройки без уведомлений</string>
+    <string name="smart_pulldown_off">Выключено</string>
+    <string name="smart_pulldown_none">без уведомлений</string>
+    <string name="smart_pulldown_dismissable">без удаляемых</string>
+    <string name="smart_pulldown_ongoing">без постоянных</string>
+    <!-- Navigation Bar -->
+    <string name="navigation_bar_dimensions_title">Размер панели навигации</string>
+    <string name="navigation_bar_dimensions_title_summary">Изменение размера панели навигации</string>
+    <string name="navigation_bar_height_title">Высота панели навигации</string>
+    <string name="navigation_bar_height_summary">Высота панели навигации в портретном режиме</string>
+    <string name="navigation_bar_width_title">Ширина панели навигации</string>
+    <string name="navigation_bar_width_summary">Ширина панели навигации в ландшафтном режиме</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (по умолчанию)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (по умолчанию)</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <!-- Date in status bar -->
+    <string name="status_bar_date">Дата</string>
+    <string name="status_bar_date_summary">Показывать дату в строке состояния</string>
+    <string name="status_bar_date_style">Стиль даты</string>
+    <string name="status_bar_date_format">Формат даты</string>
+    <string name="status_bar_date_none">Не показывать</string>
+    <string name="status_bar_date_small">Маленький размер шрифта</string>
+    <string name="status_bar_date_normal">Нормальный размер шрифта</string>
+    <string name="status_bar_date_style_normal">Обычный</string>
+    <string name="status_bar_date_style_lowercase">Строчный</string>
+    <string name="status_bar_date_style_uppercase">Прописной</string>
+    <string name="status_bar_date_position">Расположение даты</string>
+    <string name="status_bar_date_right">Справа от часов</string>
+    <string name="status_bar_date_left">Слева от часов</string>
+    <!-- Pixel navbar animation -->
+    <string name="pixel_navbar_anim_title">Анимация Pixel</string>
+    <string name="pixel_navbar_anim_summary">Включает анимацию кнопки домой, как на устройствах Pixel</string>
+    <!-- SSID in status bar -->
+    <string name="wifi_status_bar_ssid_title">Показывать Wi-Fi SSID</string>
+    <string name="wifi_status_bar_ssid_summary">Показывает Wi-Fi SSID подключенного сети в строке состояния</string>
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Название оператора</string>
+    <string name="carrier_label_settings_summary">Показать название оператора в строке состояния</string>
+    <!-- Low battery notification -->
+    <string name="battery_low_notification_title">Уведомление о низком уровне заряда</string>
+    <string name="battery_low_notification_summary">Показывать уведомления, о низком заряде батареи</string>
+    <!-- Battery saver color -->
+    <string name="battery_saver_mode_color_title">Цвет предупреждения в режиме энергосбережения</string>
+    <string name="battery_saver_mode_color_summary">Окрасить строку состояния и панель навигации в оранжевый цвет, когда активирован режим энергосбережения</string>
+    <!-- Battery bar settings -->
+    <string name="battery_bar_title">Полоса батареи</string>
+    <string name="battery_bar_location">Полоса батареи</string>
+    <string name="battery_bar_style_title">Стиль панели батареи</string>
+    <string name="battery_bar_thickness_title">Толщина полосы батареи</string>
+    <string name="battery_bar_animate_title">Анимация зарядки</string>
+    <string name="battery_bar_animate_summary">Анимация зарядки может привести к ухудшению производительности. Включайте на Ваше собственное усмотрение.</string>
+    <string name="battery_bar_hide">Не показывать</string>
+    <string name="battery_bar_statusbar">Строка состояния</string>
+    <string name="battery_bar_topnav">Верхняя часть панели навигации</string>
+    <string name="battery_bar_bottomnav">Нижняя часть панели навигации</string>
+    <string name="battery_bar_reg">Стандартный</string>
+    <string name="battery_bar_center">По центру-зеркально</string>
+    <!-- QS headers -->
+    <string name="status_bar_custom_header_title">Пользовательское изображение в заголовке</string>
+    <string name="status_bar_custom_header_summary">Включить пользовательское изображение в заголовке панели уведомлений</string>
+    <string name="custom_header_title">Включить пользовательское изображение в заголовке</string>
+    <string name="daylight_header_pack_title">Набор изображений для заголовка</string>
+    <string name="status_bar_custom_header_shadow_title">Тень изображения в заголовке</string>
+    <string name="status_bar_custom_header_shadow_summary">Для лучшей видимости на светлых изображениях</string>
+    <string name="static_header_provider_title">Статичный</string>
+    <string name="daylight_header_provider_title">Динамический</string>
+    <string name="custom_header_provider_title">Провайдер заголовка</string>
+    <string name="custom_header_browse_title">Обзор установленных заголовков</string>
+    <string name="custom_header_browse_summary">Длительное нажатие на любое изображение, для перевода в статический режим</string>
+    <string name="hide_carrier_label_with_wifi_title">Скрыть название оператора с WiFi SSID</string>
+    <string name="hide_carrier_label_with_wifi_summary">Показывать только название оператора, когда WiFi SSID скрыт</string>
+    <string name="nav_bar_dynamic_title">Динамический цвет панели навигации</string>
+    <string name="nav_bar_dynamic_summary">Включите/выключите этот переключатель для панели навигации, чтобы адаптировать панель к стандартному черному цвету. Перезапустите желаемое приложение, чтобы увидеть эффект</string>
+    <string name="color_calibration_display_summary">Настроить различные параметры калибровки цвета</string>
+    <string name="volume_wake_screen_summary_off">Включать экран при нажатии кнопок регулировки громкости</string>
+    <string name="volume_wake_screen_summary_on">Этот параметр недоступен, когда включено управление воспроизведением и играет музыка</string>
+    <string name="battery_light_almost_full_color_title">Заряжена до 90%</string>
+    <string name="battery_light_really_full_color_title">Полностью заряжена (100%)</string>
+    <!-- Kill app long-press back -->
+    <string name="kill_app_longpress_back">Закрытие приложения кнопкой «Назад»</string>
+    <string name="kill_app_longpress_back_summary">Долгое нажатие кнопки «Назад» закроет запущенное приложение</string>
+    <string name="torch_long_press_power_proximity_title">Предотвращать случайное включение экрана</string>
+    <string name="torch_long_press_power_proximity_summary">Проверка датчика приближения перед включением экрана</string>
+    <string name="pie_settings">Расширенная панель управления</string>
+    <string name="pie_settings_summary">Использовать панель PIE вместо панели навигации</string>
 </resources>
